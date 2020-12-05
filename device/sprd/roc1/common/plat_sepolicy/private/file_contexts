@@ -1,0 +1,30 @@
+#for performance
+/system/bin/performancemanager    u:object_r:performancemanager_exec:s0
+/system/bin/ntfsfix      u:object_r:ntfsfix_exec:s0
+/system/bin/ntfs3g       u:object_r:ntfs3g_exec:s0
+#/system/bin/mkntfs       u:object_r:mkntfs_exec:s0
+
+#add for general_secure
+/dev/socket/iptablesserver    u:object_r:cndaemon_socket:s0
+/product/system/bin/cndaemon          u:object_r:cndaemon_exec:s0
+
+#add for ims_bridged
+/system/bin/ims_bridged           u:object_r:ims_bridged_exec:s0
+#for ylog
+/system/bin/ylog           u:object_r:ylog_exec:s0
+/data/ylog(/.*)?           u:object_r:ylog_file:s0
+/system/bin/log_service           u:object_r:log_service_exec:s0
+
+#for cmd_services
+/system/bin/cmd_services       u:object_r:cmd_services_exec:s0
+#for aprd
+/system/bin/collect_apr     u:object_r:aprd_exec:s0
+/data/sprdinfo(/.*)?	u:object_r:apr_data_file:s0
+#dataLogDaemon
+/system/bin/dataLogDaemon   u:object_r:dataLogDaemon_exec:s0
+
+#add for tcpip related shell scripts
+/system/bin/netbox.sh                    u:object_r:netbox_exec:s0
+/system/bin/tiny_firewall.sh             u:object_r:netbox_exec:s0
+/system/bin/ip_monitor.sh                u:object_r:netbox_exec:s0
+/system/bin/data_rps.sh                  u:object_r:netbox_exec:s0

@@ -1,0 +1,10 @@
+#============= hal_power_default ============== 2017-08-02-13-24-29 added by genSepolicy script
+allow hal_power_default sysfs:file { read open write };
+allow hal_power_default sysfs_devices_system_cpu:file { write open write };
+allow hal_power_default hal_health_hwservice:hwservice_manager find;
+allow hal_power_default sysfs_extdata:dir search;
+allow hal_power_default sysfs_extdata:file { open read write };
+binder_call(hal_power_default, hal_health_default)
+binder_call(hal_health_default, hal_power_default)
+
+set_prop(hal_power_default, vendor_power_prop);

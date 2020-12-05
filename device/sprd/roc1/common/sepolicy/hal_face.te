@@ -1,0 +1,17 @@
+attribute hal_face;
+attribute hal_face_client;
+attribute hal_face_server;
+binder_call(hal_face_client, hal_face_server)
+binder_call(hal_face_server, hal_face_client)
+add_hwservice(hal_face_server, hal_face_hwservice)
+allow hal_face_client hal_face_hwservice:hwservice_manager find;
+
+# allow HAL module to read dir contents
+allow hal_face faced_data_file:file create_file_perms;
+# allow HAL module to read/write/unlink contents of this dir
+allow hal_face faced_data_file:dir rw_dir_perms;
+# allow map_user to read/write/ioctl dev
+allow hal_face map_device:chr_file { open read write ioctl };
+
+get_prop(hal_face, vendor_camera_prop)
+get_prop(hal_face, vendor_faceid_prop)

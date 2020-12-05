@@ -1,0 +1,6 @@
+#service vendor.modemd /vendor/bin/modemd
+#    class core
+#    socket embmsd stream 0666 system system
+#    user root
+#    group system radio shell
+#    oneshot

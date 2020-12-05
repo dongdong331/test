@@ -1,0 +1,9 @@
+type systemDebuggerd, domain;
+type systemDebuggerd_exec, exec_type,file_type, vendor_file_type;
+init_daemon_domain(systemDebuggerd)
+
+allow systemDebuggerd proc:file {getattr open read write};
+allow systemDebuggerd property_socket:sock_file write;
+allow systemDebuggerd init:unix_stream_socket connectto;
+set_prop(systemDebuggerd, vendor_systemdebuggerd_prop)
+get_prop(systemDebuggerd, vendor_systemdebuggerd_prop)

@@ -1,0 +1,4 @@
+allow mediaextractor vfat:file { read };
+
+allow mediaextractor media_prop:file { read open getattr };
+allow mediaextractor exfat:file { read open getattr };

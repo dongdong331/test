@@ -1,0 +1,24 @@
+import /vendor/etc/init/hw/init.common.rc
+
+on init
+    insmod /lib/modules/bmi160sum.ko
+
+on post-fs-data
+    setprop fpga.target.enable 1
+    setprop debug.delaytime.min 10
+    setprop debug.delaytime.mid 100
+    setprop debug.delaytime.max 1000
+    setprop debug.android_watchdog.disable 1
+
+#modify permission for voicetrigger dev
+    chown system  audio /dev/rt5512
+    chmod 660     /dev/rt5512
+
+    insmod /vendor/lib/modules/synaptics_dsx.ko
+
+on boot
+
+# block I/O vm.dirty parameters
+    write /proc/sys/vm/dirty_background_bytes 4194304
+    write /proc/sys/vm/dirty_bytes  52428800
+

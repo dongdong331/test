@@ -1,0 +1,9 @@
+#add for board init.rc for recovery mode
+on post-fs
+
+
+service gnss_download /system/bin/gnss_download
+    class cali
+    user system
+    group system
+    oneshot

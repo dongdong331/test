@@ -1,0 +1,40 @@
+diff --git a/services/core/java/com/android/server/policy/PhoneWindowManager.java b/services/core/java/com/android/server/policy/PhoneWindowManager.java
+index 197c598..d0282b9 100644
+--- a/services/core/java/com/android/server/policy/PhoneWindowManager.java
++++ b/services/core/java/com/android/server/policy/PhoneWindowManager.java
+@@ -7064,7 +7064,7 @@ public class PhoneWindowManager extends AbsPhoneWindowManager implements WindowM
+     }
+ 
+     private void finishKeyguardDrawn() {
+-        synchronized (mLock) {
++        // synchronized (mLock) {
+             if (!mScreenOnEarly || mKeyguardDrawComplete) {
+                 return; // We are not awake yet or we have already informed of this event.
+             }
+@@ -7074,7 +7074,7 @@ public class PhoneWindowManager extends AbsPhoneWindowManager implements WindowM
+                 mHandler.removeMessages(MSG_KEYGUARD_DRAWN_TIMEOUT);
+             }
+             mWindowManagerDrawComplete = false;
+-        }
++        // }
+ 
+         // ... eventually calls finishWindowsDrawn which will finalize our screen turn on
+         // as well as enabling the orientation change logic/sensor.
+@@ -7116,7 +7116,7 @@ public class PhoneWindowManager extends AbsPhoneWindowManager implements WindowM
+         if (DEBUG_WAKEUP) Slog.i(TAG, "Screen turning on...");
+ 
+         updateScreenOffSleepToken(false);
+-        synchronized (mLock) {
++        // synchronized (mLock) {
+             mScreenOnEarly = true;
+             mScreenOnFully = false;
+             mKeyguardDrawComplete = false;
+@@ -7133,7 +7133,7 @@ public class PhoneWindowManager extends AbsPhoneWindowManager implements WindowM
+                         "null mKeyguardDelegate: setting mKeyguardDrawComplete.");
+                 finishKeyguardDrawn();
+             }
+-        }
++        // }
+     }
+ 
+     // Called on the DisplayManager's DisplayPowerController thread.

@@ -1,0 +1,3 @@
+typeattribute cndaemon coredomain;
+
+init_daemon_domain(cndaemon)

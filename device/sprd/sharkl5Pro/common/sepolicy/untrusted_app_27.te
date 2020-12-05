@@ -1,0 +1,5 @@
+typeattribute untrusted_app_27 system_executes_vendor_violators;
+
+#add for tv.acfundanmaku.video
+get_prop(untrusted_app_27, vendor_sys_prop);
+allow untrusted_app_27 sysfs_extdata:dir { open read };

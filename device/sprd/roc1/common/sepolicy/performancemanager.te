@@ -1,0 +1,34 @@
+
+
+
+# Needed to check for app permissions.
+binder_use(performancemanager)
+binder_call(performancemanager, system_server)
+allow performancemanager permission_service:service_manager find;
+add_service(performancemanager, performancemanager_service)
+
+# TODO: use file caps to obtain sys_nice instead of setuid / setgid.
+allow performancemanager self:capability {  setuid setgid sys_nice kill sys_resource};
+
+# Access /proc to validate we're only affecting threads in the same thread group.
+# performancemanager also shields unbound kernel threads.  It scans every task in the
+# root cpu set, but only affects the kernel threads.
+r_dir_file(performancemanager, { appdomain bufferhubd kernel surfaceflinger })
+dontaudit performancemanager domain:dir read;
+allow performancemanager { appdomain bufferhubd kernel surfaceflinger }:process setsched;
+
+# Access /dev/cpuset/cpuset.cpus
+#r_dir_file(performancemanager, cgroup)
+# Send kill signals
+allow performancemanager appdomain:process sigkill;
+allow performancemanager tmpfs:dir { write add_name };
+#r_dir_file(performancemanager, sysfs_type)
+#r_dir_file(performancemanager, rootfs)
+#r_dir_file(performancemanager, appdomain)
+allow performancemanager appdomain:file write;
+#r_dir_file(performancemanager, system_server)
+allow performancemanager system_server:file write;
+#allow performancemanager sysfs:file {open write read};
+#allow performancemanager proc:file {open write read};
+allow performancemanager sysfs_lowmemorykiller:file w_file_perms;
+allow dumpstate performancemanager:binder { call };

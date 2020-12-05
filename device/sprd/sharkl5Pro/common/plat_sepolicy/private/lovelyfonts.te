@@ -1,0 +1,36 @@
+#/data/fonts/lovely(/.*)?	u:object_r:data_fonts_file:s0
+#fontmanager                               u:object_r:fontmanager_service:s0
+type data_fonts_file, file_type, data_file_type;
+#allow adbd data_fonts_file:file r_file_perms;
+#allow appdomain data_fonts_file:file { getattr read write };
+#allow appdomain data_fonts_file:dir {r_dir_perms };
+#allow bluetooth data_fonts_file:dir create_dir_perms;
+#allow bluetooth data_fonts_file:file create_file_perms;
+#allow bluetooth data_fonts_file:file { read write getattr open };
+#allow { domain -hal_configstore} data_fonts_file:file r_file_perms;
+#allow isolated_app data_fonts_file:dir { r_dir_perms };
+#allow isolated_app data_fonts_file:file { getattr read };
+#allow mediaserver data_fonts_file:dir { r_dir_perms };
+#allow mediaserver data_fonts_file:file { getattr read };
+
+
+#allow platform_app data_fonts_file:dir { create_dir_perms rw_dir_perms };
+#allow platform_app data_fonts_file:file { create_file_perms rw_file_perms };
+#allow priv_app data_fonts_file:dir { r_dir_perms };
+#allow priv_app data_fonts_file:file { getattr read };
+#allow radio data_fonts_file:dir { create_dir_perms rw_dir_perms };
+#allow radio data_fonts_file:file { create_file_perms rw_file_perms };
+type fontmanager_service, app_api_service, system_server_service, service_manager_type;
+
+#allow shell data_fonts_file:dir { create_dir_perms rw_dir_perms };
+#allow shell data_fonts_file:file { create_file_perms rw_file_perms };
+#allow system_app data_fonts_file:dir { create_dir_perms rw_dir_perms };
+#allow system_app data_fonts_file:file { create_file_perms rw_file_perms };
+#allow untrusted_app data_fonts_file:dir { r_dir_perms };
+#allow untrusted_app data_fonts_file:file { getattr read };
+#allow zygote data_fonts_file:dir { r_dir_perms };
+#allow zygote data_fonts_file:file { getattr read };
+#allow system_server data_fonts_file:dir create_dir_perms;
+#allow system_server data_fonts_file:{ dir file } { relabelfrom relabelto };
+#allow system_server data_fonts_file:file create_file_perms;
+#allow system_server data_fonts_file:file { rw_file_perms };
