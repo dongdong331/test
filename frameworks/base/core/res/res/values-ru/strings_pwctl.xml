@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Оптимизируйте в меню "PowerSaver" или непосредственно закройте приложение."</string>
+<string name="pwctl_notification_title">"Фоновая программа с высоким энергопотреблением"</string>
+<string name="pwctl_autolowpower_saving">"Автоматический режим экономии энергии"</string>
+<string name="pwctl_schedule_power_saving">"Запланировать режим экономии энергии"</string>
+<string name="pwctl_switchmode_title">"Выключатель режима экономии энергии"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> активен, отключить его?"</string>
+<string name="pwctl_ultrasaving_title">"Режим повышенной экономии"</string>
+<string name="pwctl_enter_ultrasaving_summary">"В режиме повышенной экономии энергии доступны только некоторые приложения. Активировать?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Отменить режим повышенной экономии?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"В режиме повышенной экономии доступны только некоторые приложения. <xliff:g id="mode">%1$s</xliff:g> активен в это же время, отключить его?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Отменить режим повышенной экономии и отключить <xliff:g id="mode">%1$s</xliff:g> ?"</string>
+<string name="pwctl_dontremind">"Больше не напоминать"</string>
+</resources>

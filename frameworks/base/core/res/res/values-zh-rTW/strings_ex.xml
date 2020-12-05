@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permdesc_protectProcess">設置進程保護狀態或級別，這將使被保護進程保持高優先級運行</string>
+    <string name="permlab_protectProcess">設置進程保護狀態或級別</string>
+    <!-- UNISOC: for Stk feature @{ -->
+    <string name="stk_refresh_sim_init_message">"SIM卡正在更新"</string>
+    <!-- @} -->
+    <!-- UNISOC: porting ussd feature @{ -->
+    <string name="Pin2Mmi">"PIN2 碼更改"</string>
+    <string name="PukMmi">"解鎖PIN碼"</string>
+    <string name="Puk2Mmi">"解鎖PIN2碼"</string>
+    <string name="badPin2">"您輸入的舊 PIN2 不正確。"</string>
+    <string name="badPuk2">"您輸入的 PUK2 碼不正確。"</string>
+    <string name="mismatchPin2">"您輸入的 PIN2 碼不一致。"</string>
+    <string name="mismatchPuk">"您輸入的 PUK 碼不一致。"</string>
+    <string name="mismatchPuk2">"您輸入的 PUK2 碼不一致。"</string>
+    <string name="puklengthlimit">"請輸入八位數的PUK碼。"</string>
+    <string name="cfmmiuncondition">始終轉接</string>
+    <string name="cfmmibusy">忙線時轉接</string>
+    <string name="cfmminoreply">未接聽時轉接</string>
+    <string name="cfmminoreach">未能接通時轉接</string>
+    <!-- SPRD: add for bug474761, usim phone type display @{ -->
+    <string name="phoneFixedNumber">"固定號碼"</string>
+    <!-- @} -->
+    <!-- SPRD: Bug#692739 support GPS automatic update time BEG -->
+    <string name="gps_time_sync_fail_str">獲取GPS時間失敗</string>
+    <!-- support GPS automatic update time END -->
+    <!-- UNISOC: Translation service provider name @{ -->
+    <string-array name="unisoc_local_config_operator">
+        <item>45502,中國電信</item>
+        <item>45507,中國電信</item>
+        <item>46000,中國移動</item>
+        <item>46001,中國聯通</item>
+        <item>46002,中國移動</item>
+        <item>46003,中國電信</item>
+        <item>46004,中國移動</item>
+        <item>46005,中國電信</item>
+        <item>46006,中國聯通</item>
+        <item>46007,中國移動</item>
+        <item>46008,中國移動</item>
+        <item>46009,中國聯通</item>
+        <item>46011,中國電信</item>
+        <item>46601,遠傳電信</item>
+        <item>46692,中華電信</item>
+        <item>46689,台灣之星</item>
+        <item>46697,台灣大哥大</item>
+    </string-array>
+    <!-- @} -->
+
+    <!--UNISOC bug 908624-->
+    <string name="reboot_device_title">重新啟動</string>
+    <string name="reboot_device_confirm">您確定需要重新啟動手機嗎 ?</string>
+</resources>

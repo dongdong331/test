@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Ottimizzare nel menu PowerSaver o interrompere direttamente l\'app."</string>
+<string name="pwctl_notification_title">"App in background a elevato consumo energetico"</string>
+<string name="pwctl_autolowpower_saving">"Risparmio energetico automatico"</string>
+<string name="pwctl_schedule_power_saving">"Pianifica risparmio energetico"</string>
+<string name="pwctl_switchmode_title">"Interruttore modalità risparmio energetico"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> è in corso do attivazione. Disattivarlo?"</string>
+<string name="pwctl_ultrasaving_title">"Modalità risparmio ultra"</string>
+<string name="pwctl_enter_ultrasaving_summary">"In modalità di risparmio energia Ultra sono disponibili solo le app selezionate. Attivare?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Uscire da modalità di risparmio energia Ultra?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"In modalità di risparmio energia Ultra sono disponibili solo le app selezionate. <xliff:g id="mode">%1$s</xliff:g> si sta attivando contemporaneamente. Disattivarlo?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Uscire da modalità di risparmio energia Ultra e disattivare <xliff:g id="mode">%1$s</xliff:g> ?"</string>
+<string name="pwctl_dontremind">"Non ricordarmelo più"</string>
+<string name="exit_autoLowPowerMode">"Esci da risparmio energia automatico per la ricarica"</string>
+<string name="enter_autoLowPowerMode">"Attiva risparmio energia automatico per basso consumo"</string>
+<string name="exit_autoSchedulePowerMode">"Esci da risparmio energia pianificato per timeout"</string>
+<string name="enter_autoSchedulePowerMode">"Attiva risparmio energia pianificato per tempo scaduto"</string>
+<string name="prohibit_auto_run_summary">"Avvio automatico dopo che l\'avvio è stato disattivato. Può essere modificato in Impostazioni-&gt;Batteria."</string>
+</resources>

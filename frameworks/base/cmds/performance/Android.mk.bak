@@ -1,0 +1,14 @@
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := \
+    performance_main.cpp \
+    IPerformanceManager.cpp \
+    PerformanceManager.cpp
+
+LOCAL_SHARED_LIBRARIES := liblog libm libc libutils libcutils libprocessgroup libbinder 
+
+LOCAL_MODULE := performancemanager
+
+LOCAL_INIT_RC := performancemanager.rc
+
+include $(BUILD_EXECUTABLE)

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ ** Copyright © 2016 Spreadtrum Communications Inc.
+ */
+-->
+<resources>
+  <java-symbol type="id" name="ck_dontremind" />
+  <java-symbol type="string" name="pwctl_notification_summary" />
+  <java-symbol type="string" name="pwctl_notification_title" />
+  <java-symbol type="string" name="pwctl_autolowpower_saving" />
+  <java-symbol type="string" name="pwctl_schedule_power_saving" />
+  <java-symbol type="string" name="pwctl_switchmode_title" />
+  <java-symbol type="string" name="pwctl_switchmode_summary" />
+  <java-symbol type="string" name="pwctl_ultrasaving_title" />
+  <java-symbol type="string" name="pwctl_enter_ultrasaving_summary" />
+  <java-symbol type="string" name="pwctl_exit_ultrasaving_summary" />
+  <java-symbol type="string" name="pwctl_switchmode_enter_ultrasaving_summary" />
+  <java-symbol type="string" name="pwctl_switchmode_exit_ultrasaving_summary" />
+  <java-symbol type="string" name="pwctl_dontremind" />
+  <java-symbol type="drawable" name="ic_pwctl_notification" />
+  <java-symbol type="layout" name="layout_pwctl_notification" />
+  <java-symbol type="layout" name="layout_pwctl_dialog" />
+  <java-symbol type="string" name="exit_autoLowPowerMode" />
+  <java-symbol type="string" name="enter_autoLowPowerMode" />
+  <java-symbol type="string" name="exit_autoSchedulePowerMode" />
+  <java-symbol type="string" name="enter_autoSchedulePowerMode" />
+  <!-- Note: Bug 805226 Dialog interval narrow BEG -->
+  <java-symbol type="layout" name="ultra_saving_dialog" />
+  <java-symbol type="id" name="text_title" />
+  <java-symbol type="id" name="text_msg" />
+  <java-symbol type="id" name="button_positive" />
+  <java-symbol type="id" name="button_negative" />
+  <!-- Note: Bug 805226 Dialog interval narrow END -->
+  <!--SPRD:Bug 814570 About apps auto run BEG-->
+  <java-symbol type="string" name="prohibit_auto_run_summary" />
+  <!--SPRD:Bug 814570 About apps auto run END-->
+  <!--SPRD:Add for bug 868839,878708 BEG -->
+  <java-symbol type="string" name="delaySwitchModeWhenInCallForEnter" />
+  <java-symbol type="string" name="delaySwitchModeWhenInCallForExit" />
+  <!--SPRD:Add for bug 868839,878708 END -->
+</resources>

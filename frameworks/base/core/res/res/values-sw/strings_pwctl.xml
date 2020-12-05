@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Sadifisha katika Menyu ya Kihifadhi Nishati au zima programu moja kwa moja."</string>
+<string name="pwctl_notification_title">"Programu Inayoendeshwa Chinichini Inayotumia Nishati ya Juu"</string>
+<string name="pwctl_autolowpower_saving">"Uhifadhi nishati ya chini otomatiki"</string>
+<string name="pwctl_schedule_power_saving">"Ratibu uhifadhi wa nishati"</string>
+<string name="pwctl_switchmode_title">"Ubadilishaji wa modi ya kuhidadhi nishati"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> imeamilishwa, una uhakika unataka kuilemaza?"</string>
+<string name="pwctl_ultrasaving_title">"Modi ya kuhifadhi kabisa"</string>
+<string name="pwctl_enter_ultrasaving_summary">"Katika modi ya kuhifadhi nishati kabisa, ni programu zilizochaguliwa tu zinapatikana. Unataka kuewezesha?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Unataka kutoka kwenye modi ya kuhifadhi nishati kabisa?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"Katika modi ya kihifadhi nishati kabisa, ni programu zilizochaguliwa tu zinapatikana. <xliff:g id="mode">%1$s</xliff:g> inaamilishwa kwa wakati mmoja, una uhakika unataka kuilemaza?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Una uhakika unataka kutoka kwenye modi ya kifadhi nishati kabisa na kulemaza <xliff:g id="mode">%1$s</xliff:g>?"</string>
+<string name="pwctl_dontremind">"Usinikumbushe tena"</string>
+</resources>

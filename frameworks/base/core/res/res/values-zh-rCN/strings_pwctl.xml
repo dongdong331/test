@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pwctl_notification_summary">您可以在电池管理中进行优化设置或者关闭该应用.</string>
+    <string name="pwctl_notification_title">发现后台高耗电应用</string>
+    <string name="pwctl_autolowpower_saving">低电量自动省电</string>
+    <string name="pwctl_schedule_power_saving">定时省电</string>
+    <string name="pwctl_switchmode_title">省电模式切换</string>
+    <string name="pwctl_switchmode_summary"><xliff:g id="mode">%1$s</xliff:g>处于激活状态， 您确定要关闭它吗？</string>
+    <string name="pwctl_ultrasaving_title">超级省电模式</string>
+    <string name="pwctl_enter_ultrasaving_summary">在超级省电模式下, 仅部分应用可用。确定开启？</string>
+    <string name="pwctl_exit_ultrasaving_summary">退出超级省电模式？</string>
+    <string name="pwctl_switchmode_enter_ultrasaving_summary">在超级省电模式下, 仅部分应用可用。同时<xliff:g id="mode">%1$s</xliff:g>处于激活状态，您确定要关闭它吗？</string>
+    <string name="pwctl_switchmode_exit_ultrasaving_summary">退出超级省电模式，同时关闭<xliff:g id="mode">%1$s</xliff:g>吗?</string>
+    <string name="pwctl_dontremind">不再提醒</string>
+    <string name="exit_autoLowPowerMode">设置低电量值小于当前电量值，退出低电量自动省电</string>
+    <string name="enter_autoLowPowerMode">电量低，进入低电量自动省电</string>
+    <string name="exit_autoSchedulePowerMode">定时省电结束，退出定时省电</string>
+    <string name="enter_autoSchedulePowerMode">定时时间到，进入定时省电</string>
+    <!--SPRD:Bug 814570 About apps auto run BEG-->
+    <string name="prohibit_auto_run_summary">应用开机自启动默认被禁止，如果需要更改，请前往“设置->电池”选项里进行对应设置。</string>
+    <!--SPRD:Bug 814570 About apps auto run END-->
+    <!--SPRD:Add for bug 868839,878708 BEG -->
+    <string name="delaySwitchModeWhenInCallForEnter">通话时不能自动进入<xliff:g id="mode">%1$s</xliff:g>，将在通话结束后自动进入该模式</string>
+    <string name="delaySwitchModeWhenInCallForExit">通话时不能自动退出<xliff:g id="mode">%1$s</xliff:g>，将在通话结束后自动退出该模式</string>
+    <!--SPRD:Add for bug 868839,878708 END -->
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permdesc_protectProcess">set process protect status or level,
+        that will keep the protected process running in high priority</string>
+    <string name="permlab_protectProcess">set process protect status or level</string>
+    <!-- UNISOC: for Stk feature @{ -->
+    <string name="stk_refresh_sim_init_message">SIM card is updating</string>
+    <!-- UNISOC: porting ussd feature @{ -->
+    <string name="Pin2Mmi">PIN2 change</string>
+    <string name="PukMmi">PIN unlock</string>
+    <string name="Puk2Mmi">PIN2 unlock</string>
+    <string name="badPin2">The old PIN2 you typed is not correct.</string>
+    <string name="badPuk2">The PUK2 you typed is not correct.</string>
+    <string name="mismatchPin2">The PIN2 you entered do not match.</string>
+    <string name="mismatchPuk">The PUK you entered do not match.</string>
+    <string name="mismatchPuk2">The PUK2 you entered do not match.</string>
+    <string name="puklengthlimit">Type a PUK must be 8 numbers.</string>
+    <string name="cfmmiuncondition">Call Forwarding Unconditional</string>
+    <string name="cfmmibusy">Call Forwarding busy</string>
+    <string name="cfmminoreply">Call Forwarding when no response</string>
+    <string name="cfmminoreach">Call Forwarding if it is not reachable</string>
+    <!-- UNISOC: add for bug474761, usim phone type display @{ -->
+    <string name="phoneFixedNumber">"Fixed Number"</string>
+    <!-- @} -->
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_manageFace">manage face hardware</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_manageFace">Allows the app to invoke methods to add and delete face templates for use.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_useFace">use face hardware</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_useFace">Allows the app to use face hardware for authentication</string>
+
+    <!-- Template to be used to name enrolled faces by default. -->
+    <string name="face_name_template">Face <xliff:g id="faceId" example="1">%d</xliff:g></string>
+
+    <!-- UNISOC: Bug#692739 support GPS automatic update time BEG -->
+    <string name="gps_time_sync_fail_str">Fail to get GPS time</string>
+    <!-- support GPS automatic update time END -->
+    <!-- UNISOC: add for Operator Custmize Wifi Call. Using operator res overlay @{ -->
+    <string name="customize_operator_name_string" translatable="false"></string>
+    <string name="customize_wfc_operator_name_string" translatable="false"></string>
+    <!-- @} -->
+    <!-- UNISOC for data clear code -->
+    <string name="failcause_user_authentication">AUTHENTICATION FAILURE -29-</string>
+    <string name="failcause_service_option_not_subscribed">NO SUBSCRIPTION TO SERVICE -33-</string>
+    <!-- WFC, summary for enabled VDF customer bug 930222-->
+    <string name="wifi_calling_on_summary">On</string>
+
+    <!--UNISOC bug 908624-->
+    <string name="reboot_device_confirm">Would you like to restart your phone now ?</string>
+    <string name="reboot_device_title">Restart</string>
+</resources>

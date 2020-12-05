@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright © 2017 Spreadtrum Communications Inc.
+*/
+-->
+
+<!-- These resources are add for Disply PQ Feature. -->
+
+<resources>
+    <!-- used in battery level low @{ -->
+    <integer-array name="config_batteryLowAutoBrightnessLevels">
+        <item>16</item>
+        <item>32</item>
+        <item>50</item>
+        <item>100</item>
+        <item>140</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>8000</item>
+        <item>10000</item>
+    </integer-array>
+    <!-- @} -->
+
+    <!-- used in battery level low @{ -->
+    <integer-array name="config_batteryLowAutoBrightnessLcdBacklightValues">
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>102</item>
+        <item>102</item>
+        <item>102</item>
+        <item>102</item>
+        <item>102</item>
+        <item>180</item>
+        <item>200</item>
+        <item>210</item>
+        <item>230</item>
+        <item>255</item>
+    </integer-array>
+    <!-- @} -->
+
+    <!-- PQ low battery level -->
+    <integer name="config_lowBatteryLevelForPQ">30</integer>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Optimitzeu al menú Estalvi energètic o atureu l\'aplicació directament."</string>
+<string name="pwctl_notification_title">"Aplicació en segon pla amb consum energètic elevat"</string>
+<string name="pwctl_autolowpower_saving">"Estalvi d\'energia automàtic"</string>
+<string name="pwctl_schedule_power_saving">"Programeu l\'estalvi d\'energia"</string>
+<string name="pwctl_switchmode_title">"Interruptor de mode d\'estalvi d\'energia"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> està activat, segur que voleu inhabilitar-lo?"</string>
+<string name="pwctl_ultrasaving_title">"Mode de gran estalvi"</string>
+<string name="pwctl_enter_ultrasaving_summary">"Amb el mode de gran estalvi d\'energia, només hi ha disponibles certes aplicacions. Voleu habilitar-lo?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Voleu sortir del mode de gran estalvi d\'energia?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"Amb el mode de gran estalvi d\'energia, només hi ha disponibles certes aplicacions. <xliff:g id="mode">%1$s</xliff:g> està activat al mateix temps, segur que voleu inhabilitar-lo?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Voleu sortir del mode de gran estalvi d\'energia i desactivar <xliff:g id="mode">%1$s</xliff:g>?"</string>
+<string name="pwctl_dontremind">"No m\'ho tornis a recordar"</string>
+<string name="exit_autoLowPowerMode">"Surt de l\'estalvi d\'energia automàtic per carregar"</string>
+<string name="enter_autoLowPowerMode">"Entra al mode d\'estalvi d\'energia automàtic per a baix consum d\'energia"</string>
+<string name="exit_autoSchedulePowerMode">"Surt de la programació de l\'estalvi d\'energia en temps d\'espera"</string>
+<string name="enter_autoSchedulePowerMode">"Entra a la programació de l\'estalvi d\'energia quan s\esgoti el temps"</string>
+<string name="prohibit_auto_run_summary">"L\'inici automàtic després de l\'arrencada està desactivat. Podeu canviar-ho a Configuració-&gt;Bateria."</string>
+</resources>

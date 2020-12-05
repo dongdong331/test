@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"التحسين في قائمة توفير الطاقة أو إيقاف التطبيق مباشرة."</string>
+<string name="pwctl_notification_title">"تطبيق يعمل في الخلفية ذو معدل استهلاك كبير للطاقة"</string>
+<string name="pwctl_autolowpower_saving">"توفير الطاقة تلقائيًا بمعدل منخفض"</string>
+<string name="pwctl_schedule_power_saving">"جدولة توفير الطاقة"</string>
+<string name="pwctl_switchmode_title">"مفتاح وضع توفير الطاقة"</string>
+<string name="pwctl_switchmode_summary">"يجري تنشيط <xliff:g id="mode">%1$s</xliff:g>، هل تريد تعطيله بالفعل؟"</string>
+<string name="pwctl_ultrasaving_title">"وضع توفير الطاقة الفائق"</string>
+<string name="pwctl_enter_ultrasaving_summary">"في وضع توفير الطاقة الفائق، حدد التطبيقات المتوفرة فقط. هل تريد التمكين؟"</string>
+<string name="pwctl_exit_ultrasaving_summary">"هل تريد الخروج من وضع توفير الطاقة الفائق؟"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"في وضع توفير الطاقة الفائق، حدد التطبيقات المتوفرة فقط. يجري تنشيط <xliff:g id="mode">%1$s</xliff:g> في الوقت نفسه، فهل تريد تعطيله بالفعل؟"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"هل تريد الخروج من وضع توفير الطاقة الفائق وتعطيل <xliff:g id="mode">%1$s</xliff:g>؟"</string>
+<string name="pwctl_dontremind">"لا تذكرني مرة أخرى"</string>
+</resources>

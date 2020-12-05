@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Optimalkan dalam Menu PowerSaver atau hentikan aplikasi secara langsung."</string>
+<string name="pwctl_notification_title">"Aplikasi Latar Belakang dengan Konsumsi Daya Tinggi"</string>
+<string name="pwctl_autolowpower_saving">"Penghematan daya rendah otomatis"</string>
+<string name="pwctl_schedule_power_saving">"Jadwalkan penghematan daya"</string>
+<string name="pwctl_switchmode_title">"Sakelar mode penghematan daya"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> sedang aktif, Anda yakin ingin menonaktifkannya?"</string>
+<string name="pwctl_ultrasaving_title">"Mode penghematan ultra"</string>
+<string name="pwctl_enter_ultrasaving_summary">"Dalam mode penghematan daya ultra, hanya aplikasi tertentu yang tersedia. Aktifkan?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Keluar dari mode penghematan daya ultra?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"Dalam mode penghematan daya ultra, hanya aplikasi tertentu yang tersedia. <xliff:g id="mode">%1$s</xliff:g> sedang aktif di saat yang sama, Anda yakin ingin menonaktifkannya?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Keluar dari mode penghematan daya ultra dan nonaktifkan <xliff:g id="mode">%1$s</xliff:g>?"</string>
+<string name="pwctl_dontremind">"Jangan ingatkan lagi"</string>
+</resources>

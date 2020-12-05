@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Tối ưu hóa trong menu Tiết kiệm pin hoặc dừng trực tiếp ứng dụng."</string>
+<string name="pwctl_notification_title">"Ứng dụng chạy dưới nền ngốn nhiều pin"</string>
+<string name="pwctl_autolowpower_saving">"Tiết kiệm pin tự động mức thấp"</string>
+<string name="pwctl_schedule_power_saving">"Lên lịch tiết kiệm pin"</string>
+<string name="pwctl_switchmode_title">"Công tắc chế độ tiết kiệm pin"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> đang hoạt động, bạn chắc chắn muốn tắt không?"</string>
+<string name="pwctl_ultrasaving_title">"Chế độ siêu tiết kiệm"</string>
+<string name="pwctl_enter_ultrasaving_summary">"Trong chế độ siêu tiết kiệm pin, chỉ chọn các ứng dụng sẵn có. Bật?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Thoát khỏi chế độ siêu tiết kiệm pin?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"Trong chế độ siêu tiết kiệm pin, chỉ chọn các ứng dụng sẵn có. <xliff:g id="mode">%1$s</xliff:g> đang hoạt động cùng thời điểm, bạn chắc chắn muốn tắt?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Thoát khỏi chế độ siêu tiết kiệm pin và tắt <xliff:g id="mode">%1$s</xliff:g> ?"</string>
+<string name="pwctl_dontremind">"Không còn nhắc nhở nữa"</string>
+</resources>

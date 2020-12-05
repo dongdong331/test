@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Optimalizálás a PowerSaver menüben vagy az alkalmazás közvetlen leállítása."</string>
+<string name="pwctl_notification_title">"Nagy energiafogyasztású háttéralkalmazás"</string>
+<string name="pwctl_autolowpower_saving">"Automatikus alacsony energiatakarékosság"</string>
+<string name="pwctl_schedule_power_saving">"Ütemezett energiatakarékosság"</string>
+<string name="pwctl_switchmode_title">"Energiatakarékos üzemmód kapcsoló"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> aktiválás alatt van, biztosan letiltja?"</string>
+<string name="pwctl_ultrasaving_title">"Ultra takarékos üzemmód"</string>
+<string name="pwctl_enter_ultrasaving_summary">"Ultra energiatakarékos módban csak a kiválasztott alkalmazások elérhetőek. Engedélyezi?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Kilép az ultra energiatakarékos módból?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"Ultra energiatakarékos módban csak a kiválasztott alkalmazások elérhetőek. <xliff:g id="mode">%1$s</xliff:g> egyidejűleg aktiválás alatt van, biztosan letiltja?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Kilép az ultra energiatakarékos módból és leállítja ezt: <xliff:g id="mode">%1$s</xliff:g> ?"</string>
+<string name="pwctl_dontremind">"Ne emlékeztessen"</string>
+<string name="exit_autoLowPowerMode">"Kilépés az automatikusan alacsony energiatakarékos módból töltés céljából"</string>
+<string name="enter_autoLowPowerMode">"Az automatikusan alacsony energiatakarékos üzemmódba való belépés alacsony töltöttség esetén"</string>
+<string name="exit_autoSchedulePowerMode">"Kilépés az ütemezett energiatakarékos üzemmódból időtúllépés esetén"</string>
+<string name="enter_autoSchedulePowerMode">"Belépés az ütemezett energiatakarékos üzemmódba, időlejárat esetén"</string>
+<string name="prohibit_auto_run_summary">"Önindítás az újraindítás letiltása után. Ezt módosíthatja a beállítások-&gt;akkumulátor elemből."</string>
+</resources>

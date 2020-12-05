@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"«በPowerSaver ምናሌ ውስጥ አትባ ወይም መተግበሪያውን በቀጥታ አቁም።»"</string>
+<string name="pwctl_notification_title">"«ባለከፍተኛ ኃይል ፍጆታ የበስተጀርባ መተግበሪያ»"</string>
+<string name="pwctl_autolowpower_saving">"«ራስ-ሰር ዝቅተኛ ኃይል ቁጠባ»"</string>
+<string name="pwctl_schedule_power_saving">"«የኃይል ቁጠባ መርሐግብር አስይዝ»"</string>
+<string name="pwctl_switchmode_title">"«የኃይል ቁጠባ ሁነታ ማብሪያ/ማጥፊያ»"</string>
+<string name="pwctl_switchmode_summary">"«<xliff:g id="mode">%1$s</xliff:g> በማግበር ላይ ነው፣ ሊያሰናክሉት ይፈልጋሉ?»"</string>
+<string name="pwctl_ultrasaving_title">"«ልዕለ ቁጠባ ሁነታ»"</string>
+<string name="pwctl_enter_ultrasaving_summary">"«በልዕለ ኃይል ቁጠባ ሁነታ ላይ የተወሰኑ መተግበሪያዎች ብቻ ናቸው የሚገኙት። ይንቃ?»"</string>
+<string name="pwctl_exit_ultrasaving_summary">"«ከልዕለ ኃይል ቁጠባ ሁነታ ይወጡ?»"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"«በልዕለ ኃይል ቁጠባ ሁነታ ላይ የተወሰኑ መተግበሪያዎች ብቻ ናቸው የሚገኙት። <xliff:g id="mode">%1$s</xliff:g> በተመሳሳዩ ጊዜ ላይ በማግበር ላይ ነው፣ ሊያሰናክሉት ይፈልጋሉ?»"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"«ከልዕለ ኃይል ቁጠባ ሁነታ ይወጡ እና <xliff:g id="mode">%1$s</xliff:g> ይሰናከል?»"</string>
+<string name="pwctl_dontremind">"«ከአሁን በኋላ አስታውስ»"</string>
+</resources>

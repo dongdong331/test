@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Optimizujte meni aplikacije PowerSaver ili je direktno zaustavite."</string>
+<string name="pwctl_notification_title">"Velika potrošnja energije aplikacija koje rade u pozadini"</string>
+<string name="pwctl_autolowpower_saving">"Automatska štednja energije pri slaboj bateriji"</string>
+<string name="pwctl_schedule_power_saving">"Zakaži štednju energije"</string>
+<string name="pwctl_switchmode_title">"Prekidač režima štednje energije"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> se aktivira, da li želite da je onemogućite?"</string>
+<string name="pwctl_ultrasaving_title">"Ultra štednja energije"</string>
+<string name="pwctl_enter_ultrasaving_summary">"U režimu ultra štednje energije, dostupne su samo izabrane aplikacije. Omogućiti?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Izaći iz režima ultra štednje energije?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"U režimu ultra štednje energije, dostupne su samo izabrane aplikacije. <xliff:g id="mode">%1$s</xliff:g> se istovremeno aktivira, da li ste sigurni da želite da ga onemogućite?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Izaći iz režima ultra štednje energije i onemogućiti <xliff:g id="mode">%1$s</xliff:g>?"</string>
+<string name="pwctl_dontremind">"Više ne podsećaj"</string>
+<string name="exit_autoLowPowerMode">"Automatski napušten režim štednje energije pri slaboj bateriji zbog punjenja"</string>
+<string name="enter_autoLowPowerMode">"Automatski aktiviran režim štednje energije pri slaboj bateriji zbog slabe baterije"</string>
+<string name="exit_autoSchedulePowerMode">"Izlazak iz zakazanog režima štednje energije"</string>
+<string name="enter_autoSchedulePowerMode">"Ulazak u zakazani režim štednje energije"</string>
+<string name="prohibit_auto_run_summary">"Samostalno pokretanje nakon što je pokretanje sistema onemogućeno. Ovo možete izmeniti u Podešavanja-&amp;gt;Baterija."</string>
+</resources>

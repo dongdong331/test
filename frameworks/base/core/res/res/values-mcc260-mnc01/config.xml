@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array translatable="false" name="config_Qos_setting_string_array">
+        <item>0</item>
+        <item>0</item>
+        <item>3,9,10,11,15</item>
+    </string-array>
+    <bool name="traffic_class_enable">true</bool>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="permdesc_protectProcess">设置进程保护状态或级别，这将使被保护进程保持高优先级运行</string>
+    <string name="permlab_protectProcess">设置进程保护状态或级别</string>
+    <!-- UNISOC: for Stk feature @{ -->
+    <string name="stk_refresh_sim_init_message">"SIM卡正在更新"</string>
+    <!-- @} -->
+    <!-- UNISOC: porting ussd feature @{ -->
+    <string name="Pin2Mmi">"PIN2 码更改"</string>
+    <string name="PukMmi">"解锁PIN码"</string>
+    <string name="Puk2Mmi">"解锁PIN2码"</string>
+    <string name="badPin2">"您输入的旧 PIN2 不正确。"</string>
+    <string name="badPuk2">"您输入的 PUK2 码不正确。"</string>
+    <string name="mismatchPin2">"您输入的 PIN2 码不一致。"</string>
+    <string name="mismatchPuk">"您输入的 PUK 码不一致。"</string>
+    <string name="mismatchPuk2">"您输入的 PUK2 码不一致。"</string>
+    <string name="puklengthlimit">"请输入八位数的PUK码。"</string>
+    <string name="cfmmiuncondition">始终转接</string>
+    <string name="cfmmibusy">遇忙时转接</string>
+    <string name="cfmminoreply">未接听时转接</string>
+    <string name="cfmminoreach">未能接通时转接</string>
+    <!-- SPRD: add for bug474761, usim phone type display @{ -->
+    <string name="phoneFixedNumber">"固定号码"</string>
+    <!-- @} -->
+    <!-- SPRD: Bug#692739 support GPS automatic update time BEG -->
+    <string name="gps_time_sync_fail_str">获取GPS时间失败</string>
+    <!-- support GPS automatic update time END -->
+    <!-- UNISOC: Translation service provider name @{ -->
+    <string-array name="unisoc_local_config_operator">
+        <item>45502,中国电信</item>
+        <item>45507,中国电信</item>
+        <item>46000,中国移动</item>
+        <item>46001,中国联通</item>
+        <item>46002,中国移动</item>
+        <item>46003,中国电信</item>
+        <item>46004,中国移动</item>
+        <item>46005,中国电信</item>
+        <item>46006,中国联通</item>
+        <item>46007,中国移动</item>
+        <item>46008,中国移动</item>
+        <item>46009,中国联通</item>
+        <item>46011,中国电信</item>
+        <item>46601,远传电信</item>
+        <item>46692,中华电信</item>
+        <item>46689,台湾之星</item>
+        <item>46697,台湾大哥大</item>
+    </string-array>
+    <!-- @} -->
+    <!-- WFC, summary for enabled vodaphone customer bug 930222-->
+    <string name="wifi_calling_on_summary">打开</string>
+
+    <!--UNISOC bug 908624-->
+    <string name="reboot_device_title">重新启动</string>
+    <string name="reboot_device_confirm">您确定需要重新启动手机吗 ?</string>
+</resources>

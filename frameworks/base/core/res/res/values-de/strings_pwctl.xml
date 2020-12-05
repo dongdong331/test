@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Im Energiesparmenü optimieren oder die App direkt stoppen."</string>
+<string name="pwctl_notification_title">"Hintergrund-App mit hohem Energieverbrauch"</string>
+<string name="pwctl_autolowpower_saving">"Automatischer Energiesparmodus"</string>
+<string name="pwctl_schedule_power_saving">"Energieeinsparung planen"</string>
+<string name="pwctl_switchmode_title">"Energiesparmodus-Schalter"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> ist aktiv. Möchten Sie die Option wirklich deaktivieren?"</string>
+<string name="pwctl_ultrasaving_title">"Super-Energiesparmodus"</string>
+<string name="pwctl_enter_ultrasaving_summary">"Wählen Sie im Super-Energiesparmodus nur die verfügbaren Apps aus. Aktivieren?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Super-Energiesparmodus beenden?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"Wählen Sie im Super-Energiesparmodus nur die verfügbaren Apps aus. <xliff:g id="mode">%1$s</xliff:g> ist gleichzeitig aktiv. Möchten Sie die Option wirklich deaktivieren?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Super-Energiesparmodus beenden und <xliff:g id="mode">%1$s</xliff:g> deaktivieren?"</string>
+<string name="pwctl_dontremind">"Keine Erinnerung mehr"</string>
+<string name="exit_autoLowPowerMode">"Automatischen Energiesparmodus zum Aufladen beenden"</string>
+<string name="enter_autoLowPowerMode">"Automatischen Energiesparmodus wegen geringer Leistung starten"</string>
+<string name="exit_autoSchedulePowerMode">"Geplante Energieeinsparung wegen Timeout beenden"</string>
+<string name="enter_autoSchedulePowerMode">"Geplante Energieeinsparung wegen Ablauf der Zeit starten"</string>
+<string name="prohibit_auto_run_summary">"Selbststartend, nachdem der Start deaktiviert wurde. Sie können dies unter Einstellungen &gt; Akku ändern."</string>
+</resources>

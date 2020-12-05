@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardSubsidyLockLockView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androidprv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyguard_subsidylock_lock_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="44dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/setup_wifi"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/kg_subsidy_btn"
+            android:gravity="center"
+            android:text="@string/setup_wifi"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/enable_data"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/kg_subsidy_btn"
+            android:gravity="center"
+            android:text="@string/enable_data"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nodata_message"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/no_valid_sim"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/recommend_area"
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+ >
+
+        <LinearLayout
+            android:id="@+id/recommend_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/lock_image"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/kg_subsidy_lock" />
+
+            <TextView
+                android:id="@+id/lock_title"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|left"
+                android:text="@string/locked_str"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/locked_description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recommend_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/description_str_1"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/locked_description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/locked_description1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/description_str_2"
+            android:textColor="#666666"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/unlock_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/locked_description2"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/unlock_str"
+            android:textColor="#009385"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/keyguard_selector_fade_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="100dp"
+        layout="@layout/keyguard_eca"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" />
+
+</com.android.keyguard.KeyguardSubsidyLockLockView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"I-optimize sa PowerSaver Menu o direktang pahintuin ang app."</string>
+<string name="pwctl_notification_title">"App sa Background na Mataas ang Konsumo ng Kuryente"</string>
+<string name="pwctl_autolowpower_saving">"Awtomatikong mababang pagtitipid ng kuryente"</string>
+<string name="pwctl_schedule_power_saving">"Iiskedyul ang pagtitipid ng kuryente"</string>
+<string name="pwctl_switchmode_title">"Switch ng power saving mode"</string>
+<string name="pwctl_switchmode_summary">"Nag-a-activate ang <xliff:g id="mode">%1$s</xliff:g>, sigurado ka sa pag-disable nito?"</string>
+<string name="pwctl_ultrasaving_title">"Ultra saving mode"</string>
+<string name="pwctl_enter_ultrasaving_summary">"Sa ultra power saving mode, mga piling app lang ang available. I-enable?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Lumabas sa ultra power saving mode?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"Sa ultra power saving mode, mga piling app lang ang available. Nag-a-active kasabay nito ang <xliff:g id="mode">%1$s</xliff:g>, sigurado ka sa pag-disable nito?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Lumabas sa ultra power saving mode at i-disable ang <xliff:g id="mode">%1$s</xliff:g>?"</string>
+<string name="pwctl_dontremind">"Huwag nang paalalahanan"</string>
+</resources>

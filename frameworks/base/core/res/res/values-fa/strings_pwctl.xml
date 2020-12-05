@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"بهینه‌سازی در منوی صرفه‌جویی در برق یا متوقف کردن مستقیم برنامه."</string>
+<string name="pwctl_notification_title">"برنامه پرمصرف برق در پس‌زمینه"</string>
+<string name="pwctl_autolowpower_saving">"صرفه‌جویی خودکار در برق در حالت شارژ کم"</string>
+<string name="pwctl_schedule_power_saving">"برنامه‌ریزی صرفه‌جویی در برق"</string>
+<string name="pwctl_switchmode_title">"جابجایی حالت صرفه‌جویی در برق"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">‪‎%1$s‬</xliff:g> در حال فعال شدن است، آیا مطمئن هستید که می‌خواهید آن را غیرفعال کنید؟"</string>
+<string name="pwctl_ultrasaving_title">"حالت صرفه‌جویی فوق‌العاده"</string>
+<string name="pwctl_enter_ultrasaving_summary">"در حالت صرفه‌جویی فوق‌العاده در برق، تنها برنامه‌های انتخابی در دسترس هستند." فعال شود؟"</string>
+<string name="pwctl_exit_ultrasaving_summary">"خروج از حالت صرفه‌جویی فوق‌العاده در برق صورت بگیرد؟"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"در حالت صرفه‌جویی فوق‌العاده در برق، تنها برنامه‌های انتخابی در دسترس هستند. <xliff:g id="mode">‪‎%1$s‬</xliff:g> همزمان فعال می‌شود، آیا مطمئن هستید که می‌خواهید آن را غیرفعال کنید؟"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"خروج از حالت صرفه‌جویی فوق‌العاده در برق و غیرفعال‌سازی <xliff:g id="mode">‪‎%1$s‬</xliff:g> صورت بگیرد؟"</string>
+<string name="pwctl_dontremind">"دیگر یادآوری نشود"</string>
+</resources>

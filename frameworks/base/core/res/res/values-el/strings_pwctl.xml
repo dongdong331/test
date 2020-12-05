@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Βελτιστοποίηση στο μενού PowerSaver ή άμεσος τερματισμός εφαρμογής."</string>
+<string name="pwctl_notification_title">"Εφαρμογή παρασκηνίου υψηλής κατανάλωσης ενέργειας"</string>
+<string name="pwctl_autolowpower_saving">"Αυτόματη εξοικονόμηση χαμηλής ενέργειας"</string>
+<string name="pwctl_schedule_power_saving">"Προγραμματισμός εξοικονόμησης ενέργειας"</string>
+<string name="pwctl_switchmode_title">"Διακόπτης λειτουργίας εξοικονόμησης ενέργειας"</string>
+<string name="pwctl_switchmode_summary">"Ενεργοποιείται η <xliff:g id="mode">%1$s</xliff:g>, είστε βέβαιοι ότι θέλετε να την απενεργοποιήσετε;"</string>
+<string name="pwctl_ultrasaving_title">"Λειτουργία υψηλής εξοικονόμησης"</string>
+<string name="pwctl_enter_ultrasaving_summary">"Στη λειτουργία υψηλής εξοικονόμησης ενέργειας, διατίθενται μόνο επιλεγμένες εφαρμογές. Ενεργοποίηση;"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Έξοδος από τη λειτουργία υψηλής εξοικονόμησης ενέργειας;"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"Στη λειτουργία υψηλής εξοικονόμησης ενέργειας, διατίθενται μόνο επιλεγμένες εφαρμογές. Ενεργοποιείται ταυτόχρονα η «<xliff:g id="mode">%1$s</xliff:g>, είστε βέβαιοι ότι θέλετε να την απενεργοποιήσετε;"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Έξοδος από τη λειτουργία υψηλής εξοικονόμησης ενέργειας και απενεργοποίηση <xliff:g id="mode">%1$s</xliff:g> ;"</string>
+<string name="pwctl_dontremind">"Να μην γίνεται πλέον υπενθύμιση"</string>
+<string name="exit_autoLowPowerMode">"Έξοδος από αυτόματη εξοικονόμηση χαμηλής ενέργειας για φόρτιση"</string>
+<string name="enter_autoLowPowerMode">"Εισαγωγή αυτόματης εξοικονόμησης χαμηλής ενέργειας για χαμηλή ενέργεια"</string>
+<string name="exit_autoSchedulePowerMode">"Έξοδος από προγραμματισμό εξοικονόμησης ενέργειας για λήξη χρονικού ορίου"</string>
+<string name="enter_autoSchedulePowerMode">"Εισαγωγή προγραμματισμού εξοικονόμησης ενέργειας για λήξη χρόνου"</string>
+<string name="prohibit_auto_run_summary">"Αυτόματη εκκίνηση μετά από την απενεργοποίηση της εκκίνησης. Μπορείτε να το αλλάξετε από τις Ρυθμίσεις-&gt;Μπαταρία."</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- UNISOC for KillStopFront -->
+    <java-symbol type="array" name="kill_top_system_app_blacklist"/>
+    <!-- UNISOC for Persistent service -->
+    <java-symbol type="array" name="third_party_persistent_service_processes" />
+    <java-symbol type="array" name="third_party_persistent_service_components" />
+    <!-- UNISOC for Special Broadcast Queue -->
+    <java-symbol type="array" name="special_broadcasts"/>
+    <java-symbol type="array" name="force_foreground_broadcasts"/>
+    <java-symbol type="array" name="special_broadcast_queue_blacklist"/>
+    <java-symbol type="array" name="touch_assistent_apps"/>
+    <!-- UNISOC for USIM Notifier -->
+    <java-symbol type="array" name="usim_notify_packages" />
+    <java-symbol type="string" name="addon_usim_notify" />
+    <!-- UNISOC for CMCC hidden Apps -->
+    <java-symbol type="array" name="hide_packages"/>
+    <!-- UNISOC for OMACP APN -->
+    <java-symbol type="bool" name="mark_latest_as_preferred" />
+    <!-- UNISOC: for Stk feature @{ -->
+    <java-symbol type="string" name="stk_refresh_sim_init_message" />
+    <!-- UNISOC for fdn no data -->
+    <java-symbol type="bool" name="config_support_fdn_no_data" />
+    <java-symbol type="string" name="config_fdn_num_for_data" />
+    <!-- UNISOC: porting ussd feature @{ -->
+    <java-symbol name="Pin2Mmi" type="string" />
+    <java-symbol name="PukMmi" type="string" />
+    <java-symbol name="Puk2Mmi" type="string" />
+    <java-symbol name="badPin2" type="string" />
+    <java-symbol name="badPuk2" type="string" />
+    <java-symbol name="mismatchPin2" type="string" />
+    <java-symbol name="mismatchPuk" type="string" />
+    <java-symbol name="mismatchPuk2" type="string" />
+    <java-symbol name="puklengthlimit" type="string" />
+    <java-symbol type="string" name="cfmmiuncondition" />
+    <java-symbol type="string" name="cfmmibusy" />
+    <java-symbol type="string" name="cfmminoreply" />
+    <java-symbol type="string" name="cfmminoreach" />
+    <!-- @} -->
+    <!-- UNISOC: Add for bug693265, AndroidP porting for USIM/SIM phonebook @{ -->
+    <java-symbol type="bool" name="config_supportorangeCapable" />
+    <java-symbol type="bool" name="config_updateadnuidCapable" />
+    <!-- @} -->
+    <!-- UNISOC: add for bug474761, usim phone type display @{ -->
+    <java-symbol type="string" name="phoneFixedNumber" />
+    <!-- @} -->
+
+    <!-- Face messages -->
+    <java-symbol type="string" name="face_name_template" />
+
+    <!-- UNISOC: Bug #474443 Porting cmcc wifi features to AndroidN -->
+    <java-symbol type="string" name="config_wifi_operator" />
+    <!-- UNISOC for orange trafficClass -->
+    <java-symbol type="bool" name="config_dataconnection_traffic_class" />
+    <!-- UNISOC for telcel data clear code -->
+    <java-symbol type="bool" name="config_dataconnection_data_clear_code" />
+    <java-symbol type="string" name="failcause_user_authentication" />
+    <java-symbol type="string" name="failcause_service_option_not_subscribed" />
+    <!-- UNISOC: Bug#692740 support AGPS settings BEG -->
+    <java-symbol type="string" name="config_location_support_operator" />
+    <!-- support AGPS settings END -->
+    <!-- UNISOC: Bug#692739 support GPS automatic update time BEG -->
+    <java-symbol type="string" name="gps_time_sync_fail_str" />
+    <!-- support GPS automatic update time END -->
+    <!-- UNISOC: Bug #474443 Porting cmcc wifi features to AndroidN -->
+    <java-symbol type="string" name="config_wifi_operator" />
+    <!-- UNISOC: add for Operator Custmize Wifi Call feature @{ -->
+    <java-symbol type="string" name="customize_operator_name_string" />
+    <java-symbol type="string" name="customize_wfc_operator_name_string" />
+    <!-- @} -->
+   <java-symbol type="string" name="config_support_customize_ecc_list" />
+    <java-symbol type="bool" name="config_ussd_balance_custom" />
+    <!-- add for performance @{ -->
+    <java-symbol type="array" name="config_prfmlock_apprun_name" />
+    <java-symbol type="array" name="config_prfmlock_appstart_name" />
+    <java-symbol type="array" name="config_prfmlock_appstart_duration" />
+    <java-symbol type="array" name="config_startingwindow_packages" />
+    <java-symbol type="array" name="cache_protect_processes"/>
+    <java-symbol type="array" name="config_imp_app_list" />
+    <java-symbol type="array" name="config_change_boost_list" />
+    <java-symbol type="bool" name="config_enhanced_powerhint" />
+    <!-- @} -->
+
+    <!--SPRD:Bug872933 Add for Voicemailtag is wrong -->
+    <java-symbol type="bool" name="config_modifyForIncorrectVociemailtag" />
+    <!-- UNISOC: add for bug771213 -->
+    <java-symbol type="bool" name="config_add_mmi_cf_title_type" />
+    <!-- SPRD: Add for bug714762 @{ -->
+    <java-symbol type="bool" name="config_enableDtmfLocalTone" />
+    <!-- @} -->
+    <java-symbol type="integer" name="config_overrideAppTransitionAnimationType" />
+
+    <java-symbol type="bool" name="messaging_fdnfilter" />
+    <java-symbol type="string" name="wifi_calling_on_summary" />
+
+    <!--UNISOC bug 908624-->
+    <java-symbol type="string" name="reboot_device_title" />
+    <java-symbol type="string" name="reboot_device_confirm" />
+
+    <java-symbol type="bool" name="config_show_low_battery_dialog" />
+    <java-symbol type="bool" name="support_ecc_location_feature" />
+
+    <!-- modify for enable fifo ui/renderthread to reduce junk -->
+    <java-symbol type="array" name="config_uififo_packages" />
+
+    <!-- For PowerHint memory gts scene-->
+    <java-symbol type="array" name="config_power_gts_memory_app_list" />
+
+     <!-- SPRD: FEATURE_IP_DIAL for bug 983978-->
+     <java-symbol type="bool" name="ip_dial_enabled_bool" />
+     <!-- UNISOC:947651 Customize V6simlock network mode -->
+     <java-symbol type="bool" name="mobile_network_capability_downgrade"/>
+
+    <!-- SPRD: Add for show IMS registration in bug 993444. @{ -->
+    <java-symbol type="bool" name="config_show_ims_registration_status" />
+    <java-symbol type="integer" name="config_getpriornetworktype"/>
+    <!-- UNISOC: Bug#1236200 -->
+    <java-symbol type="array" name="expire_name_updated" />
+    <!-- UNISOC: bug1082442 404/10 config QOS and support traffic class by carrier configure @{ -->
+    <java-symbol type="array" name="config_Qos_setting_string_array" />
+    <java-symbol type="bool" name="traffic_class_enable" />
+    <!-- @} -->
+    <java-symbol type="bool" name="config_subsidyLock" />
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Optimice no menú Aforrador de enerxía ou deteña a aplicación directamente."</string>
+<string name="pwctl_notification_title">"Aplicación en segundo plano de alto consumo"</string>
+<string name="pwctl_autolowpower_saving">"Aforro de enerxía baixo automático"</string>
+<string name="pwctl_schedule_power_saving">"Programar aforro de enerxía"</string>
+<string name="pwctl_switchmode_title">"Cambio de modo de aforro de enerxía"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> estase a activar. Seguro que quere desactivalo?"</string>
+<string name="pwctl_ultrasaving_title">"Modo de ultra aforro"</string>
+<string name="pwctl_enter_ultrasaving_summary">"No modo de ultra aforro de enerxía, só están dispoñibles determinadas aplicacións. Activar?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Quere saír do modo de ultra aforro de enerxía?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"No modo de ultra aforro de enerxía, só están dispoñibles determinadas aplicacións. <xliff:g id="mode">%1$s</xliff:g> estase a activar á mesma vez. Seguro que quere desactivalo?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Quere saír do modo de ultra aforro de enerxía e desactivar <xliff:g id="mode">%1$s</xliff:g>?"</string>
+<string name="pwctl_dontremind">"Non máis avisos"</string>
+<string name="exit_autoLowPowerMode">"Saír automaticamente do modo aforrador de enerxía para cargar"</string>
+<string name="enter_autoLowPowerMode">"Entrar automaticamente no modo aforrador de enerxía cando queda pouca enerxía"</string>
+<string name="exit_autoSchedulePowerMode">"Saír do aforro de enerxía programado cando se está en tempo de espera"</string>
+<string name="enter_autoSchedulePowerMode">"Entrar no aforro de enerxía programado cando se acaba o tempo de espera"</string>
+<string name="prohibit_auto_run_summary">"Inicio automático despois de desactivar o arranque. Pode cambiar isto en Configuración-&gt;Batería."</string>
+</resources>

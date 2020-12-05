@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Güç Tasarrufu Menüsü\'nden optimize edin ya da doğrudan uygulamayı durdurun."</string>
+<string name="pwctl_notification_title">"Yüksek Güç Tüketimli Arkaplan Uygulaması"</string>
+<string name="pwctl_autolowpower_saving">"Otomatik zayıf pilde güç tasarrufu"</string>
+<string name="pwctl_schedule_power_saving">"Güç tasarrufunu zamanla"</string>
+<string name="pwctl_switchmode_title">"Güç tasarrufu modu anahtarı"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> etkinleştiriliyor, devre dışı bırakmak istediğinizden emin misiniz?"</string>
+<string name="pwctl_ultrasaving_title">"Ultra tasarruf modu"</string>
+<string name="pwctl_enter_ultrasaving_summary">"Ultra güç tasarrufu modunda sadece belirli uygulamalar kullanılabilir. Etkinleştirilsin mi?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Ultra güç tasarrufu modundan çıkılsın mı?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"Ultra güç tasarrufu modunda sadece belirli uygulamalar kullanılabilir. <xliff:g id="mode">%1$s</xliff:g> aynı anda etkin, devre dışı bırakmak istediğinizden emin misiniz?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Ultra güç tasarrufu modunda çıkılsın ve <xliff:g id="mode">%1$s</xliff:g> devre dışı bırakılsın mı?"</string>
+<string name="pwctl_dontremind">"Artık hatırlatma"</string>
+</resources>

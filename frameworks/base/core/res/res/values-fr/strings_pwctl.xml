@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Optimiser dans le menu PowerSaver (économiseur d\'énergie) ou arrêter directement d\'app."</string>
+<string name="pwctl_notification_title">"App énergivore en arrière-plan"</string>
+<string name="pwctl_autolowpower_saving">"Économie d\'énergie auto"</string>
+<string name="pwctl_schedule_power_saving">"Programmer l\'économie d\'énergie"</string>
+<string name="pwctl_switchmode_title">"Interrupteur de mode économie d\'énergie"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> est en cours d\'activation. Confirmez-vous la désactivation ?"</string>
+<string name="pwctl_ultrasaving_title">"Mode ultra économie d\'énergie"</string>
+<string name="pwctl_enter_ultrasaving_summary">""En mode ultra économie d\'énergie, seules sont disponibles les apps sélectionnées. Activer ?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Quitter le mode ultra économie d\'énergie ?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"En mode ultra économie d\'énergie, seules sont disponibles les apps sélectionnées. <xliff:g id="mode">%1$s</xliff:g> est également en cours d\'activation. Confirmez-vous la désactivation ?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Quitter le mode ultra économie d\'énergie et désactiver <xliff:g id="mode">%1$s</xliff:g> ?"</string>
+<string name="pwctl_dontremind">"Ne plus rappeler"</string>
+    <string name="exit_autoLowPowerMode">"Quitter automatiquement la fonction d\'économie d\'énergie pour effectuer la charge"</string>
+     <string name="enter_autoLowPowerMode">"Accéder automatiquement à la fonction d\'économie d\'énergie pour réduire la consommation d\'énergie"</string>
+     <string name="exit_autoSchedulePowerMode">"Quitter la fonction d\'économie d\'énergie en raison de l\'expiration du délai"</string>
+     <string name="enter_autoSchedulePowerMode">"Accéder à la fonction d\'économie d\'énergie en raison de la période de temps écoulée"</string>
+     <string name="prohibit_auto_run_summary">"Démarrage automatique après la désactivation du démarrage. Vous pouvez changer cette option à partir de Paramètres-&gt;Batterie."</string>
+
+</resources>

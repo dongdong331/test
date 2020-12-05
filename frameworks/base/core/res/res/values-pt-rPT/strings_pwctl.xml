@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Otimizar no menu de poupança de energia ou fechar diretamente a app."</string>
+<string name="pwctl_notification_title">"App de segundo plano com elevado consumo de energia"</string>
+<string name="pwctl_autolowpower_saving">"Redução automática para poupança de energia"</string>
+<string name="pwctl_schedule_power_saving">"Agendar poupança de energia"</string>
+<string name="pwctl_switchmode_title">"Interruptor de poupança de energia"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> está ativo, tem a certeza de que o pretende desativar?"</string>
+<string name="pwctl_ultrasaving_title">"Modo de poupança de energia ultra"</string>
+<string name="pwctl_enter_ultrasaving_summary">"No modo de poupança de energia ultra, apenas estão disponíveis as apps selecionadas. Ativar?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Sair do modo de poupança de energia ultra?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"No modo de poupança de energia ultra, apenas estão disponíveis as apps selecionadas. <xliff:g id="mode">%1$s</xliff:g> é ativado em simultâneo. Tem a certeza de que o pretende desativar?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Sair do modo de poupança de energia ultra e desativar <xliff:g id="mode">%1$s</xliff:g> ?"</string>
+<string name="pwctl_dontremind">"Deixar de lembrar"</string>
+    <string name="exit_autoLowPowerMode">"Sair de baixa poupança de energia automática para carregar"</string>
+     <string name="enter_autoLowPowerMode">"Entrar em baixa poupança de energia automática devido a energia fraca"</string>
+     <string name="exit_autoSchedulePowerMode">"Sair de poupança de energia agendada devido a tempo limite excedido"</string>
+     <string name="enter_autoSchedulePowerMode">"Entrar em poupança de energia agendada devido a tempo limite excedido"</string>
+     <string name="prohibit_auto_run_summary">"O início automático após o arranque está desativado. Pode alterar esta situação em Definições-&gt;Bateria."</string>
+
+</resources>

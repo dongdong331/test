@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"ปรับในเมนูการประหยัดไฟ หรือหยุดแอพโดยตรง"</string>
+<string name="pwctl_notification_title">"แอพในเบื้องหลังที่ใช้ไฟมาก"</string>
+<string name="pwctl_autolowpower_saving">"การประหยัดพลังงานระดับต่ำโดยอัตโนมัติ"</string>
+<string name="pwctl_schedule_power_saving">"วางกำหนดการประหยัดพลังงาน"</string>
+<string name="pwctl_switchmode_title">"สวิตช์โหมดประหยัดไฟ"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> กำลังทำงานอยู่ คุณแน่ใจว่าต้องการปิดใช้งานหรือไม่"</string>
+<string name="pwctl_ultrasaving_title">"โหมดประหยัดพลังงานระดับสูง"</string>
+<string name="pwctl_enter_ultrasaving_summary">"ในโหมดประหยัดไฟระดับสูง จะสามารถใช้งานได้เฉพาะแอพที่เลือกไว้เท่านั้น เปิดใช้งานหรือไม่"</string>
+<string name="pwctl_exit_ultrasaving_summary">"ออกจากโหมดประหยัดไฟระดับสูงหรือไม่"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"ในโหมดประหยัดไฟระดับสูง จะสามารถใช้งานได้เฉพาะแอพที่เลือกไว้เท่านั้น <xliff:g id="mode">%1$s</xliff:g> กำลังทำงานอยู่ในเวลาเดียวกัน คุณแน่ใจว่าจะปิดใช้งานหรือไม่"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"ออกจากโหมดประหยัดไฟระดับสูง และปิดใช้งาน <xliff:g id="mode">%1$s</xliff:g> หรือไม่"</string>
+<string name="pwctl_dontremind">"ไม่ต้องเตือนอีกต่อไป"</string>
+</resources>

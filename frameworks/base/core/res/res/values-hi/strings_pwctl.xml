@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"पावर बचत मेनू में अनुकूलित करें या ऐप सीधे बंद करें."</string>
+<string name="pwctl_notification_title">"उच्च पावर खपत पृष्ठभूमि ऐप"</string>
+<string name="pwctl_autolowpower_saving">"कम पावर होने पर स्वतः बचत"</string>
+<string name="pwctl_schedule_power_saving">"पावर बचत का समय-निर्धारण करें"</string>
+<string name="pwctl_switchmode_title">"पावर बचत मोड स्विच"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> सक्रिय हो रहा है, क्या आप इसे अक्षम करना चाहते हैं?"</string>
+<string name="pwctl_ultrasaving_title">"अत्यधिक बचत मोड"</string>
+<string name="pwctl_enter_ultrasaving_summary">"अत्यधिक पावर बचत मोड में केवल कुछ चयनित ऐप ही उपलब्ध हैं. सक्षम करें?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"अत्यधिक पावर बचत मोड से बाहर निकलें?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"अत्यधिक पावर बचत मोड में केवल कुछ चयनित ऐप ही उपलब्ध हैं. <xliff:g id="mode">%1$s</xliff:g> इसी समय सक्रिय हो रहा है, क्या आप इसे अक्षम करना चाहते हैं?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"अत्यधिक पावर बचत मोड से बाहर निकलें और <xliff:g id="mode">%1$s</xliff:g> को अक्षम करें?"</string>
+<string name="pwctl_dontremind">"अब याद न दिलाएँ"</string>
+</resources>

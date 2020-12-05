@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ ** Copyright © 2016 Spreadtrum Communications Inc.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD add for pocket mode @{ -->
+    <string name="disable_touch_mode_title">口袋防誤觸</string>
+    <string name="disable_touch_mode_hint">不要蓋住手機頂端</string>
+    <string name="exit_disable_touch_mode_hint">移除遮擋退出該模式</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_title"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="20sp"
+        android:textColor="#212121"
+        android:text="Title"/>
+    <TextView
+        android:id="@+id/text_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_title"
+        android:textSize="16sp"
+        android:textColor="#212121"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Message"/>
+
+    <CheckBox
+        android:id="@+id/ck_dontremind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text_msg"
+        android:layout_below="@+id/text_msg"
+        android:paddingLeft="18dp"
+        android:text="@string/pwctl_dontremind"
+        android:textColor="#212121"
+        android:textSize="14sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ck_dontremind">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"/>
+        <Button android:id="@+id/button_negative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="Button1"
+            android:textSize="14sp"
+            android:layout_weight="1"/>
+        <Button android:id="@+id/button_positive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="Button2"
+            android:textSize="14sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>
+

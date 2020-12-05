@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- UNISOC for OMACP APN  -->
+    <bool name="mark_latest_as_preferred">false</bool>
+    <!-- UNISOC for fdn no data  -->
+    <bool name="config_support_fdn_no_data">false</bool>
+    <string name="config_fdn_num_for_data" translatable="false"></string>
+    <!-- SPRD: Add for bug693265, AndroidP porting for USIM/SIM phonebook @{ -->
+    <bool name="config_supportorangeCapable">false</bool>
+    <bool name="config_updateadnuidCapable">false</bool>
+    <!-- @} -->
+    <!-- UNISOC for USIM Notifier -->
+    <string-array name="usim_notify_packages" translatable="false">
+    </string-array>
+    <string name="addon_usim_notify" translatable="false">plugin.unisoc.usim.UsimNotifierImpl</string>
+    <!-- UNISOC for telcel data clear code -->
+    <bool name="config_dataconnection_data_clear_code">false</bool>
+    <!-- UNISOC for orange trafficClass -->
+    <bool name="config_dataconnection_traffic_class">false</bool>
+   <!-- SPRD: Bug #474443 Porting cmcc wifi features to AndroidN -->
+   <string name="config_wifi_operator" translatable="false"></string>
+    <!-- SPRD: Bug#692740 support AGPS settings BEG -->
+    <string name="config_location_support_operator" translatable="false"></string>
+    <!-- support AGPS settings END -->
+
+    <!-- SPRD: Add for bug714762 @{ -->
+    <bool name="config_enableDtmfLocalTone">false</bool>
+    <!-- @} -->
+
+    <string name="config_support_customize_ecc_list" translatable="false"></string>
+    <bool name="config_ussd_balance_custom">false</bool>
+
+    <!-- UNISOC for CMCC hidden Apps feature -->
+    <string-array name="hide_packages" translatable="false">
+        <item>com.sprd.opm</item>
+    </string-array>
+
+    <!-- add for performance @{ -->
+    <string-array translatable="false" name="config_prfmlock_apprun_name">
+        <item>"antutu"</item>
+        <item>"benchmark"</item>
+        <item>"ludashi"</item>
+        <item>"cfbench"</item>
+        <item>"quicinc.vellamo"</item>
+        <item>"geekbench"</item>
+        <item>"greenecomputing.linpack"</item>
+        <item>"nenamark"</item>
+        <item>"Quadrant"</item>
+        <item>"qihoo360.mobilesafe.opti"</item>
+        <item>"eembc.coremark"</item>
+        <item>"rightware.tdmm2v10jnifree"</item>
+        <item>"aurorasoftworks.quadrant"</item>
+        <item>"futuremark.dmandroid"</item>
+        <item>"andromeda.androbench"</item>
+        <item>"rightware.Basemark"</item>
+        <item>"tptest"</item>
+        <item>"mobilexprt"</item>
+    </string-array>
+
+    <string-array translatable="false" name="config_prfmlock_appstart_name">
+    </string-array>
+
+    <string-array translatable="false" name="config_prfmlock_appstart_duration">
+    </string-array>
+
+    <string-array translatable="false" name="config_startingwindow_packages">
+       <item>com.android.settings</item>
+       <item>com.android.music</item>
+       <item>com.android.soundrecorder</item>
+       <item>com.thunderst.radio</item>
+       <item>com.android.documentsui</item>
+       <item>com.android.calendar</item>
+       <item>com.android.deskclock</item>
+       <item>com.sprd.note</item>
+       <item>com.sprd.sprdnote</item>
+       <item>com.android.calculator2</item>
+       <item>com.sprd.fileexplorer</item>
+    </string-array>
+
+    <string-array translatable="false" name="cache_protect_processes">
+        <item>com.android.settings</item>
+        <item>android.process.media</item>
+    </string-array>
+
+    <integer translatable="false" name="config_overrideAppTransitionAnimationType">1</integer>
+
+    <string-array translatable="false" name="config_imp_app_list">
+        <item>com.android.settings</item>
+        <item>com.android.messaging</item>
+        <item>com.android.email</item>
+        <item>com.android.dialer</item>
+        <item>com.android.camera2</item>
+        <item>com.android.gallery3d</item>
+        <item>com.android.contacts</item>
+        <item>com.android.deskclock</item>
+    </string-array>
+    <string-array translatable="false" name="config_change_boost_list">
+        <item>com.android.systemui</item>
+    </string-array>
+    <bool name="config_enhanced_powerhint">true</bool>
+    <!-- @} -->
+
+    <!--SPRD:Bug872933 Add for Voicemailtag is wrong -->
+    <bool name="config_modifyForIncorrectVociemailtag">true</bool>
+    <!-- UNISOC: add for bug771213 -->
+    <bool name="config_add_mmi_cf_title_type">false</bool>
+
+    <bool name="config_show_low_battery_dialog">false</bool>
+    <bool name="messaging_fdnfilter">false</bool>
+
+    <!-- UNISOC: add for bug958569 supprot get location when make emergency call -->
+    <bool name="support_ecc_location_feature" translatable="false">false</bool>
+
+    <!-- modify for enable fifo ui/renderthread to reduce junk -->
+    <string-array translatable="false" name="config_uififo_packages">
+        <item>com.android.launcher3</item>
+    </string-array>
+
+    <!-- For PowerHint memory gts scene-->
+    <string-array translatable="false" name="config_power_gts_memory_app_list" >
+        <item>com.android.contacts</item>
+        <item>com.android.deskclock</item>
+        <item>com.android.vending</item>
+        <item>com.android.fmradio</item>
+        <item>com.android.soundrecorder</item>
+        <item>com.google.android.apps.assistant</item>
+        <item>com.google.android.calendar</item>
+        <item>com.google.android.gm.lite</item>
+        <item>com.google.android.apps.mapslite</item>
+        <item>com.google.android.apps.nbu.files</item>
+        <item>com.google.android.apps.searchlite</item>
+        <item>com.google.android.calculator</item>
+        <item>com.google.android.apps.youtube.mango</item>
+        <item>com.google.android.deskclock</item>
+    </string-array>
+    <!-- SPRD: FEATURE_IP_DIAL for bug 983978-->
+    <bool name="ip_dial_enabled_bool">false</bool>
+    <!-- UNISOC:947651 Customize V6simlock network mode -->
+    <bool name="mobile_network_capability_downgrade">false</bool>
+
+    <!-- SPRD: Add for show IMS registration in bug 993444. @{ -->
+    <bool name="config_show_ims_registration_status">false</bool>
+    <integer name="config_getpriornetworktype">0</integer>
+
+    <!-- UNISOC: bug1082442 config QOS and support traffic class by carrier configure @{ -->
+    <string-array translatable="false" name="config_Qos_setting_string_array">
+    </string-array>
+    <bool name="traffic_class_enable">false</bool>
+    <!-- @} -->
+
+    <!-- For SubsidyLock-->
+    <bool name="config_subsidyLock">false</bool>
+</resources>

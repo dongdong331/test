@@ -1,0 +1,20 @@
+cc_binary {
+   name: "performancemanager",
+
+   srcs: ["IPerformanceManager.cpp",
+          "performance_main.cpp",
+          "PerformanceManager.cpp"
+   ],
+   shared_libs: [
+       "liblog",
+       "libcutils",
+       "libm",
+       "libc",
+       "libutils",
+       "libprocessgroup",
+       "libbinder",
+   ],
+
+    cflags: ["-Wall"],
+    init_rc: ["performancemanager.rc"],
+}

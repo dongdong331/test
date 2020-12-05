@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pwctl_notification_summary">"Optimice en el menú de PowerSaver o detenga la aplicación directamente."</string>
+    <string name="pwctl_notification_title">"Aplicación de fondo de alto consumo energético"</string>
+    <string name="pwctl_autolowpower_saving">"Ahorro de energía bajo automático"</string>
+    <string name="pwctl_schedule_power_saving">"Programe el ahorro de energía"</string>
+    <string name="pwctl_switchmode_title">"Interruptor de modo de ahorro de energía"</string>
+    <string name="pwctl_switchmode_summary">"<xliff:g id="mode">;%1$s</xliff:g>; está activado, ¿está seguro de que desea desactivarlo?"</string>
+    <string name="pwctl_ultrasaving_title">"Modo de ahorro de energía ultra"</string>
+    <string name="pwctl_enter_ultrasaving_summary">"En el modo de ahorro de energía ultra solo están disponibles ciertas aplicaciones. ¿Desea activar?"</string>
+    <string name="pwctl_exit_ultrasaving_summary">"¿Desea salir del modo de ahorro de energía ultra?"</string>
+    <string name="pwctl_switchmode_enter_ultrasaving_summary">"En el modo de ahorro de energía ultra solo están disponibles ciertas aplicaciones. <xliff:g id="mode">;%1$s</xliff:g>; está activo al mismo tiempo, ¿está seguro de que desea desactivarlo?"</string>
+    <string name="pwctl_switchmode_exit_ultrasaving_summary">"¿Desea salir del modo de ahorro de energía ultra y desactivar <xliff:g id="mode">;%1$s</xliff:g>;?"</string>
+    <string name="pwctl_dontremind">"Ya no recuerde"</string>
+    <string name="exit_autoLowPowerMode">"Salga del modo de ahorro de energía bajo automático para cargar"</string>
+    <string name="enter_autoLowPowerMode">"Ingrese al modo de ahorro de energía bajo para consumo bajo"</string>
+    <string name="exit_autoSchedulePowerMode">"Salga de la programación de ahorro de energía para un receso"</string>
+    <string name="enter_autoSchedulePowerMode">"Ingrese a la programación de ahorro de energía para un plazo finalizado"</string>
+    <!--SPRD:Bug 855965 add ES string resource for apps auto run BEG-->
+    <string name="prohibit_auto_run_summary">Inicio autmático después del arranque está desactivado. Puede cambiar esto en Configuración -> Betería.</string>
+    <!--SPRD:Bug 855965 add ES string resource for apps auto run END-->
+</resources>

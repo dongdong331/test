@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pwctl_notification_summary">Optimise in PowerSaver Menu or stop app directly.</string>
+    <string name="pwctl_notification_title">High Power-Consumption Background App</string>
+    <string name="pwctl_autolowpower_saving">Auto low power saving</string>
+    <string name="pwctl_schedule_power_saving">Schedule power saving</string>
+    <string name="pwctl_switchmode_title">Power saving mode switch</string>
+    <string name="pwctl_switchmode_summary"><xliff:g id="mode">%1$s</xliff:g> is active, are you sure to disable it?</string>
+    <string name="pwctl_ultrasaving_title">Ultra saving mode</string>
+    <string name="pwctl_enter_ultrasaving_summary">Ultra power saving mode, only selected apps are available. Do you want to enable?</string>
+    <string name="pwctl_exit_ultrasaving_summary">Exit ultra power saving mode?</string>
+    <string name="pwctl_switchmode_enter_ultrasaving_summary">Ultra power saving mode, only selected apps are available. <xliff:g id="mode">%1$s</xliff:g> is active, are you sure to disable it?</string>
+    <string name="pwctl_switchmode_exit_ultrasaving_summary">Exit ultra power saving mode and disable <xliff:g id="mode">%1$s</xliff:g> ?</string>
+    <string name="pwctl_dontremind">Do not remind again</string>
+    <string name="exit_autoLowPowerMode">Exit low power saver mode as low power value is less than current power status</string>
+    <string name="enter_autoLowPowerMode">Automatically enter low power saver mode due to low power</string>
+    <string name="exit_autoSchedulePowerMode">Exit scheduled power saver mode</string>
+    <string name="enter_autoSchedulePowerMode">Enter scheduled power saver mode</string>
+    <!--SPRD:Bug 814570 About apps auto run BEG-->
+    <string name="prohibit_auto_run_summary">Auto-launch is disabled. You can change this from Settings->Battery.</string>
+    <!--SPRD:Bug 814570 About apps auto run END-->
+    <!--SPRD:Add for bug 868839,878708 BEG -->
+    <string name="delaySwitchModeWhenInCallForEnter">Cannot activate <xliff:g id="mode">%1$s</xliff:g> during ongoing call,it will start working once call ends</string>
+    <string name="delaySwitchModeWhenInCallForExit">Cannot exit <xliff:g id="mode">%1$s</xliff:g> during ongoing call,it will start working once call ends</string>
+    <!--SPRD:Add for bug 868839,878708 END -->
+</resources>

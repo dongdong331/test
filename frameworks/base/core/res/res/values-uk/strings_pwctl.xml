@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="pwctl_notification_summary">"Оптимізуйте використання програми в меню енергозбереження або зупиніть програму напряму."</string>
+<string name="pwctl_notification_title">"Фонова програма, що використовує багато енергії"</string>
+<string name="pwctl_autolowpower_saving">"Режим автоматичного енергозбереження, якщо акумулятор розряджений"</string>
+<string name="pwctl_schedule_power_saving">"Установити розклад режиму енергозбереження"</string>
+<string name="pwctl_switchmode_title">"Перемикач режиму енергозбереження"</string>
+<string name="pwctl_switchmode_summary">"<xliff:g id="mode">%1$s</xliff:g> активується. Вимкнути?"</string>
+<string name="pwctl_ultrasaving_title">"Режим максимального енергозбереження"</string>
+<string name="pwctl_enter_ultrasaving_summary">"У режимі максимального енергозбереження працюють лише вибрані програми. Увімкнути?"</string>
+<string name="pwctl_exit_ultrasaving_summary">"Вийти з режиму максимального енергозбереження?"</string>
+<string name="pwctl_switchmode_enter_ultrasaving_summary">"У режимі максимального енергозбереження працюють лише вибрані програми. Водночас активується <xliff:g id="mode">%1$s</xliff:g>. Вимкнути?"</string>
+<string name="pwctl_switchmode_exit_ultrasaving_summary">"Вийти з режиму максимального енергозбереження та вимкнути <xliff:g id="mode">%1$s</xliff:g>?"</string>
+<string name="pwctl_dontremind">"Більше не нагадувати"</string>
+</resources>
