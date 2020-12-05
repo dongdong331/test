@@ -1,0 +1,84 @@
+
+cc_library_shared {
+    name: "stats_calculator_portable",
+
+    srcs: [
+        "stats_calculator.cc",
+    ],
+
+    export_include_dirs: [
+        ".",
+    ],
+    // "stats_calculator.h"
+    // "stat_summarizer_options.h"
+
+    include_dirs: [
+        "external/tensorflow",
+    ],
+
+    cppflags: [
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+        "-Wno-unused-parameter",
+        "-Wno-sign-compare",
+    ],
+
+    stl: "libc++",
+}
+
+
+cc_library_static {
+    name: "stats_calculator_static",
+    //sdk_version: "current",
+
+    srcs: [
+        "stats_calculator.cc",
+    ],
+
+    export_include_dirs: [
+        ".",
+    ],
+
+    include_dirs: [
+        "external/tensorflow",
+    ],
+
+    cppflags: [
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+        "-Wno-unused-parameter",
+        "-Wno-sign-compare",
+    ],
+
+    stl: "libc++_static",
+}
+
+cc_library_static {
+    name: "stats_calculator_static_ndk",
+    sdk_version: "current",
+
+    srcs: [
+        "stats_calculator.cc",
+    ],
+
+    export_include_dirs: [
+        ".",
+    ],
+
+    include_dirs: [
+        "external/tensorflow",
+    ],
+
+    cppflags: [
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+        "-Wno-unused-parameter",
+        "-Wno-sign-compare",
+    ],
+
+    stl: "libc++_static",
+}
+

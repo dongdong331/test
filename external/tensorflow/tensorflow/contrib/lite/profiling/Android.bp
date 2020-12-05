@@ -1,0 +1,100 @@
+
+cc_library_shared {
+    name: "libprofiler",
+
+    srcs: [
+        "profile_summarizer.cc",
+        "time.cc",
+    ],
+
+    export_include_dirs: [
+        ".",
+    ],
+
+    include_dirs: [
+        "external/flatbuffers/include",
+        "external/tensorflow",
+    ],
+
+    shared_libs: [
+        "libtflite",
+        "stats_calculator_portable",
+    ],
+    // stats_calculator_portable -> stats_calculator.h
+
+    cppflags: [
+        "-DTFLITE_PROFILING_ENABLED",
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+        "-Wno-unused-parameter",
+        "-Wno-sign-compare",
+        "-Wno-ignored-qualifiers",
+    ],
+
+    stl: "libc++",
+}
+
+
+cc_library_static {
+    name: "libprofiler_static",
+    //sdk_version: "current",
+
+    srcs: [
+        "profile_summarizer.cc",
+        "time.cc",
+    ],
+
+    export_include_dirs: [
+        ".",
+    ],
+
+    include_dirs: [
+        "external/flatbuffers/include",
+        "external/tensorflow",
+    ],
+
+    cppflags: [
+        "-DTFLITE_PROFILING_ENABLED",
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+        "-Wno-unused-parameter",
+        "-Wno-sign-compare",
+        "-Wno-ignored-qualifiers",
+    ],
+
+    stl: "libc++_static",
+}
+
+cc_library_static {
+    name: "libprofiler_static_ndk",
+    sdk_version: "current",
+
+    srcs: [
+        "profile_summarizer.cc",
+        "time.cc",
+    ],
+
+    export_include_dirs: [
+        ".",
+    ],
+
+    include_dirs: [
+        "external/flatbuffers/include",
+        "external/tensorflow",
+    ],
+    
+    cppflags: [
+        "-DTFLITE_PROFILING_ENABLED",
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+        "-Wno-unused-parameter",
+        "-Wno-sign-compare",
+        "-Wno-ignored-qualifiers",
+    ],
+
+    stl: "libc++_static",
+}
+

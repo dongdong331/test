@@ -1,0 +1,85 @@
+﻿// ***************************************************************************
+// *
+// * Copyright (C) 2014 International Business Machines
+// * Corporation and others. All Rights Reserved.
+// * Tool: org.unicode.cldr.icu.NewLdml2IcuConverter
+// * Source File: <path>/common/main/mai.xml
+// *
+// ***************************************************************************
+mai{
+    AuxExemplarCharacters{"[\u200C\u200D]"}
+    Ellipsis{
+        final{"{0}…"}
+        initial{"…{0}"}
+        medial{"{0}…{1}"}
+        word-final{"{0} …"}
+        word-initial{"… {0}"}
+        word-medial{"{0} … {1}"}
+    }
+    ExemplarCharacters{
+        "[\u093C \u0901 \u0902 ः ॐ अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट "
+        "ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ऽ ा ि ी \u0941 \u0942 \u0943 "
+        "\u0944 \u0945 \u0947 \u0948 ॉ ो ौ \u094D]"
+    }
+    NumberElements{
+        latn{
+            patterns{
+                currencyFormat{"¤ #,##0.00"}
+                decimalFormat{"#,##0.###"}
+                percentFormat{"#,##0%"}
+                scientificFormat{"#E0"}
+            }
+            symbols{
+                decimal{"."}
+                exponential{"E"}
+                group{","}
+                infinity{"∞"}
+                list{";"}
+                minusSign{"-"}
+                nan{"NaN"}
+                perMille{"‰"}
+                percentSign{"%"}
+                plusSign{"+"}
+            }
+        }
+    }
+    Version{"2.0.90.61"}
+    calendar{
+        gregorian{
+            DateTimePatterns{
+                "HH:mm:ss zzzz",
+                "HH:mm:ss z",
+                "HH:mm:ss",
+                "HH:mm",
+                "EEEE, MMMM dd y",
+                "MMMM d, y",
+                "MMM d, y",
+                "M/d/yy",
+                "{1} {0}",
+                "{1} {0}",
+                "{1} {0}",
+                "{1} {0}",
+                "{1} {0}",
+            }
+            availableFormats{
+                MEd{"E, M-d"}
+                MMM{"LLL"}
+                MMMEd{"E MMM d"}
+                MMMMEd{"E MMMM d"}
+                MMMMd{"MMMM d"}
+                MMMd{"MMM d"}
+                Md{"M-d"}
+                ms{"mm:ss"}
+                y{"y"}
+                yM{"yyyy-M"}
+                yMEd{"EEE, yyyy-M-d"}
+                yMMM{"y MMM"}
+                yMMMEd{"EEE, y MMM d"}
+                yMMMM{"y MMMM"}
+                yQQQ{"y QQQ"}
+                yyMM{"yy-MM"}
+                yyMMM{"MMM yy"}
+            }
+        }
+    }
+}

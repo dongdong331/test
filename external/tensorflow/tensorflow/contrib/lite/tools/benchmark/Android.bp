@@ -1,0 +1,113 @@
+
+cc_binary {
+    name: "benchmark_model",
+    //sdk_version: "current",
+    //rtti: true,
+
+    srcs: [
+        "benchmark_main.cc",
+        "benchmark_tflite_model.cc",
+        "benchmark_model.cc",
+        "benchmark_params.cc",
+        "command_line_flags.cc",
+    ],
+
+    include_dirs: [
+        "external/eigen",
+        "external/flatbuffers/include",
+        "external/gemmlowp",
+        "external/libtextclassifier",
+        "external/tensorflow",
+    ],
+
+    shared_libs: [
+        //"benchmark_tflite_model_lib",
+        //"libprofiler",
+        //"stats_calculator_portable",
+        //"libtflite",
+        "liblog",
+    ],
+
+    whole_static_libs: [
+        //"libprofiler_static",
+        //"stats_calculator_static",
+        //"libtflite_static",
+        "libtflite_context",
+        "libtflite_framework",
+        "libtflite_kernels",
+        "libtextclassifier_hash_static",
+    ],
+
+    cflags: [
+        "-DTFLITE_PROFILING_ENABLED",
+        "-DNAMESPACE_FOR_HASH_FUNCTIONS=farmhash",
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+        "-Wno-array-bounds",
+        "-Wno-extern-c-compat",
+        "-Wno-invalid-partial-specialization",
+        "-Wno-mismatched-tags",
+        "-Wno-missing-field-initializers",
+        "-Wno-sign-compare",
+        "-Wno-typedef-redefinition",
+        "-Wno-unused-lambda-capture",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+    ],
+
+    stl: "libc++_static",
+
+    //static_executable: true,
+    compile_multilib: "both",
+    multilib: {
+        lib64: {
+             suffix: "64",
+        },
+        lib32: {
+             suffix: "32",
+        },
+    },
+}
+
+cc_library_shared {
+    name: "benchmark_tflite_model_lib",
+
+    srcs: [
+        "benchmark_tflite_model.cc",
+        "benchmark_model.cc",
+        "benchmark_params.cc",
+        "command_line_flags.cc",
+    ],
+
+    include_dirs: [
+        "external/flatbuffers/include",
+        "external/tensorflow",
+    ],
+
+    shared_libs: [
+        "libtflite",
+        "liblog",
+        "libprofiler",
+        "stats_calculator_portable",
+    ],
+
+    whole_static_libs: [
+        //"libtflite_static",
+        //"libprofiler_static",
+        //"stats_calculator_static",
+    ],
+
+    cppflags: [
+        "-DTFLITE_PROFILING_ENABLED",
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+        "-Wno-unused-parameter",
+        "-Wno-sign-compare",
+        "-Wno-ignored-qualifiers",
+    ],
+
+    stl: "libc++_static",
+}
+

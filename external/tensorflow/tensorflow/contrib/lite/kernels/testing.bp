@@ -1,0 +1,863 @@
+// Copyright (C) 2017 The Android Open Source Project
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+cc_defaults {
+    name: "libtflite_test_utils",
+    defaults: ["tflite_defaults"],
+    srcs: [
+        "test_util.cc",
+    ],
+    header_libs: [
+        "gemmlowp_headers",
+        "flatbuffer_headers",
+        "libeigen",
+        "libtextclassifier_hash_headers",
+    ],
+
+    whole_static_libs: [
+        "libtflite_kernels",
+        "libtflite_context",
+        "libtflite_framework",
+        //"libtflite_static",
+        "libtextclassifier_hash_static",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+        "-Wno-missing-field-initializers",
+    ],
+}
+
+// add
+cc_test {
+    name: "add_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "add_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// pooling_test
+cc_test {
+    name: "pooling_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "pooling_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// concatenation_test
+cc_test {
+    name: "concatenation_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "concatenation_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// conv_test
+cc_test {
+    name: "conv_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "conv_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// depthwise_conv_test
+cc_test {
+    name: "depthwise_conv_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "depthwise_conv_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// embedding_lookup_test -> tflite_embedding_lookup_test
+cc_test {
+    name: "tflite_embedding_lookup_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "embedding_lookup_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// fully_connected_test
+cc_test {
+    name: "fully_connected_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "fully_connected_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// hashtable_lookup_test -> tflite_hashtable_lookup_test
+cc_test {
+    name: "tflite_hashtable_lookup_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "hashtable_lookup_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// l2norm_test
+cc_test {
+    name: "l2norm_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "l2norm_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// local_response_norm_test
+cc_test {
+    name: "local_response_norm_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "local_response_norm_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// activations_test
+cc_test {
+    name: "activations_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "activations_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// lsh_projection_test -> tflite_lsh_projection_test
+cc_test {
+    name: "tflite_lsh_projection_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "lsh_projection_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// tflite_lstm_test
+cc_test {
+    name: "tflite_lstm_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "lstm_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// optional_tensor_test
+cc_test {
+    name: "optional_tensor_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "optional_tensor_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// mul_test.cc 
+cc_test {
+    name: "mul_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "mul_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// reshape_test
+cc_test {
+    name: "reshape_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "reshape_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// resize_bilinear_test
+cc_test {
+    name: "resize_bilinear_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "resize_bilinear_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// basic_rnn_test
+cc_test {
+    name: "basic_rnn_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "basic_rnn_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// softmax_test
+cc_test {
+    name: "softmax_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "softmax_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// space_to_depth_test
+cc_test {
+    name: "space_to_depth_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "space_to_depth_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// svdf_test -> tflite_svdf_test
+cc_test {
+    name: "tflite_svdf_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "svdf_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// skip_gram_test
+cc_test {
+    name: "skip_gram_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "skip_gram_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// embedding_lookup_sparse_test
+cc_test {
+    name: "embedding_lookup_sparse_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "embedding_lookup_sparse_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// pad_test
+cc_test {
+    name: "pad_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "pad_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// unidirectional_sequence_rnn_test
+cc_test {
+    name: "unidirectional_sequence_rnn_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "unidirectional_sequence_rnn_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// gather_test
+cc_test {
+    name: "gather_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "gather_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// batch_to_space_nd_test
+cc_test {
+    name: "batch_to_space_nd_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "batch_to_space_nd_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// space_to_batch_nd_test
+cc_test {
+    name: "space_to_batch_nd_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "space_to_batch_nd_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// transpose_test
+cc_test {
+    name: "transpose_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "transpose_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// mean_test
+cc_test {
+    name: "mean_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "mean_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// squeeze_test
+cc_test {
+    name: "squeeze_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "squeeze_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// unidirectional_sequence_lstm_test
+cc_test {
+    name: "unidirectional_sequence_lstm_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "unidirectional_sequence_lstm_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// strided_slice_test
+cc_test {
+    name: "strided_slice_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "strided_slice_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// bidirectional_sequence_rnn_test
+cc_test {
+    name: "bidirectional_sequence_rnn_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "bidirectional_sequence_rnn_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// exp_test
+cc_test {
+    name: "exp_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "exp_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// topk_v2_test
+cc_test {
+    name: "topk_v2_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "topk_v2_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// split_test
+cc_test {
+    name: "split_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "split_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// sub_test
+cc_test {
+    name: "sub_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "sub_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
+// div_test
+cc_test {
+    name: "div_test",
+    defaults: ["libtflite_test_utils"],
+    srcs: [
+        "div_test.cc",
+    ],
+
+    cflags: [
+        "-Wno-sign-compare",
+        "-Wno-extern-c-compat",
+        "-Wno-mismatched-tags",
+        "-Wno-unused-lambda-capture",
+    ],
+
+    static_libs: [
+        "libgmock",
+    ],
+    stl: "libc++_static",
+}
+
