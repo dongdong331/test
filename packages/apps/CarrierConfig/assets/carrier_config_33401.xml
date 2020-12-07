@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="separate_setting_for_wfc_volte" value="false" />
+    </carrier_config>
+</carrier_config_list>

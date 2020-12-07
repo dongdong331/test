@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incall_content_description_end_call">"ဖုန္းေခၚျပီးျပီ"</string>
+<string name="incall_content_description_muted">"အသံေဖ်ာက္ထား"</string>
+<string name="incall_content_description_unmuted">"အသံမေဖ်ာက္ေတာ့"</string>
+<string name="incall_content_description_swap_calls">"ဖုန္းေခၚဆိုမႈမ်ားေျပာင္းမည္"</string>
+<string name="incall_content_description_swap_sim">"SIM ေျပာင္းရန္"</string>
+<string name="incall_content_description_merge_calls">"ေခၚဆိုမႈ ေပါင္းစည္း"</string>
+<string name="incall_content_description_earpiece">"ဟန္းဆက္နားၾကပ္"</string>
+<string name="incall_content_description_speaker">"စပီကာ"</string>
+<string name="incall_content_description_bluetooth">"ဘလူးတုသ္"</string>
+<string name="incall_content_description_headset">"ၾကိဳးပါနားၾကပ္"</string>
+<string name="incall_content_description_hold">"ဖုန္းခဏ ကုိင္ထားပါ"</string>
+<string name="incall_content_description_unhold">"ေခၚဆုိမႈကုိ ျပန္စတင္ပါ"</string>
+<string name="incall_content_description_video_on">"ဗီဒီယို ဖြင့္"</string>
+<string name="incall_content_description_video_off">"ဗီဒီယို ပိတ္"</string>
+<string name="incall_content_description_swap_video">"ဗီဒီယို ဖလွယ္ပါ"</string>
+<string name="incall_label_speaker">"စပီကာ"</string>
+<string name="incall_label_audio">"အသံ"</string>
+</resources>

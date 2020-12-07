@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <string name="default_vm_number_string">*501</string>
+        <boolean name="carrier_wfc_supports_wifi_only_bool" value="true"/>
+        <boolean name="editable_wfc_mode_bool" value="false"/>
+        <boolean name="carrier_wfc_hide_preferred_network_bool" value="true"/>
+        <boolean name="set_voice_domain_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

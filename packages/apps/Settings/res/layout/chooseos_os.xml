@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**  create by spreadst
+*/
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView android:id="@+id/headerText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="2"
+        android:text="@string/usb_pc_choose_os"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <View
+        android:id="@+id/spacerBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@android:drawable/divider_horizontal_dark" />
+
+    <Spinner
+        android:id="@+id/os_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:layout_marginStart="30dip"
+        android:layout_marginEnd="30dip" />
+
+    <ImageView
+        android:id="@+id/image_pc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dip"
+        android:src="@drawable/usb_internet_pc" />
+
+</LinearLayout>

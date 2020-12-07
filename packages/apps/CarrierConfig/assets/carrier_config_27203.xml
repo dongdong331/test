@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="carrier_name_string">eir</string>
+        <boolean name="hide_video_call_forward" value="true"/>
+    </carrier_config>
+</carrier_config_list>

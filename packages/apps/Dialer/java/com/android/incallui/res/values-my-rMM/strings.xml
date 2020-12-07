@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="phoneAppLabel" product="default">ဖုန္း</string>
+<string name="wait_prompt_str">"ေအာက္ပါတီးလံုးမ်ားပို႔မလား?\n"</string>
+<string name="pause_prompt_yes">"မွန္သည္"</string>
+<string name="pause_prompt_no">မဟုတ္ပါ</string>
+<string name="notification_dialing">"ေခၚဆိုေနဆဲ"</string>
+<string name="notification_ongoing_call">"အထြက္ေခၚဆိုမႈဖုန္း"</string>
+<string name="notification_ongoing_video_call">"ဗီဒီယိုဖုန္း ေျပာေနဆဲျဖစ္သည္"</string>
+<string name="notification_ongoing_paused_video_call">"ဗီဒီယိုဖုန္း ေျပာေနဆဲျဖစ္သည္ \u2011 ဗီဒီယို ခဏရပ္သြားသည္"</string>
+<string name="notification_ongoing_work_call">"အလုပ္ဖုန္း ေခၚေန"</string>
+<string name="notification_ongoing_call_wifi_template">" <xliff:g id="brand_name">%1$s</xliff:g> သံုးေနဆဲျဖစ္သည္"</string>
+<string name="notification_incoming_call_wifi_template">" <xliff:g id="brand_name">%1$s</xliff:g> ဝင္လာသည္"</string>
+<string name="notification_call_wifi_brand">"Wi\u2011Fi ဖုန္းေခၚဆိုမႈ"</string>
+<string name="notification_call_wifi_work_brand">"Wi\u2011Fi အလုပ္ဖုန္းေခၚဆိုမႈ"</string>
+<string name="notification_on_hold">"ကိုင္ထားလွ်င္"</string>
+<string name="notification_incoming_call">"ဖုန်းအဝင်"</string>
+<string name="notification_incoming_video_call">"ဗီဒီယိုဖုန္း၀င္လာသည္"</string>
+<string name="notification_incoming_call_mutli_sim">" <xliff:g id="sim_label" example="SIM 1">%1$s</xliff:g> သံုး၍ေခၚေသာ အဝင္ဖုန္း"</string>
+<string name="notification_incoming_call_with_photo">"ဓာတ္ပံုပါေသာ အဝင္ဖုန္း "</string>
+<string name="notification_incoming_call_with_message">"မက္ေဆ့ဂ်္ပါေသာ အဝင္ဖုန္း "</string>
+<string name="notification_incoming_call_with_location">"တည္ေနရာပါေသာ အဝင္ဖုန္း"</string>
+<string name="notification_incoming_call_with_photo_message">"ဓာတ္ပံုႏွင့္ မက္ေဆ့ဂ်္ပါေသာ အဝင္ဖုန္း"</string>
+<string name="notification_incoming_call_with_photo_location">"ဓာတ္ပံုႏွင့္ တည္ေနရာပါေသာ အဝင္ဖုန္း"</string>
+<string name="notification_incoming_call_with_message_location">"မက္ေဆ့ဂ်္ႏွင့္ တည္ေနရာပါေသာ အဝင္ဖုန္း"</string>
+<string name="notification_incoming_call_with_photo_message_location">"ဓာတ္ပံု၊ မက္ေဆ့ဂ်္ႏွင့္  တည္ေနရာပါေသာ အဝင္ဖုန္း"</string>
+<string name="notification_incoming_call_attachments">"ပူးတြဲဖိုင္မ်ားပါေသာ အေရးႀကီး အဝင္ဖုန္း"</string>
+<string name="important_notification_incoming_call">"အေရးႀကီး အဝင္ဖုန္း"</string>
+<string name="important_notification_incoming_call_with_photo">"ဓာတ္ပံုပါေသာ အေရးႀကီး အဝင္ဖုန္း"</string>
+<string name="important_notification_incoming_call_with_message">"မက္ေဆ့ဂ်္ပါေသာ အေရးႀကီး အဝင္ဖုန္း "</string>
+<string name="important_notification_incoming_call_with_location">"တည္ေနရာပါေသာ အေရးႀကီး အဝင္ဖုန္း"</string>
+<string name="important_notification_incoming_call_with_photo_message">"ဓာတ္ပံုႏွင့္ မက္ေဆ့ဂ်္ပါေသာ အေရးႀကီး အဝင္ဖုန္း"</string>
+<string name="important_notification_incoming_call_with_photo_location">"ဓာတ္ပံုႏွင့္ တည္ေနရာပါေသာ အေရးႀကီး အဝင္ဖုန္း"</string>
+<string name="important_notification_incoming_call_with_message_location">"မက္ေဆ့ဂ်္ႏွင့္ တည္ေနရာပါေသာ အေရးႀကီး အဝင္ဖုန္း"</string>
+<string name="important_notification_incoming_call_with_photo_message_location">"ဓာတ္ပံု၊ မက္ေဆ့ဂ်္ႏွင့္  တည္ေနရာပါေသာ အေရးႀကီး အဝင္ဖုန္း"</string>
+<string name="important_notification_incoming_call_attachments">"ပူးတြဲဖိုင္မ်ားပါေသာ အေရးႀကီး အဝင္ဖုန္း"</string>
+<string name="notification_incoming_work_call">"အလုပ္ဖုန္း ၀င္ေန"</string>
+<string name="notification_incoming_spam_call">"စပမ္းဟု သံသယရွိေသာ အဝင္ဖုန္း"</string>
+<string name="notification_requesting_video_call">"အဝင္ ဗီဒီယုိ ေတာင္းဆုိမႈ"</string>
+<string name="notification_action_answer">"ေျဖၾကား"</string>
+<string name="notification_action_end_call">"ဖုန္းခ်မည္"</string>
+<string name="notification_action_answer_video">"ဗီဒီယို"</string>
+<string name="notification_action_answer_voice">"အသံ"</string>
+<string name="notification_action_accept">"လက္ခံ"</string>
+<string name="notification_action_dismiss">"ျငင္းပယ္ပါ"</string>
+<string name="notification_action_speaker_on">"စပီကာ ဖြင့္"</string>
+<string name="notification_action_speaker_off">"စပီကာ ပိတ္"</string>
+<string name="notification_action_mute_on">"အသံတိတ်"</string>
+<string name="notification_action_mute_off">"အသံမတိတ္"</string>
+<string name="notification_external_call">"အျခားစက္ေပၚတြင္ ဖုန္းေျပာေနသည္"</string>
+<string name="notification_external_video_call">"အျခားစက္ေပၚတြင္ ဗီဒီယိုဖုန္း ေျပာေနသည္"</string>
+<string name="notification_take_call">"ဖုန္းေခၚပါ"</string>
+<string name="notification_take_video_call">"ဗီဒီယိုဖုန္း ေခၚပါ "</string>
+<string name="incall_error_supp_service_unknown">"၀န္ေဆာင္မႈ မေထာက္ပံ့ထား."</string>
+<string name="goPrivate">"သီးသန္႔ သို႔သြားပါ"</string>
+<string name="emergency_call_dialog_number_for_display">"အေရးေပၚနံပါတ္"</string>
+<string name="child_number">"<xliff:g example="650-555-1212" id="child_number">%s</xliff:g> မွတဆင့္"</string>
+<string name="callFailed_simError">"SIM မရွိပါ (သို႕) SIM အမွား"</string>
+<string name="conference_caller_disconnect_content_description">"ဖုန္းေခၚျပီးျပီ"</string>
+<string name="conference_call_name">"ကြန္ဖရင့္ ဖုန္း"</string>
+<string name="generic_conference_call_name">"ဖုန္းေျပာေနသည္"</string>
+<string name="video_call_wifi_to_lte_handover_toast">"မိုဘိုင္းေဒတာသံုး၍ ဖုန္းဆက္ေခၚေနသည္\u2026"</string>
+<string name="video_call_lte_to_wifi_failed_title">"Wi\u2011Fi ကြန္ရက္သို႔ ေျပာင္း၍ မရပါ "</string>
+<string name="video_call_lte_to_wifi_failed_message">"ဗီဒီယိုဖုန္းေခၚဆိုမႈသည္ မိုဘိုင္းကြန္ရက္ေပၚတြင္ ဆက္ရွိေနပါမည္။ စံသတ္မွတ္ ေဒတာခမ်ား ကုန္က်ႏိုင္ပါသည္။ "</string>
+<string name="video_call_lte_to_wifi_failed_do_not_show">"ေနာက္ထပ္ မေဖၚျပပါနွင့္"</string>
+<string name="card_title_in_call">"ဖုန္းေျပာေနသည္"</string>
+<string name="card_title_conf_call">"ကြန္ဖရင့္ ဖုန္း"</string>
+<string name="notification_action_reject_with_message">"ျငင္းပယ္သည့္ စာတို"</string>
+<string name="fail_change_video_due_to_bgcall">"ေနာက္ခံတြင္ ဖုန္းေခၚဆိုမႈ ရွိေန၍ လက္ရွိဖုန္းေခၚဆိုမႈကို ဗီဒီယိုဖုန္း ေခၚဆိုမႈသို႔ ေျပာင္း၍မရပါ။"</string>
+<string name="low_battery_warning_title">"ဘကၳရီ ပါ၀ါအားနည္း သတိေပးခ်က္"</string>
+<string name="low_battery_warning_message">"ဘကၳရီ ပါ၀ါအား 15% ေအာက္မွာ.ဗါီဒိယိုဖုန္း ဆက္ေခၚမွာလား (သို ့) အသံဖုန္း ေျပာင္းမွာလား?"</string>
+<string name="low_battery_continue_video_call">"မွန္သည္"</string>
+<string name="low_battery_convert_to_voice_call">"ေျပာင္းပါ"</string>
+<string name="low_battery_warning_media_alert_message">"ဘကၳရီ အား 15%ေအာက္. ေက်းဇူးျပဳ၍ လက္ခံ (သို ့) ပယ္ဖ်က္ ေရြးခ်ယ္ပါ."</string>
+<string name="remote_request_change_accept">"လက္ခံ"</string>
+<string name="remote_request_change_reject">"ျငင္းပယ္သည္"</string>
+</resources>

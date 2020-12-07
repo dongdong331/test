@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default settings of unread function -->
+    <bool name="config_default_unread_call_enable">false</bool>
+    <bool name="config_default_unread_sms_enable">false</bool>
+    <bool name="config_default_unread_email_enable">false</bool>
+    <bool name="config_default_unread_calendar_enable">false</bool>
+    <!--Add for dynamic icon feature: start-->
+    <string name="original_calendar_pkg" translatable="false">com.android.calendar</string>
+    <string name="google_calendar_pkg" translatable="false">com.google.android.calendar</string>
+
+    <string name="original_clock_pkg" translatable="false">com.android.deskclock</string>
+    <string name="google_clock_pkg" translatable="false">com.google.android.deskclock</string>
+
+    <!-- The default state of the dynamic icon, true: open, false: closed -->
+    <bool name="dynamic_calendar_default_state">false</bool>
+    <bool name="dynamic_clock_default_state">false</bool>
+    <!--Add for dynamic icon feature: end-->
+
+    <!--default value of circle slide-->
+    <bool name="default_circle_slide">true</bool>
+
+    <!--default value of pull down action -->
+    <string name="default_pull_down_value" translatable="false">none</string>
+
+    <!--default value of launcher style allapps or singlelayer-->
+    <bool name="show_home_screen_style_settings">true</bool>
+    <string name="default_home_screen_style" translatable="false">dual</string>
+
+
+    <!--add for folder icon Model-->
+    <bool name="show_folder_icon_model_settings">true</bool>
+    <!--the value from the array folder_icon_model_values-->
+    <string name="default_folder_icon_model" translatable="false">auto</string>
+    <!-- Out of 100,  the percent to the app icon siz in folder icon. -->
+    <integer name="grid_folder_app_icon_size_percentage">26</integer>
+    <integer name="grid_folder_icon_rows">3</integer>
+    <integer name="grid_folder_icon_columns">3</integer>
+
+    <!-- The min/max rows and columns value in desktop grid -->
+    <integer name="min_rows_in_desktop_grid">4</integer>
+    <integer name="max_rows_in_desktop_grid">6</integer>
+    <integer name="min_columns_in_desktop_grid">@integer/min_rows_in_desktop_grid</integer>
+    <!-- The max column is equal to the counts of hotseat icons when -1 configured. -->
+    <integer name="max_columns_in_desktop_grid">-1</integer>
+    <!-- The default rows and columns must between the min and max, or invalid value: -1 -->
+    <integer name="default_rows_in_desktop_grid">-1</integer>
+    <integer name="default_columns_in_desktop_grid">-1</integer>
+
+    <!-- add for app icon label display multiple lines -->
+    <integer name="icon_label_max_lines">1</integer>
+</resources>

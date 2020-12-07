@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="hangupcall_note_title">Peringatan</string>
+<string name="hangupcall_note_message">"Panggilan masuk adalah panggilan ketiga, jika dijawab, panggilan aktif akan diputuskan."</string>
+<string name="unknown_area">"Area tidak diketahui"</string>
+<string name="exceed_limit">"Nomor dari panggilan rapat kelebihan batas"</string>
+</resources>

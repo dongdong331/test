@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"ਕਾਲ ਸਾਈਲੈਂਸ ਕਰਨ ਲਈ ਥਪਥਪਾਓ"</string>
+<string name="flipping_summary">"ਇਨਕਮਿੰਗ ਕਾਲ ਨੂੰ ਸਾਈਲੈਂਸ ਕਰਨ ਲਈ ਫੋਨ ਨੂੰ ਥਪਥਪਾਓ"</string>
+<string name="main_card_slot">"ਮੇਨ ਕਾਰਡ:"</string>
+<string name="vice_card_slot">"ਵਾਈਸ ਕਾਰਡ:"</string>
+<string name="fade_in_title">"ਫੇਡ-ਇਨ ਰਿੰਗਰ"</string>
+<string name="fade_in_summary">"ਜਦੋਂ ਸਮਰੱਥ ਹੋਵੇ, ਤਾਂ ਇਨਕਮਿੰਗ ਕਾਲ ਰਿੰਗਰ ਵੌਲਯੂਮ ਚਾਲੂ ਹੋਵੇਗੀ।"</string>
+<string name="dialog_make_call_airplane_mode_message">"ਇੱਕ ਕਾਲ ਕਰਨ ਲਈ, ਪਹਿਲਾਂ ਏਅਰਪਲੇਨ ਮੋਡ ਬੰਦ ਕਰੋ।"</string>
+</resources>

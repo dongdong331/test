@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file is used to configure the switch of functions in Settings.
+    Including Settings internal self-developed function, currently no switch
+    control function, plugins added in Settings, etc. One function uses only
+    one switch for control.
+
+    Switch Type Example:
+    Bool:config_support_xxx
+    <bool name="config_support_networkRate" translatable="false">true</bool>
+    Plugin:config_plugin_xxx
+    <string name="config_plugin_disableDatausage" translatable="false">plugin.sprd.disabledatausage.AddonDisableDataUsage</string>
+    Value:config_xxx
+    <integer name="config_wifiSupplicantScanInterval" translatable="false">15000</integer>
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- New Feature:Scheduled Power on, off-->
+    <bool name="config_support_scheduledPowerOnOff" translatable="false">true</bool>
+
+    <!-- Cp2 info display controller. true show; false hide -->
+    <bool name="config_support_showcp2info" translatable="false">true</bool>
+
+    <!-- Restore factory settings when battery power is low, should popup a prompt message -->
+    <bool name="config_support_lowBatteryFactoryResetPrompt" translatable="false">true</bool>
+
+    <!-- Whether to enable default Camera/Email/Gallery/Music settings -->
+    <bool name="config_support_defaultCameraApps" translatable="false">true</bool>
+    <bool name="config_support_defaultEmailApps" translatable="false">true</bool>
+    <bool name="config_support_defaultGalleryApps" translatable="false">true</bool>
+    <bool name="config_support_defaultMusicApps" translatable="false">true</bool>
+
+    <!-- -sprd add for audioprfoiel-->
+    <bool name="config_support_AudioProfile" translatable="false">true</bool>
+
+    <!-- PressBrightness is invisible if not config this plugin-->
+    <string name="feature_press_brightness_addon" translatable="false">plugin.sprd.pressbrightness.AddonPressBrightness</string>
+
+    <!-- Is the device capable of features in SmartControls.
+            true - support
+            false - unsupport
+         @{-->
+    <bool name="config_support_smartControls" translatable="false">true</bool>
+    <bool name="config_support_smartWake" translatable="false">true</bool>
+    <bool name="config_support_easyDial" translatable="false">true</bool>
+    <bool name="config_support_easyAnswer" translatable="false">true</bool>
+    <bool name="config_support_handsfreeSwitch" translatable="false">true</bool>
+    <bool name="config_support_smartCallRecorder" translatable="false">true</bool>
+    <bool name="config_support_easyBell" translatable="false">true</bool>
+    <bool name="config_support_muteIncomingCalls" translatable="false">true</bool>
+    <bool name="config_support_playControl" translatable="false">true</bool>
+    <bool name="config_support_musicSwitch" translatable="false">true</bool>
+    <bool name="config_support_lockMusicSwitch" translatable="false">true</bool>
+    <bool name="config_support_easyStart" translatable="false">false</bool>
+    <bool name="config_support_muteAlarms" translatable="false">true</bool>
+    <bool name="config_support_shakeToSwitch" translatable="false">true</bool>
+    <bool name="config_support_quickBrowse" translatable="false">true</bool>
+    <bool name="config_support_easyClearMemory" translatable="false">false</bool>
+    <bool name="config_support_touchDisable" translatable="false">true</bool>
+    <bool name="config_support_smartBell" translatable="false">true</bool>
+    <bool name="config_support_powerSaving" translatable="false">true</bool>
+    <!-- @} -->
+
+    <!-- Show network real-time rate
+        true - show
+        false - hide
+     -->
+    <bool name="config_support_networkRate" translatable="false">true</bool>
+
+    <!-- SPRD: support GPS cmcc feature plugin BEG -->
+    <string name="feature_location_gps" translatable="false">plugin.sprd.location.GpsAddon</string>
+    <!-- support GPS cmcc feature plugin END -->
+
+    <!-- Show Ram
+         true - show
+         false - hide
+         -->
+    <bool name="config_support_showRam" translatable="false">true</bool>
+    
+    <!-- SPRD: 886466 Support Owner Info Length Limited-->
+    <string name="feature_limit_ownerinfo_length_addon" translatable="false">plugin.sprd.limitownerinfolength.LimitOwnerInfoLength</string>
+    
+    <!-- customized build number controller. ture, show the Special build number.false by default -->
+    <bool name="config_support_customizedBuildNumber" translatable="false">false</bool>
+
+    <!-- colorTemperatureAdjusting is invisible if not config this plugin-->
+    <string name="config_plugin_colorTemperatureAdjusting" translatable="false">plugin.sprd.pr.AddonColorTemperatureAdjusting</string>
+
+    <!-- LowResolutionPowerSaving is invisible if not config this plugin-->
+    <string name="config_plugin_lowResolutionPowerSaving" translatable="false">plugin.sprd.sr.AddonLowResolutionPowerSaving</string>
+
+    <!-- Show network real-time rate
+         true - show
+         false - hide
+         -->
+    <bool name="config_support_otaupdate" translatable="false">true</bool>
+</resources>

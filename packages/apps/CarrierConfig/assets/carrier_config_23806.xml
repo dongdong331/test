@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="default_vm_number_string">+4531133333</string>
+        <string name="default_vm_number_roaming_string">+4531133333</string>
+        <boolean name="editable_voicemail_number_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>

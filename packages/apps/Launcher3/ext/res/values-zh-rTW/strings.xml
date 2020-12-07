@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+* Copyright (C) 2013 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--SPRD Add for unreadNotifier function  start-->
+    <string name="unread_notifier_title">未讀標記</string>
+    <string name="unread_call">電話</string>
+    <string name="unread_sms">簡訊</string>
+    <string name="unread_email">電子郵件</string>
+    <string name="unread_calendar">日曆</string>
+    <string name="unread_hint">缺乏必要的<xliff:g id="unread_type">%1$s</xliff:g>許可權，請先申請權限。</string>
+    <string name="app_list_preference_none">請選擇壹個應用</string>
+    <string name="pref_missed_call_count_title">未接來電</string>
+    <string name="pref_missed_call_count_summary">請選擇壹個應用以顯示未接來電個數</string>
+    <string name="pref_unread_sms_count_title">未讀訊息</string>
+    <string name="pref_unread_sms_count_summary">請選擇壹個應用以顯示未讀訊息個數</string>
+
+    <string name="pref_unread_email_count_title">未讀電子郵件</string>
+    <string name="pref_unread_email_count_summary">請選擇壹個應用以顯示未讀郵件個數</string>
+    <string name="pref_unread_calendar_count_title">未讀日曆事件</string>
+    <string name="pref_unread_calendar_count_summary">請選擇壹個應用以顯示未讀日曆事件計數</string>
+    <string name="selected_text">已選擇</string>
+    <!--SPRD Add for unreadNotifier function  end-->
+    <string name="dynamic_icon_title">"動態圖示"</string>
+
+    <!-- Add for circular slide -->
+    <string name="allow_circular_sliding_title">桌面循環滑動</string>
+    <string name="allow_circular_sliding_summary">開啟負一屏不允許循環滑動</string>
+
+    <!-- SPRD Add for one finger pull down feature -->
+    <string name="pull_down_action_pref_title">下拉手勢</string>
+    <string name="pull_down_do_nothing">無動作</string>
+    <string name="pull_down_notification">顯示通知</string>
+    <string name="pull_down_search">開啟搜尋</string>
+
+    <!-- UNISOC: add for single layer -->
+    <string name="home_screen_style_title">桌面樣式</string>
+    <string name="home_screen_style_single">單層</string>
+    <string name="home_screen_style_dual">雙層</string>
+    <string name="home_screen_style_notification">正在套用桌面樣式變更</string>
+
+    <!-- UNISOC Add for folder icon model -->
+    <string name="folder_icon_model_pref_title">資料夾圖標樣式</string>
+    <string name="auto_model">自适应</string>
+    <string name="annular_model">環形</string>
+    <string name="grid_model">網格</string>
+
+    <!-- Add for desktop grid customization -->
+    <string name="desktop_grid">"桌面網格"</string>
+    <string name="rows">"行"</string>
+    <string name="columns">"列"</string>
+    <string name="desktop_grid_override_progress">"正在套用桌面網格變更"</string>
+</resources>

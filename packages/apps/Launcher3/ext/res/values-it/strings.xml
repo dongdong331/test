@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"Notifica non letta"</string>
+<string name="unread_call">"Telefono"</string>
+<string name="unread_sms">"SMS"</string>
+<string name="unread_email">"Email"</string>
+<string name="unread_calendar">"Calendario"</string>
+<string name="unread_hint">"Manca autorizzazione <xliff:g id="unread_type">%1$s</xliff:g> obbligatoria, richiedere innanzitutto l\'autorizzazione."</string>
+<string name="app_list_preference_none">"Selezionare un\'app."</string>
+<string name="pref_missed_call_count_title">"Chiamata persa"</string>
+<string name="pref_missed_call_count_summary">"Selezionare un\'app del telefono, visualizzare il numero di chiamate perse su di essa"</string>
+<string name="pref_unread_sms_count_title">"Messaggio non letto"</string>
+<string name="pref_unread_sms_count_summary">"Selezionare un\'app SMS, visualizzare il numero di messaggi non letti su di essa"</string>
+<string name="pref_unread_email_count_title">"E-mail non letta"</string>
+<string name="pref_unread_email_count_summary">"Selezionare un\'app E-mail, visualizzare il numero di messaggi di posta non letti su di essa"</string>
+<string name="pref_unread_calendar_count_title">"Calendario non letto"</string>
+<string name="pref_unread_calendar_count_summary">"Selezionare un\'app Calendario, visualizzare il numero di eventi calendario non letti su di essa"</string>
+<string name="selected_text">Selezionata</string>
+<string name="dynamic_icon_title">"Icona dinamica"</string>
+<string name="allow_circular_sliding_title">"Loop schermata Home"</string>
+<string name="allow_circular_sliding_summary">"L\'impostazione Pagina sinistra del contenuto personalizzato non consente il loop schermata Home"</string>
+</resources>

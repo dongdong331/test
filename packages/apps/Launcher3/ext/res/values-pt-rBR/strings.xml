@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"Indicador não lido"</string>
+    <string name="unread_call">"Telefone"</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">"E-mail"</string>
+    <string name="unread_calendar">"Calendário"</string>
+    <string name="unread_hint">"Permissão requerida <xliff:g id="unread_type">%1$s</xliff:g> permissão, por favor solicite permissão primeiro."</string>
+    <string name="app_list_preference_none">"Por favor, selecione um app."</string>
+    <string name="pref_missed_call_count_title">"Chamada perdida"</string>
+    <string name="pref_missed_call_count_summary">"Selecione um aplicativo do telefone, exibir o número de chamadas perdidas nele"</string>
+    <string name="pref_unread_sms_count_title">"Mensagem não lida"</string>
+    <string name="pref_unread_sms_count_summary">"Selecione um aplicativo de SMS, exibir o número de mensagens não lidas"</string>
+    <string name="pref_unread_email_count_title">"E-mail não lido"</string>
+    <string name="pref_unread_email_count_summary">"Selecionar um app de e-mail, visualizar o número de e-mails não lidos"</string>
+    <string name="pref_unread_calendar_count_title">"Eventos não lidos"</string>
+    <string name="pref_unread_calendar_count_summary">"Selecionar um app de calendário, visualizar o número de eventos do calendário não lidos"</string>
+    <string name="selected_text">"Selecionado"</string>
+    <string name="dynamic_icon_title">"Ícone dinâmico"</string>
+    <string name="allow_circular_sliding_title">"Ecrã inicial contínuo"</string>
+    <string name="allow_circular_sliding_summary">"Se houver uma página personalizada à esquerda não permitir o loop da tela inicial"</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"Непрочитана мітка"</string>
+    <string name="unread_call">"Тел."</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">"E-mail"</string>
+    <string name="unread_calendar">"Календар"</string>
+    <string name="unread_hint">"Бракує дозволу <xliff:g id="unread_type">%1$s</xliff:g>, спочатку отримайте дозвіл."</string>
+    <string name="app_list_preference_none">"Виберіть програму."</string>
+    <string name="pref_missed_call_count_title">"Пропущ. виклик"</string>
+    <string name="pref_missed_call_count_summary">"Вибрати програму "Телефон", показати в ній кількість пропущених викликів"</string>
+    <string name="pref_unread_sms_count_title">"Непрочитане повідомлення"</string>
+    <string name="pref_unread_sms_count_summary">"Вибрати програму "Повідомлення", показати в ній кількість непрочитаних повідомлень"</string>
+    <string name="pref_unread_email_count_title">"Непрочитані листи"</string>
+    <string name="pref_unread_email_count_summary">"Вибрати програму "Пошта", показати в ній кількість непрочитаних листів"</string>
+    <string name="pref_unread_calendar_count_title">"Непрочитаний календар"</string>
+    <string name="pref_unread_calendar_count_summary">"Вибрати програму "Календар", показати в ній кількість непрочитаних подій у календарі"</string>
+    <string name="selected_text">обрани</string>
+    <string name="dynamic_icon_title">"Динамічна іконка"</string>
+    <string name="allow_circular_sliding_title">"Замкнений режим відображення основного екрана"</string>
+    <string name="allow_circular_sliding_summary">"Налаштування лівої сторінки спеціального вмісту не дозволяє встановити замкнений режим відображення основного екрана"</string>
+</resources>

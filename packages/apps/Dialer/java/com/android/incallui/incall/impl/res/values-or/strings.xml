@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incall_label_videocall">"ଭିଡିଓ ଡାକ"</string>
+<string name="incall_label_hold">"ହୋଲ୍‌ଡ୍‌"</string>
+<string name="incall_label_add_call">"କଲ୍‌ ଯୋଗକରନ୍ତୁ"</string>
+<string name="incall_label_mute">"ମୁକ"</string>
+<string name="incall_label_end_call">"କଲ୍ ସାରନ୍ତୁ"</string>
+<string name="incall_label_dialpad">"କୀବୋର୍ଡ"</string>
+<string name="incall_talkback_speaker_on">", ଅନ୍‍ ଅଛି"</string>
+<string name="incall_talkback_speaker_off">", ବନ୍ଦ ଅଛି"</string>
+<string name="incall_label_merge">"ମର୍ଜ୍‌"</string>
+<string name="incall_label_manage">"ଆଡ଼ମିନିଷ୍ଟ୍ରେଟିଭ୍‌"</string>
+<string name="a11y_description_incall_label_manage_content">"କଲର୍‍ ଙ୍କୁ ପ୍ରବନ୍ଧିତ କରନ୍ତୁ"</string>
+<string name="incall_label_swap">"ଅଦଳବଦଳ କରନ୍ତୁ"</string>
+<string name="incall_label_swap_sim"></string>
+<string name="incall_note_sent">"ନୋଟ୍ ପଠାଇ ଦିଆଯାଇଛି"</string>
+</resources>

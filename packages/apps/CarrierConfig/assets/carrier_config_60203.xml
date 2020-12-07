@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+<carrier_config>
+   <int name="mtu_config" value="1280" />
+</carrier_config>
+   <!-- SPRD: add for bug749870 & 757344 @{ -->
+   <carrier_config network_preferred="true">
+      <int name="networkRATPrefer" value="2" />
+      <string name="ecclist_nocard">122,123,180,129</string>
+      <string name="ecclist_withcard">122,123,180,129</string>
+      <string name="fake_ecclist_withcard">122,123,180</string>
+   </carrier_config>
+   <carrier_config>
+      <boolean name="support_send_ussd_over_vowifi" value="false"/>
+   </carrier_config>
+   <!-- @} -->
+   <!-- SPRD: add for bug754508 @{ -->
+   <carrier_config>
+      <boolean name="support_show_open_network_dialog" value="false"/>
+   </carrier_config>
+   <!-- @} -->
+</carrier_config_list>

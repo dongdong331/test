@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"Bedž za nepročitane"</string>
+<string name="unread_call">"Телефон"</string>
+<string name="unread_sms">"SMS"</string>
+<string name="unread_email">"имејл"</string>
+<string name="unread_calendar">"Календар"</string>
+<string name="unread_hint">"Nedostaje potrebna <xliff:g id="unread_type">%1$s</xliff:g>dozvola, prvo primenite dozvolu."</string>
+<string name="app_list_preference_none">"Izaberite aplikaciju."</string>
+<string name="pref_missed_call_count_title">"Пропуштен позив"</string>
+<string name="pref_missed_call_count_summary">"Izaberite aplikaciju Telefon, prikažite broj propuštenih poziva u njoj"</string>
+<string name="pref_unread_sms_count_title">"Nepročitana poruka"</string>
+<string name="pref_unread_sms_count_summary">"Izaberite SMS aplikaciju, prikažite broj nepročitanih poruka u njoj"</string>
+<string name="pref_unread_email_count_title">"Nepročitana e-pošta"</string>
+<string name="pref_unread_email_count_summary">"Izaberite aplikaciju e.pošte, prikažite broj nepročitanih e-poruka u njoj"</string>
+<string name="pref_unread_calendar_count_title">"Nepročitan kalendar"</string>
+<string name="pref_unread_calendar_count_summary">"Izaberite aplikaciju Kalendar, prikažite broj nepročitanih događaja kalendara u njoj"</string>
+<string name="selected_text">"Одабрано"</string>
+<string name="dynamic_icon_title">"Dinamička ikona"</string>
+<string name="allow_circular_sliding_title">"Petlja početnog ekrana"</string>
+<string name="allow_circular_sliding_summary">"Ako ima podrazumevanu levu stranu, ne dozvolite petlju početnog ekrana"</string>
+</resources>

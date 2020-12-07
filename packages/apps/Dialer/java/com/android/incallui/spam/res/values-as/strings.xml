@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="non_spam_notification_title">"জানক <xliff:g id="number">%1$s</xliff:g>?"</string>
+<string name="spam_notification_title">"<xliff:g id="number">%1$s</xliff:g> এটা স্পাম কলাৰ আছিল নেকি?"</string>
+<string name="spam_notification_block_report_toast_text">"<xliff:g id="number">%1$s</xliff:g> ব্ল’ক কৰা হ’ল আৰু ক’লটো স্পাম বুলি ৰিপৰ্ট কৰা হ’ল|"</string>
+<string name="spam_notification_not_spam_toast_text">"স্পাম বুলি ৰিপৰ্ট <xliff:g id="number">%1$s</xliff:g> নকৰাৰ পৰা ক’ল আহিছে|"</string>
+<string name="spam_notification_non_spam_call_collapsed_text">"কন্টেক নম্বৰ সংযোজন কৰিবলৈ বা স্পাম নম্বৰ ব্ল’ক কৰিবলৈ টেপ কৰক"</string>
+<string name="spam_notification_non_spam_call_expanded_text">"এইয়া প্ৰথম বাৰৰ বাবে এই নম্বৰটোয়ে আপোনাক ক’ল কৰিছে | যদিহে এইয়া স্পাম আছিল, আপুনি এইয়া ব্ল’ক কৰিব পাৰে আৰু ৰিপৰ্ট কৰিব পাৰে |"</string>
+<string name="spam_notification_spam_call_collapsed_text">"স্পাম নহয় বুলি প্ৰতিবেদিত কৰিবলৈ আৰু অৱৰোধ নকৰিবলৈ টেপ কৰক"</string>
+<string name="spam_notification_report_spam_action_text">"ব্ল’ক আৰু ৰিপৰ্ট"</string>
+<string name="spam_notification_add_contact_action_text">"কণ্টেক্ট যোগ কৰক"</string>
+<string name="spam_notification_dialog_add_contact_action_text">"কনটেক্টসমূহত যোগ কৰক"</string>
+<string name="spam_notification_dialog_block_report_spam_action_text">"ব্ল’ক আৰু ৰিপৰ্ট স্পাম"</string>
+<string name="spam_notification_block_spam_action_text">"হয়, নম্বৰ অৱৰোধ কৰক"</string>
+<string name="spam_notification_action_dismiss">"নাকচ কৰক"</string>
+</resources>

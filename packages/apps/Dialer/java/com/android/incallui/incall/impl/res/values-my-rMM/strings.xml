@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incall_label_videocall">ဗီဒီယိုဖုန္းေခၚမႈ</string>
+<string name="incall_label_hold">"ေစာင့်ဆိုင်းေန"</string>
+<string name="incall_label_add_call">"ေခၚဆိုမႈေပါင္းထည့္မည္"</string>
+<string name="incall_label_mute">"အသံတိတ်"</string>
+<string name="incall_label_end_call">"ဖုန္းေခၚျပီးျပီ"</string>
+<string name="incall_label_dialpad">"ကီးဘုတ္"</string>
+<string name="incall_talkback_speaker_on">", ကို ဖြင့္ထားသည္"</string>
+<string name="incall_talkback_speaker_off">", ကို ပိတ္ထားသည္"</string>
+<string name="incall_label_merge">"ေပါင္းရန္"</string>
+<string name="incall_label_manage">"စီမံ"</string>
+<string name="a11y_description_incall_label_manage_content">"ေခၚဆိုသူမ်ားကို စီမံရန္"</string>
+<string name="incall_label_swap">"ေျပာင္းလဲ"</string>
+<string name="incall_label_swap_sim">"Change SIM"</string>
+<string name="incall_note_sent">"မွတ္စု ပို ့ျပီး"</string>
+</resources>

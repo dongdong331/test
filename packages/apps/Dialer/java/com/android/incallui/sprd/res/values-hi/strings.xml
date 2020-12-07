@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="hangupcall_note_title">"सावधान"</string>
+<string name="hangupcall_note_message">"इनकमिंग कॉल तीसरी कॉल है, यदि जवाब दिया, तो मौजूदा सक्रिय कॉल डिस्कनेक्ट हो जाएगी।"</string>
+<string name="unknown_area">"अज्ञात क्षेत्र"</string>
+<string name="exceed_limit">"कॉन्फरेंस कॉल्स की संख्या सीमा से अधिक हो गई है"</string>
+</resources>

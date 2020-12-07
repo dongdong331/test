@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!-- the vendor_ex.xml only exist when build overlay resource follow feature board.For example the CMCC product
+     path is vendor/sprd/feature_configs/cmcc/overlay/packages/apps/CarrierConfig/res/xml/vendor_ex.xml -->
+<carrier_config_list>
+    <carrier_config>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unknown_area">"अज्ञात क्षेत्र"</string>
+<string name="exceed_limit">"कन्फ्रेन्स कलहरूको संख्याले सीमा नाघ्यो"</string>
+<string name="hangupcall_note_title">"ध्यान"</string>
+<string name="hangupcall_note_message">"यो इनकमिङ कल तेस्रो कल हो, यदि यसको जवाफ दिइयो भने हालको सक्रिय कलको जडान विच्छेद हुनेछ।"</string>
+</resources>

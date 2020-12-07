@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"ድምጽ አልባ ጥሪን መገልበጫ"</string>
+<string name="flipping_summary">"የሚመጡትን ጥሪዎች ለመሸንሸን ስልኩን መገልበጥ"</string>
+<string name="main_card_slot">«ዋና ካርድ፦»</string>
+<string name="vice_card_slot">«ሁለተኛ ካርድ፦»</string>
+<string name="fade_in_title">"ፌዲ-ኢን መጥሪያ"</string>
+<string name="fade_in_summary">"በሚሰራ ግዜ፣ የሚመጣ ጥሪ ድምጽ መጠን ሊጨምር ይችላል፡፡"</string>
+<string name="dialog_make_call_airplane_mode_message">«ጥሪን ለማድረግ በመጀመሪያ የአውሮፕላን ሁነታን ያጥፉ።»</string>
+</resources>

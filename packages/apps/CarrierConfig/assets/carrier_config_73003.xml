@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="ecclist_withcard">133@1,112@1,911@1,131@2,132@4,137@8</string>
+        <string name="fake_ecclist_withcard">134</string>
+        <!-- SPRD: add for bug1023964 -->
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="support_show_wifi_calling_preference" value="false"/>
+        <boolean name="separate_setting_for_wfc_volte" value="false" />
+        <boolean name="support_send_ss_over_vowifi_with_airplane" value="true"/>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">133@1,112@1,911@1,131@2,132@4,137@8</string>
+        <string name="ecclist_withcard">133@1,112@1,911@1,131@2,132@4,137@8</string>
+        <string name="fake_ecclist_withcard">134</string>
+    </carrier_config>
+</carrier_config_list>

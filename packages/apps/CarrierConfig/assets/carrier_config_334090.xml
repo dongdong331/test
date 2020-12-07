@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="skip_cf_fail_to_disable_dialog_bool" value="true" />
+        <string name="carrier_name_string">AT&amp;T</string>
+        <boolean name="hspap_show_4g" value="true" />
+        <boolean name="separate_setting_for_wfc_volte" value="false" />
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">123@1</string>
+        <string name="ecclist_withcard">123@1</string>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Added by faceid begin -->
+    <string name="face_unlock_set_unlock_pattern" msgid="4939057588092120368">"人臉 + 圖案"</string>
+    <string name="face_unlock_set_unlock_pin" msgid="8010746824051056986">"人臉 + PIN 碼"</string>
+    <string name="face_unlock_set_unlock_password" msgid="7351131075806338634">"人臉 + 密碼"</string>
+    <string name="security_settings_faceid_preference_title">"人臉識別"</string>
+    <string name="security_settings_faceid_enroll_onboard_title">人臉設定</string>
+    <string name="security_settings_faceid_enroll_onboard_message">"要使用您的人臉解鎖螢幕或確認購買交易，您需要："</string>
+    <string name="security_settings_faceid_enroll_onboard_message_1" >"設定備用螢幕鎖定方式"</string>
+    <string name="security_settings_faceid_enroll_onboard_message_2">"新增您的人臉"</string>
+    <string name="security_settings_faceid_enroll_setup_screen_lock" msgid="1195743489835505376">"設定螢幕鎖定"</string>
+    <string name="security_settings_faceid_enroll_introduction_title">"免責聲明"</string>
+    <string name="security_settings_faceid_enroll_introduction_message">"使用人臉識別前，請牢記以下事項：\n1.您的手機可能會被面貌、外形與您相近的人或物品解鎖。\n2.面部識別的安全性低於指紋、圖案密碼、數字密碼和自定字母數字密碼。\n3.在暗光、強光和逆光環境下，面部識別的解鎖成功率會有所降低。\n"</string>
+    <string name="security_settings_faceid_enroll_add_faceid_title">新增人臉</string>
+    <string name="security_settings_faceid_enroll_finish_title">"人臉已新增！"</string>
+    <string name="security_settings_faceid_preference_summary">"人臉已設定"</string>
+    <string name="security_settings_faceid_enroll_introduction_message_warning">"為更好地使用面部識別，請註意：\n1.錄入時，避免暗光、強光和逆光環境，確保錄入的面部圖像清晰。\n2.錄入成功後，點亮屏幕時即可通過面部識別解鎖。"</string>
+    <string name="faceid_enroll_button_next">"下壹步"</string>
+    <string name="security_settings_faceid_enroll_introduction_cancel">"取消"</string>
+    <string name="security_settings_faceid_enroll_introduction_continue">"繼續"</string>
+    <string name="security_settings_faceid_enroll_done">"完成"</string>
+    <string name="faceid_enroll_button_add">"再新增壹個"</string>
+    <string name="security_settings_faceid_enroll_finish_message">"註冊已完成，歡迎使用人臉解鎖功能!"</string>
+    <string name="faceid_add_title">"新增人臉"</string>
+    <string name="faceid_add_max">"您最多可以新增 <xliff:g id="COUNT">%d</xliff:g> 個人臉"</string>
+    <string name="security_settings_faceid_enroll_dialog_name_label">"名稱"</string>
+    <string name="security_settings_faceid_enroll_dialog_ok">"確定"</string>
+    <string name="security_settings_faceid_enroll_dialog_delete">"刪除"</string>
+    <string name="faceid_last_delete_title">"要移除註冊的人臉嗎？"</string>
+    <string name="faceid_last_delete_message">"您將無法使用人臉來解鎖手機、授權購買交易或登入應用。"</string>
+    <string name="faceid_last_delete_confirm">"是，移除"</string>
+    <string name="security_settings_faceid_enroll_disclaimer_lockscreen_disabled">"螢幕鎖定選項已停用。您仍然可以使用自己的人臉對購買交易和應用使用進行授權。"<annotation id="url">"了解詳情"</annotation></string> 
+    <string name="security_settings_faceid_enroll_disclaimer">"除了將手機解鎖，您還可以在購買物品時和登入應用時使用自己的人臉來驗證身份。"<annotation id="url">"了解詳情"</annotation></string>
+    <string name="security_settings_faceid_enroll_find_sensor_message">請保持雙眼註視手機螢幕，並輕微地上下轉動頭部以確保系統錄入足夠多的數據。</string>
+    <string name="security_settings_faceid_enroll_add_faceid_tips">請先保持正臉姿態，然後根據提示上下調整頭部。</string>
+    <string name="faceid_livenessmodepreference_title">活體檢測</string>
+    <string name="faceid_livenessmode_summary">開啟此功能，解鎖時需要眨眼睛以確保當前是本人而非照片或者其他物體試圖解鎖</string>
+    <string name="security_settings_faceid_switch_summary">人臉解鎖功能</string>
+    <string name="faceid_delete_title">刪除人臉數據</string>
+    <string name="faceid_Edit_title">重新錄入人臉</string>
+    <string name="faceid_enroll_timeout">錄入超時</string>
+    <string name="faceid_enroll_noface">未檢測到人臉</string>
+    <string name="faceid_enroll_unknown">未知錯誤</string>
+    <string name="faceid_enroll_left">請向左移動壹點</string>
+    <string name="faceid_enroll_right">請向右移動壹點</string>
+    <string name="faceid_enroll_up">請擡頭</string>
+    <string name="faceid_enroll_down">請低頭</string>
+    <string name="faceid_enroll_closer">請靠近壹點</string>
+    <string name="faceid_enroll_far_away">請遠離壹點</string>
+    <string name="faceid_enroll_keep_pos">不支援</string>
+    <string name="faceid_enroll_need_diffpose">請擡頭或低頭</string>
+    <string name="faceid_dock_forced_resizable">人臉識別無法在分屏模式下正常運行。</string>
+    <string name="faceid_brightness_preference_title">屏幕補光(Beta)</string>
+    <string name="faceid_brightness_summary">開啟此功能，在暗光環境下會提升屏幕亮度以提高錄入和解鎖的成功率</string>
+    <string name="faceid_enroll_multi_face">多張人臉</string>
+
+    <string name="face_enroll_info_ok">成功提取人臉特征</string>
+    <string name="face_enroll_info_noface">未檢測到人臉</string>
+    <string name="face_enroll_info_multi_face">檢測到多張人臉</string>
+    <string name="face_enroll_info_liveness">活體檢測失敗</string>
+    <string name="face_enroll_info_eyeclose">已閉眼</string>
+    <string name="face_enroll_info_occlusion">面部被遮擋</string>
+    <string name="face_enroll_info_blur">面部模糊</string>
+    <string name="face_enroll_info_outofimage">人臉在圖像外</string>
+    <string name="face_enroll_info_movingfast">面部移動過快</string>
+    <string name="face_enroll_info_ae_not_converged">請保證當前環境光線正常</string>
+    <string name="face_enroll_info_offsetpos">面部不在面板正中心</string>
+    <string name="face_enroll_info_far">面部距離太遠</string>
+    <string name="face_enroll_info_near">面部距離太近</string>
+    <string name="face_enroll_info_need_upangle">請擡頭</string>
+    <string name="face_enroll_info_need_downangle">請低頭</string>
+    <string name="face_enroll_info_needrightangle">面部需要向右偏轉</string>
+    <string name="face_enroll_info_needleftangle">面部需要向左偏轉</string>
+    <string name="face_enroll_info_needdiffpos">請擡頭或低頭</string>
+    <string name="face_enroll_info_abnormal">面部信息不正常</string>
+    <string name="face_enroll_info_save_error">面部信息保存失敗</string>
+    <!-- Added by faceid end -->
+</resources>

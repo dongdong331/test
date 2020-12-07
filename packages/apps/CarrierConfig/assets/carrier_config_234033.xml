@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="support_vowifi_emergency_call" value="true"/>
+        <boolean name="retry_ecc_vowifi" value="true"/>
+        <boolean name="deregister_vowifi_before_dial_ecc" value="true"/>
+    </carrier_config>
+
+</carrier_config_list>

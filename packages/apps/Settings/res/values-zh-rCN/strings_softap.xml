@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD:Bug #474425 Add for SoftAP/BT coexist feature -->
+    <string name="softap_need_mobile_data_enabled">"便携式WLAN热点需开启移动数据连接，可能会产生额外费用。"</string>
+    <string name="softap_bt_cannot_coexist">"蓝牙开启时便携式WLAN热点不可用，如果您想使用便携式WLAN热点请关闭蓝牙。"</string>
+    <string name="bt_softap_cannot_coexist">"便携式WLAN热点开启时蓝牙不可用，如果您想使用蓝牙请关闭便携式WLAN热点。"</string>
+    <!--Add for SoftAP/BT coexist Feature END -->
+
+    <!-- SPRD: Add for extends hotspot BGN -->
+    <string name="hotspot">WLAN热点</string>
+    <string name="hotspot_settings">设置WLAN热点</string>
+    <string name="hotspot_preference_title">WLAN热点设置及用户管理</string>
+    <string name="hotspot_connected_stations">已连接设备</string>
+    <string name="hotspot_no_connected_station">0 个已连接设备</string>
+    <string name="hotspot_blocked_stations">已阻止设备</string>
+    <string name="hotspot_no_blocked_station">0 个已阻止设备</string>
+    <string name="block">阻止</string>
+    <string name="unblock">解除阻止</string>
+    <string name="wifi_max_connect">最大连接数</string>
+    <string name="wifi_channel">WLAN 信道</string>
+    <string name="wifi_5g_channel">WLAN 5G 信道</string>
+    <string name="wifi_tether_connect_title">个已连接设备</string>
+    <string name="wifi_tether_block_title">个已封锁设备</string>
+    <string name="hotspot_add_blockedstations_limit">已阻止设备已达到最大限制，无法继续添加</string>
+    <string name="hotspot_mode">热点管理模式</string>
+    <string name="hotspot_whitelist_stations">白名单设备列表</string>
+    <string name="hotspot_no_whitelist_station">+ 手动添加白名单设备</string>
+    <string name="hotspot_whitelist">管理设备</string>
+    <string name="hotspot_whitelist_add">添加到白名单</string>
+    <string name="hotspot_whitelist_cancel">取消</string>
+    <string name="hotspot_offwhite">移除</string>
+    <string name="hotspot_name_txt">设备名称</string>
+    <string name="hotspot_mac_txt">MAC地址</string>
+    <string name="wifi_add_whitelist_error">添加失败，请输入正确的MAC地址</string>
+    <string name="wifi_add_whitelist_limit">添加失败，最大只支持添加8台设备</string>
+    <string name="wifi_add_whitelist_limit_error">添加失败，最大只支持添加%1$d台设备</string>
+    <string name="hotspot_wps_connect">WPS 连接</string>
+    <string name="hotspot_select_wps">选择 WPS 模式</string>
+    <string name="hotspot_wps_mode">WPS 模式</string>
+    <string name="hotspot_connect">连接</string>
+    <string name="hotspot_wps_pin">请输入PIN码</string>
+    <string name="hotspot_pin_error">无法连接，请输入正确的PIN码格式</string>
+    <string name="hotspot_pin_success">请点击连接按钮</string>
+    <!-- add for keep Wi-Fi hotspot on -->
+    <string name="soft_ap_sleep_policy_title">保持WLAN热点开启</string>
+    <string name="hotspot_hidden_ssid_title">隐藏SSID</string>
+    <string name="hotspot_hidden_ssid_summary">隐藏用于广播的热点 SSID</string>
+    <string name="hotspot_hidden_ssid_and_disable_wps_summary">隐藏用于广播的热点SSID，同时会禁止WPS功能</string>
+    <!-- SPRD: Add for extends hotspot END -->
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="videocall_remote_video_off">"ভিডিঅ’ অফ"</string>
+<string name="videocall_remote_video_on">"তেওঁলোকৰ ভিডিঅ’ অন"</string>
+<string name="videocall_remotely_held">"ক’ল অন হ’ল্ড"</string>
+<string name="videocall_remotely_resumed">"ক’ল অন ৰিজিউম"</string>
+</resources>

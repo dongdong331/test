@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <string name="ecclist_withcard">112,911</string>
+        <string name="fake_ecclist_withcard">113,117,118</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">112,911,113,117,118</string>
+        <string name="ecclist_withcard">112,911</string>
+        <string name="fake_ecclist_withcard">113,117,118</string>
+    </carrier_config>
+    <carrier_config>
+        <string name="carrier_name_string">Orange CAM</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

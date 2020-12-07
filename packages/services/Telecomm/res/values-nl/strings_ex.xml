@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"Flip naar stille oproep "</string>
+<string name="flipping_summary">"Flip de telefoon om inkomende oproep te stoppen"</string>
+<string name="main_card_slot">"Main Card:"</string>
+<string name="vice_card_slot">"Vice Card:"</string>
+<string name="fade_in_title">"Fade-in beltoon"</string>
+<string name="fade_in_summary">"Wanneer ingeschakeld, zal het inkomende oproep belvolume luider gezet worden."</string>
+<string name="dialog_make_call_airplane_mode_message">"Als u wilt bellen, moet u eerst de vliegtuig modus uitschakelen."</string>
+</resources>

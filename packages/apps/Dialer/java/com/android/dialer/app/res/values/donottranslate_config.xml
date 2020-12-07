@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<resources>
+
+  <!-- whether allow show call duration,
+  this config should be overlay in carrier overlay to change it -->
+  <bool name="config_allow_show_call_duration">true</bool>
+
+  <!-- SPRD: cmcc & reliance release show emergency call feature . -->
+  <bool name="allow_emergency_numbers_in_call_log">false</bool>
+
+  <!-- SPRD: add for bug877583 -->
+  <bool name="config_show_video_meeting_photo">false</bool>
+  <!--UNISOC: add for feature customized fast dial numer 892169 -->
+  <bool name="config_fastdial_number_customized">false</bool>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"Silenciar la trucada"</string>
+<string name="flipping_summary">"Poseu el telèfon cap per avall per a silenciar una trucada entrant"</string>
+<string name="main_card_slot">Targeta principal:</string>
+<string name="vice_card_slot">Targeta Vice:</string>
+<string name="fade_in_title">"To de trucada d\'intensitat creixent"</string>
+<string name="fade_in_summary">"Quan aquesta funció estigui activada, el to de la trucada anirà augmentant."</string>
+<string name="dialog_make_call_airplane_mode_message">"Per a fer una trucada cal desconnectar el mode avió."</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <string-array name="roaming_operator_string_array" num="1">
+            <item value="520"/>
+        </string-array>
+        <!-- UNISOC: add for Bug 1000675 -->
+        <boolean name="carrier_enable_cb_ba_all_and_pw_settings" value="true"/>
+    </carrier_config>
+    <!-- SPRD: add for bug 940933 @{ -->
+    <carrier_config network_preferred="true">
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    </carrier_config>
+    <!-- @} -->
+</carrier_config_list>

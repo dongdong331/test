@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="videocall_remote_video_off">"ဗီဒီယိုကို ပိတ္ထားသည္"</string>
+<string name="videocall_remote_video_on">"၎တို႔၏ ဗီဒီယိုကို ဖြင့္ထားသည္ "</string>
+<string name="videocall_remotely_held">"ဖုန္းေခၚဆိုမႈကို ထိန္းထားဆဲဲ"</string>
+<string name="videocall_remotely_resumed">"ဖုန္းေခၚဆိုမႈကို ဆက္ေျပာမည္"</string>
+</resources>

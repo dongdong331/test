@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="fdn_check_failure">"您只能向固定撥號號碼傳送訊息。"</string>
+    <string name="data_call_fdn_check_failure">"固定撥號功能已開啟，目前多媒體訊息無法傳送，請將*99#加入到固定撥號後重試。"</string>
+    <string name="smsc_fdn_check_failure">"FDN已開啟，短訊中心號碼不在FDN列表中,不能傳送。"</string>
+
+</resources>

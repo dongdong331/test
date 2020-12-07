@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="carrier_name_string">VodaCom</string>
+        <!-- SPRD: add for bug 928709 -->
+        <string name="wifi_calling_title">WiFi call</string>
+    </carrier_config>
+</carrier_config_list>

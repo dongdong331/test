@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxMessageSize" value="256000" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="support_show_wifi_calling_preference" value="false"/>
+        <boolean name="separate_setting_for_wfc_volte" value="false" />
+    </carrier_config>
+</carrier_config_list>

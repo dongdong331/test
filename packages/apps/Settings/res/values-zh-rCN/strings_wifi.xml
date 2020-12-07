@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPRD: add for wifi new features -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Broadcom, WAPI BGN-->
+    <string name="wifi_wapi_psk_type">"密码类型"</string>
+    <string name="wifi_wapi_as_certificate">"AS 证书"</string>
+    <string name="wifi_wapi_user_certificate">"用户证书"</string>
+    <string name="wifi_wapi_fail_to_init">"无法打开WAPI证书，\n证书可能是不可用的"</string>
+    <string name="wifi_wapi_fail_to_auth">"WAPI认证失败，\n请检查证书的有效性"</string>
+    <string name="wifi_wapi_cert_lost">"未找到正在连接的接入点的证书"</string>
+    <string name="wifi_security_wapi_psk_hexadecimal">"WAPI PSK 十六进制"</string>
+    <!-- Broadcom, WAPI END-->
+
+    <!-- SPRD: EAP SIM/AKA slot BGN-->
+    <string name="wifi_eap_sim_slots">"SIM 卡槽"</string>
+    <string name="wifi_eap_sim_slot1">"SIM 卡槽1"</string>
+    <string name="wifi_eap_sim_slot2">"SIM 卡槽2"</string>
+    <!-- SPRD: EAP SIM/AKA slot END -->
+
+    <!-- SPRD: cmcc wifi features BGN -->
+    <string name="cmcc_wifi_features">"移动定制项"</string>
+    <string name="trust_accesspoints_list">"信任接入点"</string>
+    <string name="unkown_accesspoints_list">"未知接入点"</string>
+
+    <string name="wifi_disconnect">"断开"</string>
+    <string name="wifi_netmask">"网络掩码"</string>
+    <string name="wifi_secured_first_item">"通过 <xliff:g>%1$s</xliff:g> 进行保护"</string>
+    <string name="wifi_secured_second_item">"，通过 <xliff:g>%1$s</xliff:g> 进行保护"</string>
+
+    <string name="mobile_to_wlan_policy_category">网络选择提示</string>
+    <string name="mobile_to_wlan_policy_title">"蜂窝网-&gt;WLAN重选"</string>
+    <string name="mobile_to_wlan_policy_auto">"自动重选"</string>
+    <string name="mobile_to_wlan_policy_manual">"手动重选"</string>
+    <string name="mobile_to_wlan_policy_ask">"总是询问"</string>
+
+    <string name="show_dialog_connect_to_cmcc_title">连接提示</string>
+    <string name="show_dialog_connect_to_cmcc_summary">显示已连接到中国移动WLAN的提示</string>
+    <string name="reset_wifi_policy_dialog_flag_title">恢复提示信息</string>
+    <string name="reset_wifi_policy_dialog_flag_toast_message">提示信息已恢复</string>
+
+    <string name="wifi_alarm_category_title">WLAN 定时设置</string>
+    <string name="wifi_connect_alarm_title">定时自动连接WLAN</string>
+    <string name="wifi_disconnect_alarm_title">定时断开WLAN开关</string>
+    <string name="wifi_alarm_time_title">设置时间</string>
+
+    <string name="wifi_trusted_ap_category">信任接入点及优先级</string>
+    <string name="wifi_move_ap_up">上移</string>
+    <string name="wifi_move_ap_down">下移</string>
+    <string name="wifi_save_update">保存</string>
+    <string name="trusted_ap_list_null">无信任接入点!</string>
+    <string name="mobile_to_wlan_popup_title">发现信任WLAN接入点</string>
+    <string name="mobile_to_wlan_popup">发现WLAN信号%1$s, 是否使用WLAN网络，使用该网络可能使部分数据业务中断</string>
+    <string name="network_disconnect_title">通知</string>
+    <string name="network_disconnect_message">WLAN网络已断开，\n是否改用移动网络继续上网? \n如果您没有订购数据业务套餐，这将产生一些费用。</string>
+    <string name="select_trusted_ap_access">以下是发现的信任接入点</string>
+    <string name="mobile_to_wlan_policy_error">设置蜂窝网出现问题</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">确定</string>
+    <string name="do_not_prompt_text">不再提示</string>
+    <string name="connect_to_cmcc_ap_message">已连接中国移动WLAN,继续使用有可能产生WLAN流量费用</string>
+    <string name="reset_wifi_policy_show_dialog_title">恢复提示信息</string>
+    <string name="reset_wifi_policy_show_dialog_toast_message">提示信息已恢复</string>
+    <string name="airplane_mode_wifi_notification">提示</string>
+    <string name="airplane_mode_wifi_notification_message">飞行模式下可以手动开启WLAN</string>
+    <string name="weak_wifi_signal_title">当前WLAN信号弱</string>
+    <string name="weak_wifi_signal_message">当前WLAN连接信号弱，是否选择其他接入点连接？正在使用的网络业务可能中断。\n如下是可连接的信任接入点：</string>
+    <string name="wifi_set_time_alarm_warning">WLAN自动连接与断开设置时间不能相同</string>
+    <!-- SPRD: cmcc wifi features END -->
+
+    <!-- SPRD: cucc wifi features BGN -->
+    <string name="network_preference_settings">网络管理</string>
+    <string name="network_type_choosen">优先选择连接的网络</string>
+    <!-- SPRD: cucc wifi features END -->
+
+    <!-- SPRD: add for BUG487742 -->
+    <string name="network_id_illegal_character">请输入有效的网络标识</string>
+
+    <!-- SPRD: add for wep BGN -->
+    <string name="key_index">"密钥索引"</string>
+    <string name="wep_password_tip_text">WEP类型请输入5，13，16位ASCII码字符或10，26，32位其他字符。</string>
+    <!-- SPRD: add for wep END -->
+
+    <!-- SPRD: add for auto roam function -->
+    <string name="wifi_auto_roam">自动漫游</string>
+
+    <string name="wifi_off_generic">已关闭</string>
+    <!--Menu option to Auto Join a WLAN-->
+    <string name="wifi_menu_autojoin">"自动连接"</string>
+
+</resources>

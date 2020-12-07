@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incall_on_hold">"ৰৈ থকা"</string>
+<string name="incall_dialing">"ডায়েলিং"</string>
+<string name="incall_conf_call">"কনফাৰেন্স কল"</string>
+<string name="incall_incoming_call">"ইনকামিং কল।"</string>
+<string name="incall_hanging_up">"ওলমি আছে"</string>
+<string name="incall_in_call">"কলত"</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="ecclist_withcard">19@1,15@6</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">19@1,15@6</string>
+        <string name="ecclist_withcard">19@1,15@6</string>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="audioroute_bluetooth">"ବ୍ଲୁଟୁଥ"</string>
+<string name="audioroute_speaker">"ସ୍ପିକର୍"</string>
+<string name="audioroute_phone">"ଫୋନ"</string>
+<string name="audioroute_headset">"ତାର ଲାଗିଥିବା ହେଡସେଟ୍"</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">1122</string>
+        <string name="fake_ecclist_withcard">1122</string>
+        <boolean name="always_dial_ecc_on_cs" value="true" />
+        <string name="fake_ecclist_withcard">114,115,117,1122,1217,1218,15,16,345</string>
+    </carrier_config>
+</carrier_config_list>

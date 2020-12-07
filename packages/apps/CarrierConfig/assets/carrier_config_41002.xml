@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">1122</string>
+        <string name="fake_ecclist_withcard">1122</string>
+    </carrier_config>
+</carrier_config_list>

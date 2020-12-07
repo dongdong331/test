@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"কল নীরব করতে উল্টে দিন"</string>
+<string name="flipping_summary">"ইনকামিং কলকে নীরব করতে ফোনটি উল্টে দিন"</string>
+<string name="main_card_slot"></string>
+<string name="vice_card_slot"></string>
+<string name="fade_in_title">"ফেড-ইন রিংগার"</string>
+<string name="fade_in_summary">"সক্ষম করা হলে, ইনকামিং কলের রিংগার ভলিউম বেড়ে যাবে।"</string>
+<string name="dialog_make_call_airplane_mode_message">"কল করতে, প্রথমে এয়ারপ্লেন মোডটি বন্ধ করুন।"</string>
+</resources>

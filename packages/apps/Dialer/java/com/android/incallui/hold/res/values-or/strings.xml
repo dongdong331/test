@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incall_on_hold">"ସ୍ଥଗିତ ରହିଛି"</string>
+<string name="incall_dialing">"ଡାଏଲ୍ କରୁଛି"</string>
+<string name="incall_conf_call">"କନଫରେନ୍ସ କଲ୍"</string>
+<string name="incall_incoming_call">"ଇନକମିଂ କଲ୍‌"</string>
+<string name="incall_hanging_up">"ହ୍ୟାଙ୍ଗ୍ ହୋଇଛି"</string>
+<string name="incall_in_call">"କଲ୍ ରେ ରହିଛି"</string>
+</resources>

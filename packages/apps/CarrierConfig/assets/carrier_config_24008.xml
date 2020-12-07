@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxImageHeight" value="1944"/>
+        <int name="maxMessageSize" value="614400"/>
+        <int name="maxImageWidth" value="2592"/>
+        <string name="default_vm_number_string">888</string>
+        <string name="default_vm_number_roaming_string">+46708222 888</string>
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+        <boolean name="support_send_ss_over_vowifi_with_airplane" value="true" />
+        <!--UNISOC: port for porting bug1222252-->
+        <boolean name="hide_video_call_forward" value="true"/>
+        <boolean name="show_cb_facility_baicr" value="false"/>
+    </carrier_config>
+</carrier_config_list>

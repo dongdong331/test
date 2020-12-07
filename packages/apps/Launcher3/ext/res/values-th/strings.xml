@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"เครื่องหมายที่ยังไม่ได้อ่าน"</string>
+    <string name="unread_call">"โทรศัพท์"</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">"อีเมล"</string>
+    <string name="unread_calendar">"ปฏิทิน"</string>
+    <string name="unread_hint">"ไม่มีการอนุญาต <xliff:g id="unread_type">%1$s</xliff:g> ที่จำเป็นต้องใช้ โปรดปรับใช้การอนุญาตก่อน"</string>
+    <string name="app_list_preference_none">"โปรดเลือกแอพใดแอพหนึ่ง"</string>
+    <string name="pref_missed_call_count_title">"สายที่ไม่ได้รับ"</string>
+    <string name="pref_missed_call_count_summary">"เลือกแอพ \'โทรศัพท์\' และแสดงจำนวนสายที่ไม่ได้รับบนแอพ"</string>
+    <string name="pref_unread_sms_count_title">"ข้อความที่ยังไม่ได้อ่าน"</string>
+    <string name="pref_unread_sms_count_summary">"เลือกแอพ SMS และแสดงจำนวนข้อความที่ยังไม่ได้อ่านบนแอพ"</string>
+    <string name="pref_unread_email_count_title">"อีเมลที่ยังไม่ได้อ่าน"</string>
+    <string name="pref_unread_email_count_summary">"เลือกแอพอีเมล และแสดงจำนวนอีเมลที่ยังไม่ได้อ่านบนแอพ"</string>
+    <string name="pref_unread_calendar_count_title">"ปฏิทินที่ยังไม่ได้อ่าน"</string>
+    <string name="pref_unread_calendar_count_summary">"เลือกแอพปฏิทิน และแสดงเหตุการณ์ในปฏิทินที่ยังไม่ได้อ่าน"</string>
+    <string name="selected_text">"เลือก"</string>
+    <string name="dynamic_icon_title">"ไอคอนแบบไดนามิก"</string>
+    <string name="allow_circular_sliding_title">"การวนรอบบนหน้าจอหน้าหลัก"</string>
+    <string name="allow_circular_sliding_summary">"การตั้งค่า \'กำหนดเนื้อหาของหน้าจอด้านซ้ายเอง\' ไม่อนุญาตให้ใช้การวนรอบบนหน้าจอหน้าหลัก"</string>
+</resources>

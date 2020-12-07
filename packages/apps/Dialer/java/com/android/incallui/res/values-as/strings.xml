@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="phoneAppLabel" product="default">"ফোন"</string>
+<string name="wait_prompt_str">"নিম্নোক্ত টোনসমূহ পঠিয়াব নে?\n"</string>
+<string name="pause_prompt_yes">"হয়"</string>
+<string name="pause_prompt_no">"নহয়"</string>
+<string name="notification_dialing">"ডায়েলিং"</string>
+<string name="notification_ongoing_call">"চলি থকা কল"</string>
+<string name="notification_ongoing_video_call">"চলি থকা ভিডিঅ\' কল"</string>
+<string name="notification_ongoing_paused_video_call">"চলি থকা ভিডিঅ\' কল- ভিডিঅ’ বিৰাম কৰা হ’ল"</string>
+<string name="notification_ongoing_work_call">"বহিৰ্মুখী ৱৰ্ক কল"</string>
+<string name="notification_ongoing_call_wifi_template">"চলি আছে <xliff:g id="brand_name">%1$s</xliff:g>"</string>
+<string name="notification_incoming_call_wifi_template">"অন্তৰ্মুখী <xliff:g id="brand_name">%1$s</xliff:g>"</string>
+<string name="notification_call_wifi_brand">"Wi-Fi কল"</string>
+<string name="notification_call_wifi_work_brand">"Wi-Fi ৱৰ্ক কল"</string>
+<string name="notification_on_hold">"ৰৈ থকা"</string>
+<string name="notification_incoming_call">"ইনকামিং কল।"</string>
+<string name="notification_incoming_video_call">"ইনকামিং ভিডিঅ’ কল"</string>
+<string name="notification_incoming_call_mutli_sim">"<xliff:g id="sim_label" example="SIM 1">%1$s</xliff:g>-ৰ মাধ্যমত অন্তৰ্মুখী কল"</string>
+<string name="notification_incoming_call_with_photo">"ফটোৰে সৈতে ইনকামিং ক’ল"</string>
+<string name="notification_incoming_call_with_message">"মেছেজেৰে সৈতে ইনকামিং ক’ল"</string>
+<string name="notification_incoming_call_with_location">"অৱস্থানৰে সৈতে ইনকামিং ক’ল"</string>
+<string name="notification_incoming_call_with_photo_message">"ফটো আৰু মেছেজেৰে সৈতে ইনকামিং ক’ল"</string>
+<string name="notification_incoming_call_with_photo_location">"ফটো আৰু অৱস্থানৰে সৈতে ইনকামিং ক’ল"</string>
+<string name="notification_incoming_call_with_message_location">"মেছেজে আৰু অৱস্থানৰে সৈতে ইনকামিং ক’ল"</string>
+<string name="notification_incoming_call_with_photo_message_location">"ফটো, মেছেজে আৰু অৱস্থানৰে সৈতে ইনকামিং ক’ল"</string>
+<string name="notification_incoming_call_attachments">"সংলগ্নৰে সৈতে ইনকামিং ক’ল"</string>
+<string name="important_notification_incoming_call">"গুৰুত্বপূৰ্ণ ইনকামিং ক’ল"</string>
+<string name="important_notification_incoming_call_with_photo">"ফটোৰে সৈতে গুৰুত্বপূৰ্ণ ইনকামিং ক’ল"</string>
+<string name="important_notification_incoming_call_with_message">"মেছেজেৰে সৈতে গুৰুত্বপূৰ্ণ ইনকামিং ক’ল"</string>
+<string name="important_notification_incoming_call_with_location">"অৱস্থানৰে সৈতে গুৰুত্বপূৰ্ণ ইনকামিং ক’ল"</string>
+<string name="important_notification_incoming_call_with_photo_message">"ফটো আৰু মেছেজেৰে সৈতে গুৰুত্বপূৰ্ণ ইনকামিং ক’ল"</string>
+<string name="important_notification_incoming_call_with_photo_location">"ফটো আৰু অৱস্থানৰে সৈতে গুৰুত্বপূৰ্ণ ইনকামিং ক’ল"</string>
+<string name="important_notification_incoming_call_with_message_location">"মেছেজে আৰু অৱস্থানৰে সৈতে গুৰুত্বপূৰ্ণ ইনকামিং ক’ল"</string>
+<string name="important_notification_incoming_call_with_photo_message_location">"ফটো, মেছেজে আৰু অৱস্থানৰে সৈতে গুৰুত্বপূৰ্ণ ইনকামিং ক’ল"</string>
+<string name="important_notification_incoming_call_attachments">"সংলগ্নসমূহৰে সৈতে গুৰুত্বপূৰ্ণ ইনকামিং ক’ল"</string>
+<string name="notification_incoming_work_call">"অন্তৰ্মুখী ৱৰ্ক কল"</string>
+<string name="notification_incoming_spam_call">"ইনকামিং সন্দেহযুক্ত স্পাম ক’ল"</string>
+<string name="notification_requesting_video_call">"অন্তৰ্গামী ভিডিঅ\' অনুৰোধ"</string>
+<string name="notification_action_answer">"উত্তৰ দিয়ক"</string>
+<string name="notification_action_end_call">"ওলোমাই ৰাখক"</string>
+<string name="notification_action_answer_video">"ভিডিঅ’"</string>
+<string name="notification_action_answer_voice">"ভয়েচ"</string>
+<string name="notification_action_accept">"গ্ৰহণ"</string>
+<string name="notification_action_dismiss">"নাকচ"</string>
+<string name="notification_action_speaker_on">"স্পীকাৰ অন"</string>
+<string name="notification_action_speaker_off">"স্পীকাৰ অফ"</string>
+<string name="notification_action_mute_on">"নিঃশব্দ "</string>
+<string name="notification_action_mute_off">"অনিঃশব্দ"</string>
+<string name="notification_external_call">অন্য ডিভাইচত অনগয়িং ক’ল"</string>
+<string name="notification_external_video_call">অন্য ডিভাইচত অনগয়িং ভিডিঅ’ ক’ল"</string>
+<string name="notification_take_call">"টেক ক’ল"</string>
+<string name="notification_take_video_call">"টেক ভিডিঅ’ ক’ল"</string>
+<string name="incall_error_supp_service_unknown">"সেৱা সমৰ্থিত নহয়।"</string>
+<string name="goPrivate">"ব্যক্তিগত হওঁক"</string>
+<string name="emergency_call_dialog_number_for_display">"জুৰীকালীন নম্বৰ"</string>
+<string name="child_number">"মাধ্যমে<xliff:g example="650-555-1212" id="child_number">%s</xliff:g>"</string>
+<string name="callFailed_simError">"SIM নাই বা SIM ত্ৰুটি"</string>
+<string name="conference_caller_disconnect_content_description">"কল সমাপ্ত কৰক"</string>
+<string name="conference_call_name">"কনফাৰেন্স কল"</string>
+<string name="generic_conference_call_name">"কলত"</string>
+<string name="video_call_wifi_to_lte_handover_toast">"মোবাইল ডেটা ব্যৱহাৰ কৰি ক’ল বাহাল ৰখা..."</string>
+<string name="video_call_lte_to_wifi_failed_title">"Wi-Fi নেটৱৰ্কলৈ চুইটচ কৰিব নোৱাৰি"</string>
+<string name="video_call_lte_to_wifi_failed_message">"ভিডিঅ’ ক’ল মোবাইল নেটৱৰ্কতে থাকিব | মানদণ্ডনীয় ডেটা মাচুল প্ৰযোজ্য হ’ব|"</string>
+<string name="video_call_lte_to_wifi_failed_do_not_show">"অনুগ্ৰহ কৰি ইয়াক পুনৰ নেদেখুৱাব"</string>
+<string name="card_title_in_call">"কলত"</string>
+<string name="card_title_conf_call">"কনফাৰেন্স কল"</string>
+<string name="notification_action_reject_with_message">"SMS প্ৰত্যাখান"</string>
+<string name="fail_change_video_due_to_bgcall">"ইয়াত বেকগ্ৰাউণ্ড ক’ল আছে, বৰ্তমানৰ ক’লটি ভিডিঅ’ ক’ললৈ সলনি কৰাত ব্যৰ্থ হ’ল|"</string>
+<string name="low_battery_warning_title">"নিম্ন বেটাৰী সঁকিয়নি"</string>
+<string name="low_battery_warning_message">"আপোনাৰ বেটাৰীৰ স্তৰ 15%-ৰ তললৈ গৈছে। আপুনি ভিডিঅ\' কলটো অব্যাহত ৰাখিব বিচাৰে নে ভইচ কললৈ ৰূপান্তৰ কৰিব বিচাৰে?"</string>
+<string name="low_battery_continue_video_call">"হয়"</string>
+<string name="low_battery_convert_to_voice_call">"ৰূপান্তৰ কৰক"</string>
+<string name="low_battery_warning_media_alert_message">"আপোনাৰ বেটাৰীৰ স্তৰ 15% ৰ তলত আছে। অনুগ্ৰহ কৰি স্বীকাৰ কৰক বা অস্বীকাৰ কৰক পচন্দ কৰক।"</string>
+<string name="remote_request_change_accept">"গ্ৰহণ"</string>
+<string name="remote_request_change_reject">"অস্বীকাৰ কৰক"</string>
+</resources>

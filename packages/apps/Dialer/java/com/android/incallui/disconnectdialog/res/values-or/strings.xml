@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incall_enable_wifi_calling_button">"ଏନାବଲ୍"</string>
+<string name="video_call_not_available_title">"ଭିଡିଓ କଲିଂ ବର୍ତ୍ତମାନ ଉପଲବ୍ଧ ନାହିଁ"</string>
+<string name="video_call_not_available_message">"ଆଉଥରେ କଲ୍‍ କରିବାକୁ ପଛରେ ଚେଷ୍ଟା କରନ୍ତୁ କିମ୍ବା କଲ୍‍ କୁ ଭଏସ କଲ୍‍ ଭାବେ ଚାଲୁ ରଖନ୍ତୁ|"</string>
+<string name="voice_call">"ଧ୍ୱନି ଡାକ"</string>
+</resources>

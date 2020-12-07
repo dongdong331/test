@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incall_on_hold">"ကိုင္ထားလွ်င္"</string>
+<string name="incall_dialing">"ေခၚဆိုေနဆဲ"</string>
+<string name="incall_conf_call">"ကြန္ဖရင့္ ဖုန္း"</string>
+<string name="incall_incoming_call">"ဖုန်းအဝင်"</string>
+<string name="incall_hanging_up">"ဖုန္းခ်ေနသည္"</string>
+<string name="incall_in_call">"ဖုန္းေျပာေနသည္"</string>
+</resources>

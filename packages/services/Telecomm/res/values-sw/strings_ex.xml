@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"Geuza kunyamazisha simu"</string>
+<string name="flipping_summary">"Geuza simu kunyamazisha simu inayoingia"</string>
+<string name="main_card_slot">"Kadi Kuu:"</string>
+<string name="vice_card_slot">"Kadi ya Pili:"</string>
+<string name="fade_in_title">"Kengele ya kufifia kwa ndani"</string>
+<string name="fade_in_summary">"Wakati itawezeshwa, sauti ya kengele ya simu itaogezeka."</string>
+<string name="dialog_make_call_airplane_mode_message">"Kupiga simu, kwanza zima hali ya ndege."</string>
+</resources>

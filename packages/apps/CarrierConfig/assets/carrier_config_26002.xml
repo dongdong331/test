@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="display_hd_audio_property_bool" value="false" />
+        <string name="default_vm_number_string">+48602950000</string>
+        <string name="default_vm_number_roaming_string">+48602950000</string>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true"/>
+        <string name="carrier_name_string">T-Mobile.pl</string>
+    </carrier_config>
+</carrier_config_list>

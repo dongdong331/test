@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="default_vm_number_string">333</string>
+        <string name="default_vm_number_roaming_string">+46735333333</string>
+        <boolean name="support_send_ss_over_vowifi_with_airplane" value="true"/>
+        <!--UNISOC: port for porting bug1210932-->
+        <boolean name="hide_video_call_forward" value="true"/>
+    </carrier_config>
+</carrier_config_list>

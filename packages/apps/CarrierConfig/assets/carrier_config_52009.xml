@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- UNISOC: add for Bug 1000675 -->
+        <boolean name="carrier_enable_cb_ba_all_and_pw_settings" value="true"/>
+    </carrier_config>
+</carrier_config_list>

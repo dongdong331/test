@@ -1,0 +1,5 @@
+<carrier_config_list>
+    <carrier_config>
+        <string name="default_vm_number_string">186</string>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="support_send_ussd_over_vowifi" value="false" />
+    </carrier_config>
+    <carrier_config>
+        <string name="ecclist_withcard">999@1,997@2,998@4</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">999@1,997@2,998@4</string>
+        <string name="ecclist_withcard">999@1,997@2,998@4</string>
+    </carrier_config>
+</carrier_config_list>

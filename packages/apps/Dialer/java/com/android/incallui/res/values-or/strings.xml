@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="phoneAppLabel" product="default">"ଫୋନ"</string>
+<string name="wait_prompt_str">"ନିମ୍ନଲିଖିତ ଟୋନ୍ ଗୁଡ଼ିକ ପଠାଇବେ କି?\n"</string>
+<string name="pause_prompt_yes">"ହଁ"</string>
+<string name="pause_prompt_no">"ନାହିଁ"</string>
+<string name="notification_dialing">"ଡାଏଲ୍ କରୁଛି"</string>
+<string name="notification_ongoing_call">"ଜାରି ରହିଥିବା କଲ୍"</string>
+<string name="notification_ongoing_video_call">"ଚାଲୁ ରହିଥିବା ଭିଡିଓ କଲ"</string>
+<string name="notification_ongoing_paused_video_call">"ଚାଲୁ ରହିଥିବା ଭିଡିଓ କଲ - ଭିଡିଓ ବିରାମ କରାଯାଇଛି"</string>
+<string name="notification_ongoing_work_call">"ୱର୍କ କଲ୍ ଜାରି ରହିଛି"</string>
+<string name="notification_ongoing_call_wifi_template">"ଚାଲୁ ରହିଥିବା <xliff:g id="brand_name">%1$s</xliff:g>"</string>
+<string name="notification_incoming_call_wifi_template">"ଆସୁଥିବା <xliff:g id="brand_name">%1$s</xliff:g>"</string>
+<string name="notification_call_wifi_brand">"Wi-Fi କଲ୍‍"</string>
+<string name="notification_call_wifi_work_brand">"Wi-Fi ୱାର୍କ କଲ୍‍"</string>
+<string name="notification_on_hold">"ସ୍ଥଗିତ ରହିଛି"</string>
+<string name="notification_incoming_call">"ଇନକମିଂ କଲ୍‌"</string>
+<string name="notification_incoming_video_call">"ଇନକମିଂ ଭିଡ଼ିଓ କଲ୍‌"</string>
+<string name="notification_incoming_call_mutli_sim">" <xliff:g id="sim_label" example="SIM 1">%1$s</xliff:g>ମାଧ୍ୟମରେ ଇନ୍‍କମିଂ କଲ୍‍"</string>
+<string name="notification_incoming_call_with_photo">"ଫୋଟ ସହିତ ଆସୁଥିବା କଲ"</string>
+<string name="notification_incoming_call_with_message">"ମେସେଜ ସହିତ ଆସୁଥିବା କଲ"</string>
+<string name="notification_incoming_call_with_location">"ସ୍ଥାନ ସହିତ ଆସୁଥିବା କଲ"</string>
+<string name="notification_incoming_call_with_photo_message">"ଫୋଟ ଏବଂ ମେସେଜ ସହିତ ଆସୁଥିବା କଲ"</string>
+<string name="notification_incoming_call_with_photo_location">"ଫୋଟ ଏବଂ ସ୍ଥାନ ସହିତ ଆସୁଥିବା କଲ"</string>
+<string name="notification_incoming_call_with_message_location">"ମେସେଜ ଏବଂ ସ୍ଥାନ ସହିତ ଆସୁଥିବା କଲ"</string>
+<string name="notification_incoming_call_with_photo_message_location">"ଫୋଟ,ମେସେଜ ଏବଂ ସ୍ଥାନ ସହିତ ଆସୁଥିବା କଲ"</string>
+<string name="notification_incoming_call_attachments">"ଆଟାଚମେଣ୍ଟ ସହିତ ଆସୁଥିବା କଲ"</string>
+<string name="important_notification_incoming_call">"ଜରୁରି ଆସୁଥିବା କଲ"</string>
+<string name="important_notification_incoming_call_with_photo">"ଫୋଟ ସହିତ ଆସୁଥିବା ଜରୁରି କଲ"</string>
+<string name="important_notification_incoming_call_with_message">"ମେସେଜ ସହିତ ଆସୁଥିବା ଜରୁରି କଲ"</string>
+<string name="important_notification_incoming_call_with_location">"ସ୍ଥାନ ସହିତ ଆସୁଥିବା ଜରୁରି କଲ"</string>
+<string name="important_notification_incoming_call_with_photo_message">"ଫୋଟ ଏବଂ ମେସେଜ ସହିତ ଆସୁଥିବା ଜରୁରି କଲ"</string>
+<string name="important_notification_incoming_call_with_photo_location">"ଫୋଟ ଏବଂସ୍ଥାନ ସହିତ ଆସୁଥିବା ଜରୁରି କଲ"</string>
+<string name="important_notification_incoming_call_with_message_location">"ମେସେଜ ଏବଂ ସ୍ଥାନ ସହିତ ଆସୁଥିବା ଜରୁରି କଲ"</string>
+<string name="important_notification_incoming_call_with_photo_message_location">"ଫୋଟ,ମେସେଜ ଏବଂ ସ୍ଥାନ ସହିତ ଆସୁଥିବା ଜରୁରି କଲ"</string>
+<string name="important_notification_incoming_call_attachments">"ଆଟାଚମେଣ୍ଟ ସହିତ ଆସୁଥିବା ଜରୁରି କଲ"</string>
+<string name="notification_incoming_work_call">"ୱର୍କ କଲ୍ ଆସୁଛି"</string>
+<string name="notification_incoming_spam_call">"ଆସୁଥିବା ସଂଦିଗ୍ଧ ସ୍ପାମ କଲ"</string>
+<string name="notification_requesting_video_call">"ଫୋନ୍ କୁ ଆସୁଥିବା ଭିଡିଓ ଅନୁରୋଧ"</string>
+<string name="notification_action_answer">"ଉତ୍ତର"</string>
+<string name="notification_action_end_call">"ହ୍ୟାଙ୍ଗ ଅପ୍"</string>
+<string name="notification_action_answer_video">"ଭିଡ଼ିଓ"</string>
+<string name="notification_action_answer_voice">"ଧ୍ୱନି"</string>
+<string name="notification_action_accept">"ଗ୍ରହଣ କରନ୍ତୁ"</string>
+<string name="notification_action_dismiss">"ମନା କରନ୍ତୁ"</string>
+<string name="notification_action_speaker_on">"ସ୍ପିକର ଅନ"</string>
+<string name="notification_action_speaker_off">"ସ୍ପିକର ଅଫ"</string>
+<string name="notification_action_mute_on">"ମୁକ"</string>
+<string name="notification_action_mute_off">"ଅନମ୍ୟୁଟ୍ କରନ୍ତୁ"</string>
+<string name="notification_external_call">"ଅନ୍ୟ ଏକ ଉପକରଣ ରେ ଚାଲୁଥିବା କଲ୍‍"</string>
+<string name="notification_external_video_call">"ଅନ୍ୟ ଏକ ଉପକରଣ ରେ ଚାଲୁଥିବା ଭିଡିଓ କଲ୍‍"</string>
+<string name="notification_take_call">"କଲ୍‍ ନିଅ"</string>
+<string name="notification_take_video_call">"ଭିଡିଓ କଲ୍‍ ନିଅ"</string>
+<string name="incall_error_supp_service_unknown">"ସର୍ଭିସ୍ ସପୋର୍ଟ କରୁନାହିଁ ।"</string>
+<string name="goPrivate">"ବ୍ୟକ୍ତିଗତ କରନ୍ତୁ"</string>
+<string name="emergency_call_dialog_number_for_display">"ଜରୁରୀ ନମ୍ବର"</string>
+<string name="child_number">"<xliff:g example="650-555-1212" id="child_number">%s</xliff:g> ଦ୍ୱାରା"</string>
+<string name="callFailed_simError">"SIM କିମ୍ବା SIMଜନିତ ତ୍ରୁଟି ନାହିଁ"</string>
+<string name="conference_caller_disconnect_content_description">"କଲ୍ ସାରନ୍ତୁ"</string>
+<string name="conference_call_name">"କନଫରେନ୍ସ କଲ୍"</string>
+<string name="generic_conference_call_name">"କଲ୍ ରେ ରହିଛି"</string>
+<string name="video_call_wifi_to_lte_handover_toast">"ମୋବାଇଲ ଡାଟା ବ୍ୟବହାର କରି କଲ ଚାଲୁ ରଖ"</string>
+<string name="video_call_lte_to_wifi_failed_title">"Wi_Fi  ନେଟୱର୍କ କୁ ସ୍ୱିଚ କରି ହେବ ନାହିଁ"</string>
+<string name="video_call_lte_to_wifi_failed_message">"ଭିଡିଓ କଲ ମୋବାଇଲ ନେଟୱର୍କ ରେ ରହିବ, ସାଧାରଣ ଡାଟା ଶଉଳ୍କ ଲାଗିପାରେ|"</string>
+<string name="video_call_lte_to_wifi_failed_do_not_show">"ଏହା ପୁଣି ଥରେ ଦର୍ଶାଅ ନାହିଁ"</string>
+<string name="card_title_in_call">"କଲ୍ ରେ ରହିଛି"</string>
+<string name="card_title_conf_call">"କନଫରେନ୍ସ କଲ୍"</string>
+<string name="notification_action_reject_with_message">"SMS କୁ ଅସ୍ୱୀକାର କରନ୍ତୁ"</string>
+<string name="fail_change_video_due_to_bgcall">"ଏକ ବ୍ୟାକଗ୍ରାଉଣ୍ଡ କଲ ଜାରି ଅଛି, ବର୍ତ୍ତମାନ ର କଲ କୁ ଭିଡିଓ କଲ ରେ ପରିବର୍ତ୍ତନ କରିବାରେ ବିଫଳ|"</string>
+<string name="low_battery_warning_title">"ଲୋ ବ୍ୟାଟେରୀ ଚେତାବନୀ"</string>
+<string name="low_battery_warning_message">"ଆପଣଙ୍କ ବ୍ୟାଟେରୀ ସ୍ତର 15%ରୁ ତଳକୁ ରହିଛି। ଆପଣ ଭିଡିଓ କଲ୍ ଜାରି ରଖିବା ପାଇଁ ଚାହାଁନ୍ତି କିମ୍ବା ଭଏସ୍ କଲ୍ କୁ ରୂପାନ୍ତରିତ କରିବା ପାଇଁ ଚାହାଁନ୍ତି?"</string>
+<string name="low_battery_continue_video_call">"ହଁ"</string>
+<string name="low_battery_convert_to_voice_call">"ରୂପାନ୍ତର କରନ୍ତୁ"</string>
+<string name="low_battery_warning_media_alert_message">"ଆପଣଙ୍କର ବ୍ୟାଟେରି ସ୍ତର 15%ରୁ ତଳେ ଅଛି | ଦୟାକରି ଆକ୍ସେପ୍ଟ କିମ୍ବା ରିଜେକ୍ଟ ବାଛନ୍ତୁ |"</string>
+<string name="remote_request_change_accept">"ଗ୍ରହଣ କରନ୍ତୁ"</string>
+<string name="remote_request_change_reject">"ପ୍ରତ୍ୟାଖ୍ୟାନ କରନ୍ତୁ"</string>
+</resources>

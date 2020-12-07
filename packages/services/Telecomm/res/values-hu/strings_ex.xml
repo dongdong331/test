@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"Fordítsa fel a hívás elnémításához"</string>
+<string name="flipping_summary">"Fordítsa fel a telefont a bejövő hívás elnémításához"</string>
+<string name="main_card_slot">Főkártya:</string>
+<string name="vice_card_slot">Alkártya:</string>
+<string name="fade_in_title">"Előtűnő csengés"</string>
+<string name="fade_in_summary">"Ha engedélyezve van, a bejövő hívás hangereje erősödik."</string>
+<string name="dialog_make_call_airplane_mode_message">"Hívás kezdeményezéséhez először kapcsolja ki a repülő üzemmódot."</string>
+</resources>

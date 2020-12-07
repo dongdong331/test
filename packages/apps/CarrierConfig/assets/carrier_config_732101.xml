@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- SPRD: add for bug1023964 -->
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <int name="support_fixed_vt_call_resolution" value="2"/>
+        <boolean name="support_show_wifi_calling_preference" value="false"/>
+        <boolean name="separate_setting_for_wfc_volte" value="false" />
+        <boolean name="deregister_vowifi_when_cellular_preffered" value="true"/>
+    </carrier_config>
+</carrier_config_list>
+

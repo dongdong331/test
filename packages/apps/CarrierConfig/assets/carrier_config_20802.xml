@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string-array name="carrier_vvm_package_name_string_array" num="1">
+            <item value="com.orange.vvm"/>
+        </string-array>
+        <boolean name="allow_ussd_requests_via_telephony_manager_bool" value="false" />
+        <boolean name="set_voice_domain_bool" value="true"/>
+        <boolean name="request_xcap_pdn_for_clir" value="false" />
+        <boolean name="request_xcap_pdn_for_cw" value="false" />
+    </carrier_config>
+    <carrier_config>
+        <boolean name="support_non_domestic_roaming" value="true" />
+        <boolean name="support_send_ss_over_vowifi_with_airplane" value="true" />
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#00ce7e</color>
+
+    <!-- add for dynamic calendar-->
+    <color name="dynamic_calendar_week">#FFFF1744</color>
+    <color name="dynamic_calendar_date">#FF424242</color>
+    <!-- add for icon badge-->
+    <color name="badge_bg_color">#FFFF0000</color>
+    <color name="badge_text_color">#FFFFFFFF</color>
+</resources>

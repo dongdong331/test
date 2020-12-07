@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- create by spreadst -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- NOTE: Bug#692703 Add for wifi Advance Feature BEG -->
+    <string-array name="sprd_wifi_security_with_11w_wapi_11r">
+        <!-- The Wi-Fi network does not have any security. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wep</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_generic</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_eap</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_sha256</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_eap_sha256</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wapi_psk</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wapi_cert</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_ft_psk</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_ft_eap</item>
+    </string-array>
+
+    <string-array name="sprd_wifi_security_with_11w_wapi">
+        <!-- The Wi-Fi network does not have any security. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wep</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_generic</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_eap</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_sha256</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_eap_sha256</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wapi_psk</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wapi_cert</item>
+    </string-array>
+
+    <string-array name="sprd_wifi_security_with_11w">
+        <!-- The Wi-Fi network does not have any security. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wep</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_generic</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_eap</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_sha256</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_eap_sha256</item>
+    </string-array>
+    <!-- Add for wifi Advance Feature END -->
+
+    <!-- SPRD: Bug#474458 Add network management for cucc feature BEG -->
+    <string-array name="network_type">
+        <item>@string/network_settings_title</item>
+        <item>@string/gadget_wifi</item>
+    </string-array>
+    <string-array name="network_type_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- Add network management for cucc feature END -->
+
+    <!-- SPRD: Bug #474443 Porting cmcc wifi features to AndroidN BGN-->
+    <string-array name="mobile_to_wlan">
+        <item>@string/mobile_to_wlan_policy_auto</item>
+        <item>@string/mobile_to_wlan_policy_manual</item>
+        <item>@string/mobile_to_wlan_policy_ask</item>
+    </string-array>
+    <string-array name="mobile_to_wlan_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- case WLAN_0221: Only PEAP and SIM methods are allowed. --> <skip />
+    <string-array name="peap_and_sim_method">
+        <!-- Do not translate. -->
+        <item>PEAP</item>
+        <!-- Do not translate. -->
+        <item>SIM</item>
+    </string-array>
+    <!-- Porting cmcc wifi features to AndroidN END -->
+
+    <!-- SPRD: Bug #474464 Porting WAPI feature to AndroidN BEG-->
+    <!-- Wi-Fi settings.  The type of WAPI PSK key a Wi-Fi network has. -->
+    <string-array name="wifi_wapi_psk_type">
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wapi_psk_ascii</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wapi_psk_hexadecimal</item>
+    </string-array>
+    <!--  Porting WAPI feature to AndroidN END -->
+
+    <!-- SPRD: Bug #590380 Porting WEP feature to AndroidN BEG-->
+    <string-array name="wep_key_index">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!--  Porting WEP feature to AndroidN END -->
+
+</resources>

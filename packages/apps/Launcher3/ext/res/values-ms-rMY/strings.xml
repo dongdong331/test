@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"Lencana tidak dibaca"</string>
+<string name="unread_call">Telefon</string>
+<string name="unread_sms">"Panggilan suara"</string>
+<string name="unread_email">"E-mel"</string>
+<string name="unread_calendar">"Kalendar"</string>
+<string name="unread_hint">"Hilang kebenaran <xliff:g id="unread_type">%1$s</xliff:g> yang diperlukan, sila mohon kebenaran dahulu."</string>
+<string name="app_list_preference_none">"Sila pilih aplikasi."</string>
+<string name="pref_missed_call_count_title">""Panggilan tidak dijawab”"</string>
+<string name="pref_missed_call_count_summary">"Pilih aplikasi Telefon, paparkan nombor panggilan tidak dijawab padanya"</string>
+<string name="pref_unread_sms_count_title">"Mesej tidak dibaca"</string>
+<string name="pref_unread_sms_count_summary">"Pilih aplikasi SMS, paparkan nombor mesej tidak dibaca padanya"</string>
+<string name="pref_unread_email_count_title">"Mesej tidak dibaca"</string>
+<string name="pref_unread_email_count_summary">"Pilih aplikasi E-mel, paparkan nombor mel tidak dibaca padanya"</string>
+<string name="pref_unread_calendar_count_title">"Kalendar tidak dibaca"</string>
+<string name="pref_unread_calendar_count_summary">"Pilih aplikasi Kalendar, paparkan acara kalendar tidak dibaca padanya"</string>
+<string name="selected_text">"Dipilih"</string>
+<string name="dynamic_icon_title">"Ikon dinamik"</string>
+<string name="allow_circular_sliding_title">"Gelung skrin laman utama"</string>
+<string name="allow_circular_sliding_summary">"Tetapan Halaman Kiri Kandungan Tersuai tidak membenarkan gelung skrin Laman Utama"</string>
+</resources>

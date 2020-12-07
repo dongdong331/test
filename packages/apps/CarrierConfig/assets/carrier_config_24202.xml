@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxImageHeight" value="1944"/>
+        <int name="maxMessageSize" value="614400"/>
+        <int name="maxImageWidth" value="2592"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <string name="default_vm_number_string">+4792100000</string>
+        <string name="default_vm_number_roaming_string">+4792100000</string>
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="support_send_ss_over_vowifi_with_airplane" value="true" />
+    </carrier_config>
+</carrier_config_list>

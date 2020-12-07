@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"Okunmamış kimlik"</string>
+    <string name="unread_call">"Telefon"</string>
+    <string name="unread_sms">"Sesli aramalar"</string>
+    <string name="unread_email">"E-posta"</string>
+    <string name="unread_calendar">"Takvim"</string>
+    <string name="unread_hint">"Gerekli <xliff:g id="unread_type">%1$s</xliff:g> izni eksik, lütfen önce izin için başvurun."</string>
+    <string name="app_list_preference_none">"Lütfen bir uygulama seçin."</string>
+    <string name="pref_missed_call_count_title">"Cevapsız çağrı"</string>
+    <string name="pref_missed_call_count_summary">"Lütfen bir Telefon uygulaması seçin, üzerindeki cevapsız aramaları görüntüleyin"</string>
+    <string name="pref_unread_sms_count_title">"Okunmamış mesaj"</string>
+    <string name="pref_unread_sms_count_summary">"Bir SMS uygulaması seçin, üzerindeki okunmamış mesaj sayısı görüntüleyin"</string>
+    <string name="pref_unread_email_count_title">"Okunmamış e-posta"</string>
+    <string name="pref_unread_email_count_summary">"Bir E-posta uygulaması seçin, üzerindeki okunmamış e-posta sayısını görüntüleyin"</string>
+    <string name="pref_unread_calendar_count_title">"Okunmamış takvim"</string>
+    <string name="pref_unread_calendar_count_summary">"Bir Takvim uygulaması seçin, üzerindeki okunmamış takvim öğelerini görüntüleyin"</string>
+    <string name="selected_text">"Seçildi"</string>
+    <string name="dynamic_icon_title">"Dinamik simge"</string>
+    <string name="allow_circular_sliding_title">"Ana ekran döngüsü"</string>
+    <string name="allow_circular_sliding_summary">"Özel İçerik Sol Sayfa ayarı Ana ekran döngüsüne izin vermiyor"</string>
+</resources>

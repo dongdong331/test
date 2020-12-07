@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"Xirmada aan la akhrin"</string>
+    <string name="unread_call">"Teleefoon"</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">"Iimayl"</string>
+    <string name="unread_calendar">"Ka-tirsiga"</string>
+    <string name="unread_hint">"Gafida nooca loobaahanyahay <xliff:g id="unread_type">%1$s</xliff:g> ogolaansho, fadlan ogolaanshaha sii marka hore."</string>
+    <string name="app_list_preference_none">"Fadlan dooro app."</string>
+    <string name="pref_missed_call_count_title">"Wicitaanka aan la qaban"</string>
+    <string name="pref_missed_call_count_summary">"Dooro appka taleefanka, soobixi nambarada aadan qaban ee kujira"</string>
+    <string name="pref_unread_sms_count_title">"Fariinta aan la akhrin"</string>
+    <string name="pref_unread_sms_count_summary">"Dooro appka SMS ka, soobixi nambarada fariimaha ee kudhex jira"</string>
+    <string name="pref_unread_email_count_title">"Emailka aan la akhrin"</string>
+    <string name="pref_unread_email_count_summary">"Dooro appka Emailka, soobixi nambarada emailka aan la akhrin ee kudhex jira"</string>
+    <string name="pref_unread_calendar_count_title">"Kalandarka aan la akhrin"</string>
+    <string name="pref_unread_calendar_count_summary">"Dooro appka kalndarka, soona bixi dhacdooyinka kalandarka ee aan la akhrin"</string>
+    <string name="selected_text">"Ladoortay"</string>
+    <string name="dynamic_icon_title">"Calaamada socota"</string>
+    <string name="allow_circular_sliding_title">"Muuqaalka shaahada gudaha"</string>
+    <string name="allow_circular_sliding_summary">"Mawduuca Macmiilak ee Bogga Bidix setting-keeda ma ogola muuqaalka shaashada"</string>
+</resources>

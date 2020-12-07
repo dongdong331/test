@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"Vire para desligar o som da chamada"</string>
+<string name="flipping_summary">"Vire o telefone para desligar o som da chamada recebida"</string>
+<string name="main_card_slot">"Cartão principal:"</string>
+<string name="vice_card_slot">"Cartão secundário:"</string>
+<string name="fade_in_title">"Toque a desvanecer"</string>
+<string name="fade_in_summary">"Quando activo, o volume do toque da chamada recebida é aumentado."</string>
+<string name="dialog_make_call_airplane_mode_message">"Para fazer uma chamada, desligue o modo de Avião."</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="hangupcall_note_title">མཉམ་ཞོགས།</string>
+<string name="hangupcall_note_message">"ནང་འབོད་ཁ་པར་འདི་ནི་ཕྱོགས་གསུམ་པའི་ཁ་པར་རེད། ད་སྐབས་ཀྱི་ཁ་པར་ལ་ཉན་པས་ན་ད་སྐབས་གྲུང་པོར་གནས་པའི་ཁ་པར་འགེལ་ངེས་ཡིན།"</string>
+</resources>

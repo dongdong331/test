@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unknown_area">"ଅଜଣା କ୍ଷେତ୍ର"</string>
+<string name="exceed_limit">"କନଫରେନ୍ସ କଲ୍‌ ଗୁଡିକ ସଂଖ୍ୟା ସୀମା ଅତିକ୍ରମ କରୁଛି"</string>
+<string name="hangupcall_note_title">"ଧ୍ୟାନ"</string>
+<string name="hangupcall_note_message">"ଇନକମିଂ କଲ୍‌ ହେଉଛି ତୃତୀୟ କଲ୍‌, ଯଦି ଉତ୍ତର ଦିଆଯାଏ, ବର୍ତ୍ତମାନର ସକ୍ରିୟ କଲ୍‍ ସଂଯୋଗବିଚ୍ଛିନ୍ନ ହେବ |"</string>
+</resources>

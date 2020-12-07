@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <string name="carrier_name_string">Chunghwa Telecom</string>
+        <boolean name="hide_video_call_forward" value="true"/>
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+        <!-- UNISOC:modify for bug 975623 @{ -->
+        <boolean name="enhanced_4g_lte_on_by_default_bool" value="false" />
+        <!-- UNISOC:modify for bug 996194 @{ -->
+        <boolean name="separate_setting_for_wfc_volte" value="false" />
+        <boolean name="support_send_ss_over_vowifi_with_airplane" value="true" />
+        <boolean name="support_vowifi_emergency_call" value="true"/>
+        <boolean name="retry_ecc_vowifi" value="true"/>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="fake_ecclist_withcard">110,119,118</string>
+    </carrier_config>
+</carrier_config_list>

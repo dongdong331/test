@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="automatic_recording_key"
+        android:summary="@string/recording_can_be_found_soundrecorder_app"
+        android:title="@string/automatic_recording_title"/>
+    <SwitchPreference
+        android:key="recording_notification_key"
+        android:summary="@string/show_notification_after_call_has_been_recorded"
+        android:title="@string/call_recording_notification"/>
+    <com.android.incallui.sprd.settings.callrecording.RecordListFrom
+        android:key="record_calls_from_key"
+        android:title="@string/records_call_from"
+        android:dialogTitle="@string/records_call_from"
+        android:summary="@string/all_numbers"/>
+    <PreferenceScreen
+        android:key="listed_numbers_key"
+        android:title="@string/listed_numbers"
+        android:summary="@string/none">
+    </PreferenceScreen>
+
+</PreferenceScreen>

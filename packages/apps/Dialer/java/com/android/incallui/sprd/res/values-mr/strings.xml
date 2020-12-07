@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unknown_area">"अनोळखी भाग"</string>
+<string name="exceed_limit">"कॉन्फरन्स कॉल्सची संख्या मर्यादेहून जास्त झाली आहे"</string>
+<string name="hangupcall_note_title">"लक्ष द्या"</string>
+<string name="hangupcall_note_message">"येणारे कॉल हा तीसरा कॉल आहे, जर उत्तर दिले गेले तर,चालू कॉल हा तोडला होईल."</string>
+</resources>

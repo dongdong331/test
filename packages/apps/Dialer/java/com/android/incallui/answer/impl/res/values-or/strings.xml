@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_incoming_swipe_to_decline_with_message">"ମେସେଜ ସହିତ ଅସ୍ୱୀକାର କରିବା ପାଇଁ ଆଇକନ ରୁ ସ୍ୱାଇପ୍‍ କରନ୍ତୁ"</string>
+<string name="call_incoming_swipe_to_answer_video_as_audio">"ଏକ ଅଡିଓ କଲ ଭାବରେ ଉତ୍ତର କରିବା ପାଇଁ ଆଇକନ ରୁ ସ୍ୱାଇପ୍‍ କରନ୍ତୁ"</string>
+<string name="call_incoming_default_label_answer_and_release_second">"ଉତ୍ତର କରିବା ପାଇଁ  ସ୍ୱାଇପ୍‍ କରନ୍ତୁ ଏବଂ ଚାଲୁଥିବା କଲ କୁ ହୋଲ୍ଡ ରେ ରଖନ୍ତୁ"</string>
+<string name="call_incoming_default_label_answer_and_release_third">"ଉତ୍ତର କରିବା ପାଇଁ  ସ୍ୱାଇପ୍‍ କରନ୍ତୁ ଏବଂ ହୋଲ୍ଡ ରେ ଥିବା କଲ କୁ ଶେଷ କରନ୍ତୁ"</string>
+<string name="call_incoming_default_label_answer_and_end_third">"ଉତ୍ତର ପାଇଁ ଏବଂ ସକ୍ରିୟ କଲ୍‍ ଶେଷ କରିବା ପାଇଁ ସ୍ୱାଇପ ଅପ୍‍ କରନ୍ତୁ"</string>
+<string name="call_incoming_swipe_to_answer_and_release">"ଉତ୍ତର କରିବା ପାଇଁ  ସ୍ୱାଇପ୍‍ କରନ୍ତୁ ଏବଂ ଚାଲୁଥିବା କଲ କୁ ଶେଷ କରନ୍ତୁ"</string>
+<string name="call_incoming_message_custom">"ଆପଣଙ୍କ ନିଜର ଲେଖନ୍ତୁ"</string>
+<string name="call_incoming_respond_via_sms_custom_message">"ଆପଣଙ୍କ ନିଜର ଲେଖନ୍ତୁ"</string>
+<string name="call_incoming_custom_message_cancel">"ବାତିଲ କରନ୍ତୁ"</string>
+<string name="call_incoming_custom_message_send">"ପଠାନ୍ତୁ"</string>
+<string name="a11y_incoming_call_reject_with_sms">"ଏକ ମେସେଜ ମାଧ୍ୟମରେ ଏହି କଲ କୁ ଅସ୍ୱୀକାର କରନ୍ତୁ"</string>
+<string name="a11y_incoming_call_answer_video_as_audio">"ଅଡିଓ କଲ୍ ଭାବରେ ଉତ୍ତର ଦିଅନ୍ତୁ"</string>
+<string name="a11y_incoming_call_answer_and_release">"ଉତ୍ତର ଦିଅନ୍ତୁ ଏବଂ ଚାଲୁଥିବା କଲ କୁ ଶେଷ କରନ୍ତୁ"</string>
+<string name="a11y_description_incoming_call_reject_with_sms">"ଏକ ମେସେଜ ମାଧ୍ୟମରେ ଅସ୍ୱୀକାର କରନ୍ତୁ"</string>
+<string name="a11y_description_incoming_call_answer_video_as_audio">"ଅଡିଓ କଲ୍ ଭାବରେ ଉତ୍ତର ଦିଅନ୍ତୁ"</string>
+<string name="a11y_description_incoming_call_answer_and_release">"ଉତ୍ତର ଦିଅନ୍ତୁ ଏବଂ ଚାଲୁଥିବା କଲ କୁ ଶେଷ କରନ୍ତୁ"</string>
+<string name="call_incoming_video_is_off">"ଭିଡିଓ ବନ୍ଦ ଅଛି"</string>
+<string name="call_incoming_important">"ଜରୁରି"</string>
+</resources>

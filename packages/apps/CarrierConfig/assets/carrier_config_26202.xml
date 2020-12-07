@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="smsEncodingChangeable" value="true"/>
+        <boolean name="smsUsesSimpleCharactersOnly" value="false"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="false"/>
+        <!-- SPRD: add for bug843265 -->
+        <boolean name="support_show_wifi_calling_preference" value="false"/>
+        <int name="volte_replacement_rat_int" value="3" />
+        <string name="default_vm_number_string">5500</string>
+        <boolean name="play_call_recording_tone_bool" value="true" />
+        <boolean name="support_vowifi_emergency_call" value="true"/>
+        <boolean name="retry_ecc_vowifi" value="true"/>
+        <boolean name="deregister_vowifi_before_dial_ecc" value="false"/>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <!-- SPRD: add for bug 928709 -->
+        <string name="wifi_calling_title">Vodafone WiFi Calling</string>
+    </carrier_config>
+    <carrier_config spn="O.tel.o">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Otelo</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="klarmobil">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">klarmobil</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="default_vm_number_string">5500</string>
+        <string name="default_vm_number_roaming_string">+491712523311</string>
+    </carrier_config>
+    <!-- SPRD: add for bug795740 @{ -->
+    <carrier_config network_preferred="true">
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    </carrier_config>
+    <!-- @} -->
+</carrier_config_list>

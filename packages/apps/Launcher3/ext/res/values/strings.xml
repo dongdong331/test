@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--SPRD Add for unreadNotifier function  start-->
+    <string name="unread_notifier_title">Unread badge</string>
+    <string name="unread_call">Phone</string>
+    <string name="unread_sms">SMS</string>
+    <string name="unread_email">Email</string>
+    <string name="unread_calendar">Calendar</string>
+    <string name="unread_hint">Miss required <xliff:g id="unread_type">%1$s</xliff:g> permission, please apply for permission first.</string>
+    <string name="app_list_preference_none">Please select a app.</string>
+    <string name="pref_missed_call_count_title">Missed call</string>
+    <string name="pref_missed_call_count_summary">Select a Phone app, display the missed calls number on it</string>
+    <string name="pref_unread_sms_count_title">Unread message</string>
+    <string name="pref_unread_sms_count_summary">Select a SMS app, display the unread messages number on it</string>
+    <string name="pref_unread_email_count_title">Unread email</string>
+    <string name="pref_unread_email_count_summary">Select a Email app, display the unread mail number on it</string>
+    <string name="pref_unread_calendar_count_title">Unread calendar</string>
+    <string name="pref_unread_calendar_count_summary">Select a Calendar app, display the unread calendar events on it</string>
+    <string name="selected_text">Selected</string>
+    <!--SPRD Add for unreadNotifier function  end-->
+    <!-- Add for dynamic icon: start-->
+    <string name="dynamic_icon_title">Dynamic icon</string>
+    <string name="dynamic_calendar" translatable="false">Calendar</string>
+    <string name="dynamic_clock" translatable="false">Clock</string>
+    <!-- Add for dynamic icon: end-->
+
+    <!-- Add for circular slide -->
+    <string name="allow_circular_sliding_title">Home screen loop</string>
+    <string name="allow_circular_sliding_summary">If has Custom Left Page, doesn\'t permit Home screen loop </string>
+
+
+    <!-- SPRD Add for one finger pull down feature -->
+    <string name="pull_down_action_pref_title">Pull down action</string>
+    <string name="pull_down_do_nothing">Do nothing</string>
+    <string name="pull_down_notification">Show notifications</string>
+    <string name="pull_down_search">Open search</string>
+
+    <!-- UNISOC: add for single layer -->
+    <string name="home_screen_style_title">Home screen style</string>
+    <string name="home_screen_style_single">Single layer</string>
+    <string name="home_screen_style_dual">Dual layer</string>
+    <string name="home_screen_style_notification">Applying home screen style changes</string>
+
+    <!-- UNISOC Add for folder icon model -->
+    <string name="folder_icon_model_pref_title">Folder icon style</string>
+    <string name="auto_model">Auto</string>
+    <string name="annular_model">Annular</string>
+    <string name="grid_model">Grid</string>
+
+    <!-- Add for desktop grid customization -->
+    <string name="desktop_grid">Desktop grid</string>
+    <string name="rows">Rows</string>
+    <string name="columns">Columns</string>
+    <!-- Message shown in the progress dialog when the desktop grid override is being applied [CHAR LIMIT=100]-->
+    <string name="desktop_grid_override_progress">Applying desktop grid changes</string>
+</resources>

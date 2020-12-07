@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="smsEncodingChangeable">true</string>
+        <boolean name="smsUsesSimpleCharactersOnly">false</string>
+        <string name="default_vm_number_string">5500</string>
+        <boolean name="support_vowifi_emergency_call" value="true"/>
+        <boolean name="retry_ecc_vowifi" value="true"/>
+        <boolean name="deregister_vowifi_before_dial_ecc" value="false"/>
+        <!-- SPRD: add for bug 843265 -->
+        <boolean name="support_show_wifi_calling_preference" value="false"/>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <!-- SPRD: add for bug 928709 -->
+        <string name="wifi_calling_title">Vodafone WiFi Calling</string>
+    </carrier_config>
+    <!-- SPRD: add for bug795740 @{ -->
+    <carrier_config network_preferred="true">
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    </carrier_config>
+    <!-- @} -->
+</carrier_config_list>

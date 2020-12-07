@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"ዘይተነበበ ተለጣፊ ሕላገት"</string>
+<string name="unread_call">"መራከቢ ስልኪ"</string>
+<string name="unread_sms">"ሓጺር ናይ ጽሑፍ መልአኽቲ"</string>
+<string name="unread_email">"ኢ-ማይል"</string>
+<string name="unread_calendar">"መቑፀሪ ግዘ"</string>
+<string name="unread_hint">"ፍቓድ የድሊ <xliff:g id="unread_type">%1$s</xliff:g> እዩ፤ ብኽብረትኩም መጀመርታ ፍቓድ ንምርካብ መመልከቲ ኣቕርቡ።"</string>
+<string name="app_list_preference_none">"ብኽብረትኩም ኣፕሊኬሽን ምረጹ።"</string>
+<string name="pref_missed_call_count_title">"ዝሓለፈካ ደወል"</string>
+<string name="pref_missed_call_count_summary">"ናይ ተሌፎን ኣፕሊኬሽን ምረጹ፤ ቍጽርታት ናይ\'ቶምዝፈሸሉ ጻውዒታት ተሌፎን ብልዕሊኡ ኣርእዪ"</string>
+<string name="pref_unread_sms_count_title">"ዘይተነበበ መልእኽቲ"</string>
+<string name="pref_unread_sms_count_summary">"ናይ ኤስ.ኤም.ኤስ. ኣፕሊኬሽን ምረጹ፤ ንቝጽሪ ናይ ዘይተነበቡ መልእኽትታት ብልዕሊኡ ኣርእዪ"</string>
+<string name="pref_unread_email_count_title">"ዘይተነበበ ኢ-መይል"</string>
+<string name="pref_unread_email_count_summary">"ኢ-መይል ክትጥቀሙሉ እትኽእሉ ኣፕሊኬሽን ምረጹ፤ ንቝጽሪ ናይ ዘይተነበቡ መልእኽትታት ብልዕሊኡ ኣርእዪ"</string>
+<string name="pref_unread_calendar_count_title">"ዘይተነበበ ዓውደ-ኣዋርሕ"</string>
+<string name="pref_unread_calendar_count_summary">"ናይ ዓውደ-ኣዋርሕ ፕሊኬሽን ምረጹ፤ ነቶም ውጥን እተዋደደሎም መዓልትታት ዓውደ-ኣዋርሕ ብልዕሊኡ ኣርእዪ"</string>
+<string name="selected_text">"ተመሪጹ"</string>
+<string name="dynamic_icon_title">"ተንቀሳቓሲ ሕላገታዊ መለለዪ"</string>
+<string name="allow_circular_sliding_title">"ክንታቦ ምድሪ-ቤታዊ መስኮት"</string>
+<string name="allow_circular_sliding_summary">"መቓነ ቍጽጽር ዓይነተ-ምዕሩይ ትሕዝቶ ናይ ጸጋማይ ገጽ፡ ንንጥፈት ክንታቦ ምድሪ-ቤታዊ መስኮት ዘፍቅድ ኣይኰነን"</string>
+</resources>

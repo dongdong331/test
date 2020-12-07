@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"Aramayı susturmak için çevirin"</string>
+<string name="flipping_summary">"Gelen aramayı susturmak için telefonunuzu döndürün"</string>
+<string name="main_card_slot">"Ana Kart:"</string>
+<string name="vice_card_slot">"İkinci Kart:"</string>
+<string name="fade_in_title">"Zil sesini azaltın"</string>
+<string name="fade_in_summary">"Etkin olduğunda, gelen arama zil sesi yükselecek."</string>
+<string name="dialog_make_call_airplane_mode_message">"Bir arama yapmak için, ilk önce uçak modunu kapatın."</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"Barruu hin dubbifamne"</string>
+    <string name="unread_call">"Bilbiila"</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">"Imeelii"</string>
+    <string name="unread_calendar">"Dhaha guyyaa/Kalaandara"</string>
+    <string name="unread_hint">"Eeyyama kan hin barbaachiifne <xliff:g id="unread_type">%1$s</xliff:g> dura eeyyama gaafadhu, maaloo."</string>
+    <string name="app_list_preference_none">"Maaloo fayyadama filaadha ."</string>
+    <string name="pref_missed_call_count_title">"Bilbiila dhaabame"</string>
+    <string name="pref_missed_call_count_summary">"Fayyadama bilbiila filaadha, bilbiila isaan jala darbee irratti agarsiisa"</string>
+    <string name="pref_unread_sms_count_title">"Erga hin dubbifamne"</string>
+    <string name="pref_unread_sms_count_summary">"Fayyadama SMS filaadha, erga hin dubbifaminni irratti agarsiisa"</string>
+    <string name="pref_unread_email_count_title">"Imeelii hin dubbifaminni"</string>
+    <string name="pref_unread_email_count_summary">"Fayyadama imeelii filaadha, imeelii hin dubbifaminni irratti agarsiisa"</string>
+    <string name="pref_unread_calendar_count_title">"Kaaleendara hin dubbifaminni"</string>
+    <string name="pref_unread_calendar_count_summary">"Fayyada kaaleendara filaadhu,kaaleendara hin dubbifaminni irratti agarsiisa"</string>
+    <string name="selected_text">"Filatame"</string>
+    <string name="dynamic_icon_title">"Sajoo human cimaa"</string>
+    <string name="allow_circular_sliding_title">"Argii marsaa ka\'umsa"</string>
+    <string name="allow_circular_sliding_summary">"Fuuli qindaa\'inna bitaa qabiyyeen mamila argii marsaa ka\'umsa hin eyyaammu"</string>
+</resources>

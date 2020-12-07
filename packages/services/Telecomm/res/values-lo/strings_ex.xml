@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"ປ່ຽນເປັນສຽງຫງຽບ"</string>
+<string name="flipping_summary">"ເມື່ອສາຍໂທເຂົ້າໂທລະສັບປ່ຽນເປັນສຽງຫງຽບ"</string>
+<string name="main_card_slot">"ບັດຫຼັກ:"</string>
+<string name="vice_card_slot">"ບັດຮອງ:"</string>
+<string name="fade_in_title">"ກຳລັງຫລີ້ນສຽງ"</string>
+<string name="fade_in_summary">"ເມື່ອຟັງຊັນເປີດ ສຽງເອິ້ນເຂົ້າຈະດັງຂື້ນເລື້ອຍໆ"</string>
+<string name="dialog_make_call_airplane_mode_message">"ຖ້າຕ້ອງການໂທອອກ, ກ່ອນອື່ນຕ້ອງປິດໂຫມດເຄື່ອງບິນ."</string>
+</resources>

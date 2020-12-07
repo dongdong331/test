@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"Bajon da ba-a-karanta-ba"</string>
+<string name="unread_call">"Waya"</string>
+<string name="unread_sms">"SMS"</string>
+<string name="unread_email">"Emel"</string>
+<string name="unread_calendar">"kalanda"</string>
+<string name="unread_hint">"Rashi yana buƙatar izinin <xliff:g id="unread_type">%1$s</xliff:g>, nemi izini da farko."</string>
+<string name="app_list_preference_none">"Zaɓi wata manhj."</string>
+<string name="pref_missed_call_count_title">"Jerin kiraye kirayen da ba a amsa ba"</string>
+<string name="pref_missed_call_count_summary">"Zaɓi wata manhajar Waya, nuna lambar kiraye-kirayen da aka rasa a kanta"</string>
+<string name="pref_unread_sms_count_title">"Saƙon da ba-a-karanta-ba"</string>
+<string name="pref_unread_sms_count_summary">"Zaɓi wata manhajar SMS, nuna lambar kiraye-kirayen da aka rasa a kanta"</string>
+<string name="pref_unread_email_count_title">"Imel da ba-a-karanta-ba"</string>
+<string name="pref_unread_email_count_summary">"Zaɓi wata manhajar Imel, nuna lambar wasiƙar da aka rasa a kanta"</string>
+<string name="pref_unread_calendar_count_title">"Kalandar da ba-a-karanta-ba"</string>
+<string name="pref_unread_calendar_count_summary">"Zaɓi wata manhajar Kalanda, nuna lambar kalandar da aka rasa a kanta"</string>
+<string name="selected_text">"Wanda aka zaba"</string>
+<string name="dynamic_icon_title">"Alama mai-canjawa"</string>
+<string name="allow_circular_sliding_title">"Lanƙwasar fuskar Farko"</string>
+<string name="allow_circular_sliding_summary">"Saitin Shafin Hagu na Abin Cikin Da Aka Sani ba ya ba da izinin lanƙwasar fuskar Farko"</string>
+</resources>

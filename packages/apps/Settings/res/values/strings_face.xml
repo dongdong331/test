@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Added by faceid begin -->
+    <!-- Title for preference that guides the user through creating a backup unlock pattern for fingerprint [CHAR LIMIT=45]-->
+    <string name="face_unlock_set_unlock_pattern">Face + Pattern</string>
+    <!-- Title for preference that guides the user through creating a backup unlock PIN for fingerprint [CHAR LIMIT=45]-->
+    <string name="face_unlock_set_unlock_pin">Face + PIN</string>
+    <!-- Title for preference that guides the user through creating a backup unlock password for fingerprint [CHAR LIMIT=45]-->
+    <string name="face_unlock_set_unlock_password">Face + Password</string>
+
+    <string name="security_settings_faceid_preference_title">Face Lock</string>
+    <string name="security_settings_faceid_enroll_onboard_title">Face Lock Setup</string>
+    <string name="security_settings_faceid_enroll_onboard_message">To use your Face ID to unlock your screen or confirm purchases, you\u2019ll need to:</string>
+    <string name="security_settings_faceid_enroll_onboard_message_1">Set up your backup screen lock method</string>
+    <string name="security_settings_faceid_enroll_setup_screen_lock">Set up screen lock</string>
+    <string name="security_settings_faceid_enroll_onboard_message_2">Add your Face ID</string>
+    <string name="security_settings_faceid_enroll_introduction_title">Disclaimer</string>
+    <string name="security_settings_faceid_enroll_introduction_message">"Uses facial recognition, please keep in mind the following notes:\n1. Your mobile phone may be unlocked by the person or item that is similar to you.\n2. Facial recognition is lower than the fingerprint, pattern password, digital cipher and self defined alphanumeric code.\n3. In the dark, light and backlighting conditions, facial recognition to unlock the success rate will decrease.\n"</string>
+    <string name="security_settings_faceid_enroll_introduction_message_warning">"In order to better use of facial recognition, please note the following:\n1. Enrolling stage, avoid dark light, strong light and backlighting environment, to ensure that the input face image clarity. \n2. After the  enrolling is successful, the phone can be unlocked through the facial recognition when the screen is turning on."</string>
+    <string name="security_settings_faceid_enroll_add_faceid_title">Add Face ID</string>
+    <string name="security_settings_faceid_enroll_finish_title">Face ID added!</string>
+    <string name="security_settings_faceid_preference_summary">Face ID set up</string>
+    <string name="faceid_enroll_button_next">Next</string>
+    <string name="security_settings_faceid_enroll_introduction_cancel">Cancel</string>
+    <string name="security_settings_faceid_enroll_introduction_continue">Continue</string>
+    <string name="security_settings_faceid_enroll_done">Done</string>
+    <string name="faceid_enroll_button_add">Add another</string>
+    <string name="security_settings_faceid_enroll_finish_message">Enrolling has been finished, welcome to use face unlocking function!</string>
+    <string name="faceid_add_title">Add Face ID</string>
+    <string name="faceid_add_max">You can add up to <xliff:g id="count" example="5">%d</xliff:g> Face IDs</string>
+    <string name="security_settings_faceid_enroll_dialog_name_label">Name</string>
+    <string name="security_settings_faceid_enroll_dialog_ok">OK</string>
+    <string name="security_settings_faceid_enroll_dialog_delete">Delete</string>
+    <string name="faceid_last_delete_title">Remove Face ID?</string>
+    <string name="faceid_last_delete_message">You won\'t be able to use your Face ID to unlock your phone, authorize purchases, or sign in to apps with them.</string>
+    <string name="faceid_last_delete_confirm">Yes, remove</string>
+    <string name="security_settings_faceid_enroll_disclaimer_lockscreen_disabled">Screen lock option disabled. You can still use your Face ID to authorize purchases and app access. <annotation id="url">Learn more</annotation></string>
+    <string name="security_settings_faceid_enroll_disclaimer">In addition to unlocking your phone, you can also use your Face ID to authorize purchases and app access. <annotation id="url">Learn more</annotation></string>
+    <string name="help_url_faceid" translatable="false"></string>
+    <string name="default_enroll_value">%d %%</string>
+    <string name="security_settings_faceid_enroll_find_sensor_message">Locate your face on the front of your phone, and turn the head slightly up and down to enroll more data.</string>
+    <string name="security_settings_faceid_enroll_add_faceid_tips">Please keep face at the front of the screen for a while, and then turn the head up and down according to the prompts.</string>
+    <string name="faceid_livenessmodepreference_title">Liveness Mode</string>
+    <string name="faceid_livenessmode_summary">When opened, you need to blink your eyes when unlock with Face ID, to make sure that you are yourself rather than photos or other objects</string>
+    <string name="security_settings_faceid_switch_summary">The function of Face unlocking</string>
+    <string name="faceid_delete_title">Delete Face ID</string>
+    <string name="faceid_Edit_title">Reenroll Face ID</string>
+    <string name="faceid_enroll_timeout">Enroll timeout</string>
+    <string name="faceid_enroll_noface">No face detected</string>
+    <string name="faceid_enroll_unknown">Unknow error</string>
+    <string name="faceid_enroll_left">Move left</string>
+    <string name="faceid_enroll_right">Move right</string>
+    <string name="faceid_enroll_up">Please turn up your head</string>
+    <string name="faceid_enroll_down">Please turn down your head</string>
+    <string name="faceid_enroll_closer">Move closer</string>
+    <string name="faceid_enroll_far_away">Move far away</string>
+    <string name="faceid_enroll_keep_pos">Not support</string>
+    <string name="faceid_enroll_need_diffpose">Please turn your head up or down</string>
+    <string name="faceid_dock_forced_resizable">Faceid not work with split-screen.</string>
+    <string name="faceid_brightness_preference_title">Screen Lighting(Beta)</string>
+    <string name="faceid_brightness_summary">When opened, screen brightness will be enhanced in dark light environment, this may improve face enrollment and face unlock</string>
+    <string name="faceid_enroll_multi_face">Multiple faces</string>
+
+    <string name="face_enroll_info_ok">Successfully extract face feature</string>
+    <string name="face_enroll_info_noface">No face detected</string>
+    <string name="face_enroll_info_multi_face">Multi face detected</string>
+    <string name="face_enroll_info_liveness">Liveness check failed</string>
+    <string name="face_enroll_info_eyeclose">Eye is closed</string>
+    <string name="face_enroll_info_occlusion">Face is occluded</string>
+    <string name="face_enroll_info_blur">Face is blurred</string>
+    <string name="face_enroll_info_outofimage">Face is out of image or face has a large yawAngle</string>
+    <string name="face_enroll_info_movingfast">Face move fast</string>
+    <string name="face_enroll_info_ae_not_converged">Please ensure that the light is normal and not too dark, too bright or backlighting</string>
+    <string name="face_enroll_info_offsetpos">Face is in center of panel</string>
+    <string name="face_enroll_info_far">Face is too far</string>
+    <string name="face_enroll_info_near">Face is too near</string>
+    <string name="face_enroll_info_need_upangle">Please turn up your head</string>
+    <string name="face_enroll_info_need_downangle">Please turn down your head</string>
+    <string name="face_enroll_info_needrightangle">Move right</string>
+    <string name="face_enroll_info_needleftangle">Move left</string>
+    <string name="face_enroll_info_needdiffpos">Face need another pose</string>
+    <string name="face_enroll_info_abnormal">Face abnormal</string>
+    <string name="face_enroll_info_save_error">Face save error</string>
+     <!-- Added by faceid end -->
+</resources>

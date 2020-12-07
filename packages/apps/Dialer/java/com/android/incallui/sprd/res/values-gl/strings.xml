@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="hangupcall_note_title">Atención</string>
+<string name="hangupcall_note_message">"A chamada entrante é a terceira chamada; se se contesta, desconectarase a chamada activa actual."</string>
+<string name="unknown_area">"Zona descoñecida"</string>
+<string name="exceed_limit">"O número das chamadas de de conferencia excede o límite"</string>
+</resources>

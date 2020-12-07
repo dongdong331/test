@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD Feature Porting: Add for call recorder feature. @{ -->
+    <string name="onscreenShowRecodText">"記錄"</string>
+    <string name="onscreenShowStopRecodText">"停止錄音"</string>
+    <string name="recorderr">"記錄檔案儲存失敗"</string>
+    <string name="audio_db_artist_name">"您的錄音"</string>
+    <string name="audio_db_album_name">"電話錄音"</string>
+    <string name="audio_db_playlist_name">"我的錄音"</string>
+    <string name="app_name">"手機應用程式"</string>
+    <string name="error_mediadb_new_record">"無法儲存預先錄製的語音訊息"</string>
+    <string name="sdcard_access_error">"無法造訪SD卡"</string>
+    <string name="no_sd_card">"無SD卡或未掛載"</string>
+    <string name="insert_sd_card">"請插入SD卡"</string>
+    <string name="storage_is_full">"儲存空間已滿"</string>
+    <string name="recording">"錄音"</string>
+    <string name="used_by_other_applications">"錄音裝置正在被其他程式使用中，請先關閉此類程式"</string>
+    <string name="prompt_record_finish">"錄音檔案已經儲存到"</string>
+    <string name="ok">"確定"</string>
+    <string name="permission_no_record">"您沒有通話錄音許可權"</string>
+    <string name="no_available_storage">"沒有可用存儲，錄音儲存失敗。"</string>
+    <string name="call_recording_setting_title">"通話錄音"</string>
+    <string name="automatic_recording_title">"自動錄音"</string>
+    <!-- @} -->
+    <!-- SPRD Feature Porting: Vibrate when call connected or disconnected feature. @{ -->
+    <!--  modify for bug902548 @{ -->
+    <string name="vibration_feedback_for_call_connection_setting_title">"通話連接提示"</string>
+    <string name="vibration_feedback_for_call_connection_title">"去電連接後發出振動回饋"</string>
+    <string name="vibration_feedback_for_call_disconnection_title">"通話結束後發出振動回饋"</string>
+    <!-- @} -->
+    <string name="record_failed_error">"未能開始錄音"</string>
+    <string name="incomingcall_flipping_silence_title">"翻轉靜音"</string>
+    <string name="onscreenSMSText">"發送資訊"</string>
+    <string name="incall_active">"通話中"</string>
+    <string name="incall_onhold">"保留通話"</string>
+    <string name="onScreenHangupAllText">"掛斷所有通話"</string>
+    <string name="record_menu_title">"通話錄音"</string>
+    <string name="record_menu_title_recording">"正在錄音"</string>
+    <string name="call_recording_notification">"通話錄音通知"</string>
+    <string name="recording_can_be_found_soundrecorder_app">"錄音檔案可在錄音機應用程式中查看"</string>
+    <string name="show_notification_after_call_has_been_recorded">"電話錄音完成後在通知欄顯示"</string>
+    <string name="records_call_from">"自動錄音對象"</string>
+    <string name="all_numbers">"所有號碼"</string>
+    <string name="listed_numbers">"電話簿號碼"</string>
+    <string name="unknown_number">"未知號碼"</string>
+    <string name="add_number">"數字"</string>
+    <string name="none">"無"</string>
+    <string name="call_recording_saved">"通話錄音已儲存"</string>
+    <string name="click_to_view_the_recorded_file">"點擊查看錄音檔案"</string>
+    <string name="number_has_been_added">"電話號碼"</string>
+    <string name="numbers_has_been_added">"數字"</string>
+    <string name="phone_number_exists">"電話號碼已存在"</string>
+    <string name="onscreenTransferCallText">"轉移"</string>
+    <string name="invite_call">"邀請"</string>
+    <string name="incall_label_audiocall">"語音電話"</string>
+    <string name="call_type_title">"請選擇通話類型"</string>
+    <string name="call_type_voice">"語音接聽"</string>
+    <string name="onscreenVideoCallRxText">"僅接聽視像電話"</string>
+    <string name="onscreenVideoCallTxText">"僅撥打視像電話"</string>
+    <string name="incall_content_description_change_video_type">"請選擇通話類型"</string>
+    <string name="fade_in_title">"鈴聲漸進播放"</string>
+    <string name="main_card_slot">"主卡："</string>
+    <string name="vice_card_slot">"副卡："</string>
+    <string name="poor_voice_quality">"語音質素欠佳"</string>
+    <string name="fair_voice_quality">"語音質素尚可"</string>
+    <string name="good_voice_quality">"語音質素良好"</string>
+</resources>

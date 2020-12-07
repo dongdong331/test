@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"અનરીડ બેજ"</string>
+<string name="unread_call">"ફોન"</string>
+<string name="unread_sms">SMS</string>
+<string name="unread_email">ઇમેઇલ</string>
+<string name="unread_calendar">"કેલેન્ડર"</string>
+<string name="unread_hint">"આવશ્યક <xliff:g id="unread_type">%1$s</xliff:g> પરવાનગી ચુકી ગયા છો, કૃપા કરી પરવાનગી માટે અરજી કરો."</string>
+<string name="app_list_preference_none">"કૃપા કરી એક એપ પસંદ કરો."</string>
+<string name="pref_missed_call_count_title">"ચૂકાયેલા કોલ"</string>
+<string name="pref_missed_call_count_summary">"ફોનની એક એપ પસંદ કરો, તેના પર મિસ્ડ કોલ્સ નંબર ડિસ્પ્લે થાય છે"</string>
+<string name="pref_unread_sms_count_title">"નહીં વંચાયેલ સંદેશ"</string>
+<string name="pref_unread_sms_count_summary">"SMS એપ પસંદ કરો, તેના પર નહીં વંચાયેલા સંદેશાના નંબર ડિસપ્લે થશે"</string>
+<string name="pref_unread_email_count_title">"નહીં વંચાયેલ ઈમેલ"</string>
+<string name="pref_unread_email_count_summary">"ઈમેલ એપ પસંદ કરો, તેના પર નહીં વંચાયેલા મેઈલ નંબર ડિસ્પ્લે થાય છે"</string>
+<string name="pref_unread_calendar_count_title">"નહીં વંચાયેલ કેલેન્ડર"</string>
+<string name="pref_unread_calendar_count_summary">"કેલેન્ડર એપ પસંદ કરો, તેના પર નહીં વંચાયેલ કેલેન્ડરના ઈવેન્ટ"</string>
+<string name="selected_text">"પસંદગી કરવામાં આવી છે"</string>
+<string name="dynamic_icon_title">"ડાઈનામિક આઈકોન"</string>
+<string name="allow_circular_sliding_title">"હોમ સ્ક્રીન લૂપ"</string>
+<string name="allow_circular_sliding_summary">"કસ્ટમ કોન્ટેન્ટ લેફ્ટ પેજ સેટિંગ હોમ સ્ક્રીમ લૂપને પરવાનગી આપતા નથી"</string>
+</resources>

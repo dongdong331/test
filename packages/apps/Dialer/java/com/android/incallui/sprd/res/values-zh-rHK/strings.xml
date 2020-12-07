@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unknown_area">"不明號碼區域"</string>
+<string name="hangupcall_note_title">"注意"</string>
+<string name="hangupcall_note_message">"此來電為第三方電話，如果接聽目前來電，則將會掛斷目前活動的通話。"</string>
+<string name="exceed_limit">"電話會議人數超過限制"</string>
+</resources>

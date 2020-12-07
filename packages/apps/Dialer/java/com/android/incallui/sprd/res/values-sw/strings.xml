@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="hangupcall_note_title">"Makini"</string>
+<string name="hangupcall_note_message">"Simu inayoingia ni simu ya tatu, ikijibiwa, simu inayoendelea itakatika."</string>
+<string name="unknown_area">"Pahali pasipojulikana"</string>
+<string name="exceed_limit">"Idadi ya mkutano wa simu imezidi inavyohitajika"</string>
+</resources>

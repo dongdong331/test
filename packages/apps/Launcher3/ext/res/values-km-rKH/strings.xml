@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"សញ្ញាមិនទាន់អាន"</string>
+    <string name="unread_call">"ទូរស័ព្ទ"</string>
+    <string name="unread_sms">"សារអេសអេមអេស"</string>
+    <string name="unread_email">"អ៊ីមែល"</string>
+    <string name="unread_calendar">ប្រតិទិន</string>
+    <string name="unread_hint">"ការខកខានទាមទារការអនុញ្ញាត <xliff:g id="unread_type">%1$s</xliff:g> សូមដាក់ពាក្យសុំការអនុញ្ញាតជាមុន។"</string>
+    <string name="app_list_preference_none">"សូមជ្រើសរើសកម្មវិធី។"</string>
+    <string name="pref_missed_call_count_title">"ការហៅបានខក"</string>
+    <string name="pref_missed_call_count_summary">"ជ្រើសរើសកម្មវិធីទូរស័ព្ទ បង្ហាញលេខហៅដែលខកខាននៅលើវា"</string>
+    <string name="pref_unread_sms_count_title">"សារមិនទាន់អាន"</string>
+    <string name="pref_unread_sms_count_summary">"ជ្រើសរើសកម្មវិធីសារ SMS បង្ហាញលេខសារមិនទាន់អាននៅលើវា"</string>
+    <string name="pref_unread_email_count_title">"អ៊ីម៉ែលមិនទាន់អាន"</string>
+    <string name="pref_unread_email_count_summary">"ជ្រើសរើសកម្មវិធីអ៊ីម៉ែល បង្ហាញលេខអ៊ីម៉ែលមិនទាន់អាននៅលើវា"</string>
+    <string name="pref_unread_calendar_count_title">"ប្រតិទិនមិនទាន់អាន"</string>
+    <string name="pref_unread_calendar_count_summary">"ជ្រើសកម្មវិធីប្រតិទិន បង្ហាញព្រឹត្តិការណ៍ប្រតិទិនមិនទាន់អាននៅលើវា"</string>
+    <string name="selected_text">បានជ្រើសរើស</string>
+    <string name="dynamic_icon_title">"រូបតំណាងថាមវន្ត"</string>
+    <string name="allow_circular_sliding_title">"រង្វិលជុំទំព័រដើម"</string>
+    <string name="allow_circular_sliding_summary">"ការកំណត់មាតិកាផ្នែកខាងឆ្វេងមិនអនុញ្ញាត រង្វិលជុំអេក្រង់ដើមទេ"</string>
+</resources>

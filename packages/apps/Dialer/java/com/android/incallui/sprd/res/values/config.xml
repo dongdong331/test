@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="china_mobile">"移动"</string>
+    <string name="china_unicom">"联通"</string>
+    <string name="china_telecom">"电信"</string>
+    <!-- SPRD Feature: Support wifiCall notification. @{ -->
+    <integer name="wifi_weak_notification">-78</integer>
+    <!-- @} -->
+</resources>

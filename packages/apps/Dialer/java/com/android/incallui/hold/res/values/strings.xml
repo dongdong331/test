@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string name="incall_on_hold">On hold</string>
+  <string name="incall_dialing">Dialing</string>
+  <string name="incall_conf_call">Conference call</string>
+  <string name="incall_incoming_call">Incoming call</string>
+  <string name="incall_hanging_up">Hanging up</string>
+  <string name="incall_in_call">In call</string>
+
+</resources>

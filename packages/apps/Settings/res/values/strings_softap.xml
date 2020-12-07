@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: add for WIFI/BT function @{ -->
+    <string name="softap_bt_cannot_coexist">"When Bluetooth is enabled or is turning on, the softap can not work, if you want to use the softap, please make sure that the Bluetooth is disabled."</string>
+    <!-- @} -->
+
+    <!-- SPRD: Bug #474425 Add for SoftAP/BT coexist feature -->
+    <string name="softap_need_mobile_data_enabled">"Portable Wi-Fi hotspot needs mobile data connect, may produce additional costs."</string>
+    <string name="bt_softap_cannot_coexist">"When softap is enabled or turning on, the Bluetooth cannot work, if you want to use the Bluetooth, please make sure that the softap is disabled."</string>
+    <!-- Add for SoftAP/BT coexist Feature END -->
+
+    <!-- SPRD: Add for extends hotspot BGN -->
+    <string name="hotspot">Wi-Fi hotspot</string>
+    <string name="hotspot_settings">Set up Wi-Fi hotspot</string>
+    <string name="hotspot_preference_title">Wi-Fi hotspot settings and user management</string>
+    <string name="hotspot_connected_stations">Connected Users</string>
+    <string name="hotspot_no_connected_station">0 connected user</string>
+    <string name="hotspot_blocked_stations">Blocked Users</string>
+    <string name="hotspot_no_blocked_station">0 blocked user</string>
+    <string name="block">Block</string>
+    <string name="unblock">Unblock</string>
+    <string name="wifi_max_connect">Max Connections</string>
+    <string name="wifi_channel">Wi-Fi Channel</string>
+    <string name="wifi_5g_channel">Wi-Fi 5G Channel</string>
+    <string name="wifi_tether_connect_title"> Connected Users</string>
+    <string name="wifi_tether_block_title"> Blocked Users</string>
+    <string name="hotspot_add_blockedstations_limit">Blocked Stations has reached the maximum limit, can not to add more.</string>
+    <string name="hotspot_mode">Hotspot Control Mode</string>
+    <string name="hotspot_whitelist_stations">WhiteList Device List</string>
+    <string name="hotspot_no_whitelist_station">+ Manually Add WhiteList Device</string>
+    <string name="hotspot_whitelist">Management device</string>
+    <string name="hotspot_whitelist_add">Add WhiteList</string>
+    <string name="hotspot_whitelist_cancel">Cancel</string>
+    <string name="hotspot_offwhite">Remove</string>
+    <string name="hotspot_name_txt">Device Name</string>
+    <string name="hotspot_mac_txt">Device Mac</string>
+    <string name="wifi_add_whitelist_error">Failed to add, please enter the correct mac address.</string>
+    <string name="wifi_add_whitelist_limit">Failed to add, it only support 8 devices at most.</string>
+    <string name="wifi_add_whitelist_limit_error">Failed to add, it only support %1$d devices at most.</string>
+    <string name="hotspot_wps_connect">WPS Connect</string>
+    <string name="hotspot_select_wps">Select WPS mode</string>
+    <string name="hotspot_wps_mode">WPS Mode</string>
+    <string name="hotspot_connect">Connect</string>
+    <string name="hotspot_wps_pin">Please enter the PIN</string>
+    <string name="hotspot_pin_error">Unable to connect, enter the correct PIN format</string>
+    <string name="hotspot_pin_success">Please press the connect button</string>
+    <!-- add for keep Wi-Fi hotspot on -->
+    <string name="soft_ap_sleep_policy_title">Keep Wi-Fi hotspot on</string>
+    <string name="hotspot_hidden_ssid_title">Hidden SSID</string>
+    <string name="hotspot_hidden_ssid_summary">TO hidden SSID </string>
+    <string name="hotspot_hidden_ssid_and_disable_wps_summary">Hidden SSID, and disable WPS</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+<carrier_config>
+<boolean name="show_apn_setting_cdma_bool" value="true" />
+<boolean name="carrier_volte_available_bool" value="true" />
+<boolean name="carrier_wfc_ims_available_bool" value="true" />
+<boolean name="config_disconnect_other_call_for_emergency_call" value="false" />
+</carrier_config>
+</carrier_config_list>

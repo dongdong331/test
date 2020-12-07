@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="network_operator_ignore_rules">50502@Vodafone AU R</string>
+    </carrier_config>
+</carrier_config_list>

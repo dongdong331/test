@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"କଲ୍ ସାଇଲେଣ୍ଟ କରିବା ପାଇଁ ଓଲଟାନ୍ତୁ"</string>
+<string name="flipping_summary">"ଇନକମିଂ କଲ୍ କୁ ସାଇଲେଣ୍ଟ କରିବା ପାଇଁ ଫୋନ୍ କୁ ଓଲଟାଇ ଦିଅନ୍ତୁ"</string>
+<string name="main_card_slot">"ମୁଖ୍ୟ କାର୍ଡ"</string>
+<string name="vice_card_slot">"ଉପ କାର୍ଡ"</string>
+<string name="fade_in_title">"ଫେଡ-ଇନ୍‌"</string>
+<string name="fade_in_summary">"ସମର୍ଥ କରାଗଲେ ଇନ୍‍‍କମିଂ କଲ୍‍ ରିଙ୍ଗର୍‍ ଭଲ୍ୟୁମ୍‍ ଟର୍ନ ଅପ୍‍ ହେବ ।"</string>
+<string name="dialog_make_call_airplane_mode_message">"ଏକ କଲ୍‍ କରିବାକୁ, ପ୍ରଥମେ ଏରୋପ୍ଲେନ୍ ମୋଡ୍‍ ଅଫ୍‍ କରନ୍ତୁ ।"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="set_voice_domain_bool" value="true"/>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">122,123,180,129</string>
+        <string name="ecclist_withcard">122,123,180,129</string>
+        <string name="fake_ecclist_withcard">122,123,180</string>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="wifi_call_notification_enable" value="true"/>
+        <boolean name="support_vowifi_emergency_call" value="true" />
+        <boolean name="dial_ecc_vowifi_when_airplane_mode" value="true" />
+        <boolean name="ecc_fallback_to_cs_retry_ecc" value="true" />
+        <boolean name="ecc_on_vowifi_first" value="true" />
+        <boolean name="disable_merge_call" value="true"/>
+        <boolean name="support_vowifi_emergency_call" value="true" />
+        <boolean name="dial_ecc_vowifi_when_airplane_mode" value="true" />
+        <boolean name="ecc_fallback_to_cs_retry_ecc" value="true" />
+        <boolean name="ecc_on_vowifi_first" value="true" />
+    </carrier_config>
+</carrier_config_list>

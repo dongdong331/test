@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="non_spam_notification_title">"<xliff:g id="number">%1$s</xliff:g> ଜାଣନ୍ତୁ?"</string>
+<string name="spam_notification_title">" <xliff:g id="number">%1$s</xliff:g> ଗୋଟିଏ ସ୍ପାମ କଲ୍‍ ଥିଲା କି?"</string>
+<string name="spam_notification_block_report_toast_text">"<xliff:g id="number">%1$s</xliff:g> ଅବରୋଧ କରାଯାଇଛି ଏବଂ କଲ୍‍ ଟିକୁ ସ୍ପାମ ଭାବରେ ରିପୋର୍ଟ କରାଯାଇଛି|</string>
+<string name="spam_notification_not_spam_toast_text">"<xliff:g id="number">%1$s</xliff:g> ଅବରୋଧ କରାଯାଇଛି ଏବଂ କଲ୍‍ ଟିକୁ ସ୍ପାମ ନୁହେଁ ଭାବରେ ରିପୋର୍ଟ କରାଯାଇଛି|</string>
+<string name="spam_notification_non_spam_call_collapsed_text">"ସ୍ପାମ ନମ୍ବର କୁ ବ୍ଲକ କରିବାକିମ୍ବା ସଂପର୍କ ଆଡ କରିବାକୁ ଟ୍ୟାପ କରନ୍ତୁ|</string>
+<string name="spam_notification_non_spam_call_expanded_text">"ପ୍ରଥମ ଥର ଏହି ନ୍ମ୍ବର ରୁ ଆପଣଙୁ କଲ ଆସିଛି|ଯଦି ଏହି କଲ ସ୍ପାମ ହୁଏ ତେବେ ରିପୋର୍ଟ କରିବେ|"</string>
+<string name="spam_notification_spam_call_collapsed_text">"ସ୍ପାମ ନୁହେଁ ରିପୋର୍ଟ କରିବା ପାଇଁ ବା ବ୍ଲକ୍‍ କରିବା ପାଇଁ ଟ୍ୟାପ୍‍ କରନ୍ତୁ"</string>
+<string name="spam_notification_report_spam_action_text">"ଅବରୋଧ ଏବଂ ରିପୋର୍ଟ"</string>
+<string name="spam_notification_add_contact_action_text">"କଣ୍ଟାକ୍ଟ ଯୋଗକରନ୍ତୁ"</string>
+<string name="spam_notification_dialog_add_contact_action_text">"ଯୋଗାଯୋଗ ଗୁଡ଼ିକରେ ଯୋଗକରନ୍ତୁ"</string>
+<string name="spam_notification_dialog_block_report_spam_action_text">"ଅବରୋଧ ଏବଂ ସ୍ପାମ  ରିପୋର୍ଟ"</string>
+<string name="spam_notification_block_spam_action_text">"ହଁ, ନମ୍ବର ବ୍ଲକ୍‍ କରନ୍ତୁ"</string>
+<string name="spam_notification_action_dismiss">"ଡିସ୍‌ମିସ୍‌"</string>
+</resources>

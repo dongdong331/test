@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"Baji ambayo haijasomwa"</string>
+    <string name="unread_call">"Simu"</string>
+    <string name="unread_sms">"Simu za sauti"</string>
+    <string name="unread_email">"Barua pepe"</string>
+    <string name="unread_calendar">"Kalenda"</string>
+    <string name="unread_hint">"Umekosa ruhusa <xliff:g id="unread_type">%1$s</xliff:g> inayohitajika, tafadhali omba ruhusa kwanza."</string>
+    <string name="app_list_preference_none">"Tafadhali chagua programu."</string>
+    <string name="pref_missed_call_count_title">"Simu uliyokosa"</string>
+    <string name="pref_missed_call_count_summary">"Chagua programu ya Simu, onyesha idadi ya simu ulizokosa kwenye programu hiyo"</string>
+    <string name="pref_unread_sms_count_title">"Ujumbe ambao haujasomwa"</string>
+    <string name="pref_unread_sms_count_summary">"Chagua programu ya SMS, onyesha idadi ya ujumbe ambao haujasomwa kwenye programu hiyo"</string>
+    <string name="pref_unread_email_count_title">"Barua pepe ambayo haijasomwa"</string>
+    <string name="pref_unread_email_count_summary">"Chagua programu ya Barua pepe, onyesha idadi ya barua ambazo hazijasomwa kwenye programu hiyo"</string>
+    <string name="pref_unread_calendar_count_title">"Kalenda ambao haijasomwa"</string>
+    <string name="pref_unread_calendar_count_summary">"Chagua programu ya Kalenda, onyesha matukio ya kalenda ambayo hayajasomwa kwenye programu hiyo"</string>
+    <string name="selected_text">"Iliyochaguliwa"</string>
+    <string name="dynamic_icon_title">"Ikoni badilifu"</string>
+    <string name="allow_circular_sliding_title">"Lupu ya Skrini ya mwanzo"</string>
+    <string name="allow_circular_sliding_summary">"Mpangilio wa Ukurasa wa Kushoto wa Maudhui Kaida hauruhusu lupu ya Skrini ya mwanzo"</string>
+</resources>

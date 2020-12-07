@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unknown_area">"ਅਣਜਾਣ ਖੇਤਰ"</string>
+<string name="exceed_limit">"ਕਾਨਫਰੰਸ ਕਾਲਾਂ ਦੀ ਸੰਖਿਆ ਸੀਮਾ ਤੋਂ ਵੱਧ ਹੋਈ"</string>
+<string name="hangupcall_note_title">ਧਿਆਨ</string>
+<string name="hangupcall_note_message">"ਇਨਕਮਿੰਗ ਕਾਲ ਤੀਜੀ ਕਾਲ ਹੈ, ਜੇਕਰ ਜਵਾਬ ਦਿੱਤਾ ਗਿਆ ਹੈ, ਤਾਂ ਮੌਜੂਦਾ ਸਕਿਰਿਆ ਕਾਲ ਡਿਸਕਨੈਕਟ ਕਰ ਦਿੱਤੀ ਜਾਏਗੀ।"</string>
+</resources>

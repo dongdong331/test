@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"नपढिएको ब्याज"</string>
+    <string name="unread_call">"फोन"</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">"इमेल"</string>
+    <string name="unread_calendar">"पात्रो"</string>
+    <string name="unread_hint">"आवश्यक <xliff:g id="unread_type">%1$s</xliff:g> अनुमति उपलब्ध छैन, कृपया पहिले अनुमति लिनुहोस्।"</string>
+    <string name="app_list_preference_none">"कृपया कुनै एप चयन गर्नुहोस्।"</string>
+    <string name="pref_missed_call_count_title">"छुटेको कल"</string>
+    <string name="pref_missed_call_count_summary">"छुटेका कलहरूको संख्या देखाउन फोन एप चयन गर्नुहोस्"</string>
+    <string name="pref_unread_sms_count_title">"नपढिएको सन्देश"</string>
+    <string name="pref_unread_sms_count_summary">"छुटेका सन्देशहरूको संख्या देखाउन SMS एप चयन गर्नुहोस्"</string>
+    <string name="pref_unread_email_count_title">"नपढिएको इमेल"</string>
+    <string name="pref_unread_email_count_summary">"छुटेका मेलहरूको संख्या देखाउन इमेल एप चयन गर्नुहोस्"</string>
+    <string name="pref_unread_calendar_count_title">"नपढिएको पात्रो"</string>
+    <string name="pref_unread_calendar_count_summary">"पात्रोका छुटेका कार्यक्रमहरूको संख्या देखाउन पात्रो एप चयन गर्नुहोस्"</string>
+    <string name="selected_text">"चयन गरियो"</string>
+    <string name="dynamic_icon_title">"डाइनामिक प्रतिमा"</string>
+    <string name="allow_circular_sliding_title">"गृह स्क्रिनको लुप"</string>
+    <string name="allow_circular_sliding_summary">"बायाँ पृष्ठअनुसार अनुकूल पारिएको सेटिङले गृह स्क्रिन लुप गर्ने अनुमति दिँदैन"</string>
+</resources>

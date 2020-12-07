@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_on_hold" msgid="5618253281695138626">"In attesa"</string>
+    <string name="incall_dialing">"Chiamata in corso"</string>
+    <string name="incall_conf_call">Chiamata di conferenza</string>
+    <string name="incall_incoming_call">"Chiamata in arrivo"</string>
+    <string name="incall_hanging_up">"In fase di chiusura"</string>
+    <string name="incall_in_call">"Chiamata in corso"</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="telecommAppLabel" product="default">"အ၀င္ဖုန္း စီမံခန္ ့ခြဲမွဳ"</string>
+<string name="userCallActivityLabel" product="default">ဖုန္း</string>
+<string name="unknown">"မသိ"</string>
+<string name="notification_missedCallTitle">"မေျဖဆိုထားေသာဖုန္း"</string>
+<string name="notification_missedWorkCallTitle">"အလုပ္ဖုန္း မကိုင္မိ"</string>
+<string name="notification_missedCallsTitle">"လြတ္သြားေသာဖုန္း"</string>
+<string name="notification_missedCallsMsg">"မေျဖဆိုထားေသာ ဖုန္းမ်ား <xliff:g id="num_missed_calls">%s</xliff:g>"</string>
+<string name="notification_missedCallTicker">"<xliff:g id="missed_call_from">%s</xliff:g> ထံမွ ဖုန္းလြတ္သြားသည္။"</string>
+<string name="notification_missedCall_call_back">"ဖုန္းျပန္လည္"</string>
+<string name="notification_missedCall_message">မက္ေဆ့(ခ်္)</string>
+<string name="accessibility_call_muted">"ေခၚဆိုမႈအား အသံတိတ္ထားသည္။"</string>
+<string name="accessibility_speakerphone_enabled">"စပီကာဖုန္းဖြင့္ျပီး။"</string>
+<string name="respond_via_sms_canned_response_1">"အခုစကားေျပာလို႔မရေသးဘူး။ ဘာကိစၥ႐ွိလို႔လဲ?"</string>
+<string name="respond_via_sms_canned_response_2">"ခ်က္ခ်င္းျပန္ေခၚလိုက္မယ္။"</string>
+<string name="respond_via_sms_canned_response_3">"ေနာက္မွျပန္ေခၚလိုက္မယ္."</string>
+<string name="respond_via_sms_canned_response_4">"အခုစကားေျပာလို႔မရေသးဘူး။ ေနာက္မွျပန္ေခၚမလား?"</string>
+<string name="respond_via_sms_setting_title">"အျမန္ေျဖၾကားခ်က္မ်ား"</string>
+<string name="respond_via_sms_setting_title_2">"အျမန္ျပန္ၾကားခ်က္မ်ားကိုတည္းျဖတ္ပါ"</string>
+<string name="respond_via_sms_edittext_dialog_title">"အျမန္ေျဖၾကားခ်က္မ်ား"</string>
+<string name="respond_via_sms_confirmation_format">"<xliff:g id="phone_number">%s</xliff:g> သို႔ ေပးပို႔ျပီး။"</string>
+<string name="enable_account_preference_title">"ဖုန္းေခၚရန္ အေကာင့္မ်ား"</string>
+<string name="outgoing_call_not_allowed_user_restriction">"အေရးေပၚဖုန္းမ်ားသာ ခြင့္ျပုထား."</string>
+<string name="outgoing_call_not_allowed_no_permission">"ဖုန္းခြင့္ျပဳမိန္ ့မပါလွ်င္ ေအပီပီမွ အထြက္ဖုန္းမ်ား မရနိုင္ပါ."</string>
+<string name="outgoing_call_error_no_phone_number_supplied">"ဖုန္းတစ္ခု ေခၚရန္, တရား၀င္ နံပါတ္တစ္ခု ထည့္ပါ."</string>
+<string name="duplicate_video_call_not_allowed">"ယခု ဖုန္းေခၚဆိုရန္ ထည့္မရနိုင္ပါ."</string>
+<string name="no_vm_number">"အသံေမးလ္နံပါတ္ေပ်ာက္ဆံုးေနသည္"</string>
+<string name="no_vm_number_msg">"SIM ကဒ္တြင္ သိမ္းထားေသာ အသံေမးလ္နံပါတ္မ႐ွိပါ"</string>
+<string name="add_vm_number_str">"နံပါတ္ထည့္မည္"</string>
+<string name="change_default_dialer_dialog_title">"<xliff:g id="new_app">%s</xliff:g> ကို သင္၏ ပံုေသ "ဖုန္း" အက္ပ္အျဖစ္ သံုးမလား။"</string>
+<string name="change_default_dialer_dialog_affirmative">"ဒီေဖါ့ ကိုတပ္ဆင္ပါ"</string>
+<string name="change_default_dialer_dialog_negative">"မလုပ္ပါ"</string>
+<string name="change_default_dialer_warning_message">"<xliff:g id="new_app">%s</xliff:g> သည္ ဖုန္းေခၚဆိုမႈ မ်ိဳးစံုကို ေခၚဆိုရန္ႏွင့္ ထိန္းခ်ဳပ္ရန္ လုပ္ေဆာင္ႏိုင္ပါမည္။ သင္ယံုၾကည္ေသာ အက္ပ္မ်ားကိုသာ ပံုေသ "ဖုန္း" အက္ပ္အျဖစ္ သတ္မွတ္သင့္ပါသည္။"</string>
+<string name="blocked_numbers">"ကန္ ့သတ္ထားသည့္ နံပါတ္မ်ား"</string>
+<string name="blocked_numbers_msg">"ကန္ ့သတ္ထားသည့္ နံပါတ္မ်ားမွ စာသားမ်ား (သို ့) ဖုန္းမ်ား လက္ခံမရနိုင္."</string>
+<string name="block_number">"နံပါတ္တစ္ခု ထည့္ပါ"</string>
+<string name="unblock_dialog_body">"မကန္ ့သတ္ <xliff:g id="number_to_block">%1$s</xliff:g>?"</string>
+<string name="unblock_button">"မကန္ ့သတ္"</string>
+<string name="add_blocked_dialog_body">"မွ ဖုန္း နွင့္ စာသားမ်ား ကန္ ့သတ္ပါ"</string>
+<string name="add_blocked_number_hint">"ဖုန္းနံပါတ္"</string>
+<string name="block_button">"ပိတ္ဆို႔ပါ"</string>
+<string name="non_primary_user">"စက္ပိုင္ရွင္မွ ျကည့္နိုင္ျပီး ကန္ ့သတ္ထားသည့္ နံပါတ္မ်ားကို စိမံနိုင္."</string>
+<string name="delete_icon_description">"မကန္ ့သတ္"</string>
+<string name="blocked_numbers_butter_bar_title">"ကန္ ့သတ္ျခင္း ယာယီ ပိတ္"</string>
+<string name="blocked_numbers_butter_bar_body">"အေရးေပၚနံပါတ္ေခၚ (သို ့) စာသားပို ့ ျပီးေနာက္,သင့္ထံဆက္သြယ္နိုင္မည့္ အေရးေပၚ ၀န္ေဆာင္မွဳမ်ား ရနိုင္မည္."</string>
+<string name="blocked_numbers_butter_bar_button">"ယခု ျပန္-ဖြင့္ပါ"</string>
+<string name="blocked_numbers_number_blocked_message">"<xliff:g id="blocked_number">%1$s</xliff:g>ကန္ ့သတ္ထား"</string>
+<string name="blocked_numbers_number_unblocked_message">"<xliff:g id="unblocked_number">%1$s</xliff:g>ကန္ ့သတ္ထား"</string>
+<string name="blocked_numbers_block_emergency_number_message">"အေရးေပၚနံပါတ္ ကန္ ့သတ္လို ့ မရနိုင္."</string>
+<string name="blocked_numbers_number_already_blocked_message">"<xliff:g id="blocked_number">%1$s</xliff:g> ကန္ ့သတ္ထားျပီး"</string>
+<string name="toast_personal_call_msg">"ဖုန္းေခၚရန္ ကိုယ္ပိုင္ဖုန္းေခၚသံုးပါ"</string>
+<string name="notification_incoming_call">"<xliff:g id="call_from">%2$s</xliff:g> ထံမွ <xliff:g id="call_via">%1$s</xliff:g> ေခၚဆိုမႈ "</string>
+<string name="notification_incoming_video_call">"<xliff:g id="call_from">%2$s</xliff:g> ထံမွ <xliff:g id="call_via">%1$s</xliff:g> ဗီဒီယိုဖုန္းေခၚဆိုမႈ"</string>
+<string name="answering_ends_other_call">"ဖုန္းေျဖလုိက္ျခင္းျဖင့္ သင္၏ <xliff:g id="call_via">%1$s</xliff:g> ဖုန္းေခၚဆိုမႈ အဆံုးသတ္သြားပါမည္"</string>
+<string name="answering_ends_other_calls">"ဖုန္းေျဖလုိက္ျခင္းျဖင့္ သင္၏ <xliff:g id="call_via">%1$s</xliff:g> ဖုန္းေခၚဆိုမႈမ်ား အဆံုးသတ္သြားပါမည္"</string>
+<string name="answering_ends_other_video_call">"ဖုန္းေျဖလုိက္ျခင္းျဖင့္ သင္၏ <xliff:g id="call_via">%1$s</xliff:g>  ဗီဒီယိုဖုန္းေခၚဆိုမႈမ်ား အဆံုးသတ္သြားပါမည္"</string>
+<string name="answering_ends_other_managed_call">"ဖုန္းေျဖလုိက္ျခင္းျဖင့္ သင္၏ အထြက္ဖုန္း က်သြားပါမည္"</string>
+<string name="answering_ends_other_managed_calls">"ဖုန္းေျဖလုိက္ျခင္းျဖင့္ သင္၏ အထြက္ဖုန္းမ်ား က်သြားပါမည္"</string>
+<string name="answering_ends_other_managed_video_call">"ဖုန္းေျဖလုိက္ျခင္းျဖင့္ သင္၏ အထြက္  ဗီဒီယိုဖုန္းေခၚဆိုမႈမ်ား က်သြားပါမည္"</string>
+<string name="answer_incoming_call">"ေျဖၾကား"</string>
+<string name="decline_incoming_call">"ျငင္းပယ္ပါ"</string>
+<string name="cant_call_due_to_ongoing_call">"သင္၏ <xliff:g id="other_call">%1$s</xliff:g> ဖုန္းေခၚဆိုမႈေၾကာင့္ ဖုန္းေခၚဆို၍ မရပါ။"</string>
+<string name="cant_call_due_to_ongoing_calls">"သင္၏ <xliff:g id="other_call">%1$s</xliff:g> ဖုန္းေခၚဆိုမႈမ်ားေၾကာင့္ ဖုန္းေခၚဆို၍ မရပါ"</string>
+<string name="cant_call_due_to_ongoing_unknown_call">"အျခားအက္ပ္တြင္ ဖုန္းေျပာဆိုမႈရွိေန၍ ဖုန္းမေခၚႏိုင္ပါ။"</string>
+<string name="notification_channel_incoming_call">"အ၀င္ေခၚဆိုမႈမ်ား"</string>
+<string name="notification_channel_missed_call">"လြတ္သြားေသာဖုန္း"</string>
+<string name="notification_channel_call_blocking">"ဖုန္း ကန္ ့သတ္ေန"</string>
+<string name="alert_outgoing_call">"ဤဖုန္းကို ေခၚဆိုျခင္းျဖင့္ သင္၏ <xliff:g id="other_app">%1$s</xliff:g> ဖုန္းေခၚဆိုမႈ အဆံုးသတ္သြားပါမည္။"</string>
+<string name="phone_settings_call_blocking_txt">"ဖုန္း ကန္ ့သတ္ေန"</string>
+<string name="phone_settings_number_not_in_contact_txt">"အဆက္အသြယ္မ်ားထဲတြင္ မရွိေသာ နံပါတ္မ်ား"</string>
+<string name="phone_settings_number_not_in_contact_summary_txt">"သင့္အဆက္အသြယ္မ်ားထဲတြင္ စာရင္းမရွိေသာ နံပါတ္မ်ားကို ပိတ္ဆို႔ရန္"</string>
+<string name="phone_settings_private_num_txt">"သီးသန္႔"</string>
+<string name="phone_settings_private_num_summary_txt">"၎တို႔၏ နံပါတ္ကို မထုတ္ေဖာ္သည့္ ဖုန္းေခၚဆိုသူမ်ားကို ပိတ္ဆုိ႔ရန္"</string>
+<string name="phone_settings_payphone_txt">"ၾကိဳတင္ေငြေပးဖုန္း"</string>
+<string name="phone_settings_payphone_summary_txt">"အခေပး ဖုန္းမ်ားမွ ေခၚဆိုမႈမ်ားကို ပိတ္ဆို႔ရန္"</string>
+<string name="phone_settings_unknown_txt">"မသိ"</string>
+<string name="phone_settings_unknown_summary_txt">"အမည္သတ္မွတ္ခ်က္မပါေသာ ဖုန္းေခၚသူမ်ားထံမွ ေခၚဆိုမႈမ်ားကို ပိတ္ဆို႔ရန္"</string>
+<string name="phone_strings_call_blocking_turned_off_notification_title_txt">"ဖုန္း ကန္ ့သတ္ေန"</string>
+<string name="phone_strings_call_blocking_turned_off_notification_text_txt">"ဖုန္းေခၚဆိုမႈ ပိတ္ဆို႔ျခင္းကို ပိတ္ထားသည္"</string>
+<string name="phone_strings_emergency_call_made_dialog_title_txt">"အေရးေပၚဖုန္း ေခၚထားသည္"</string>
+<string name="phone_strings_emergency_call_made_dialog_call_blocking_text_txt">"အေရးေပၚ တုံ႔ျပန္သူမ်ားက သင့္အား ဆက္သြယ္ႏိုင္ရန္ ဖုန္းေခၚဆိုမႈ ပိတ္ဆို႔ျခင္းကို ပိတ္ထားသည္။"</string>
+</resources>

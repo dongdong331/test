@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"कॉल सायलेंट करण्यासाठी फ्लिप करा"</string>
+<string name="flipping_summary">"इनकमिंग कॉल सायलेंट करण्यासाठी फोन फिरवा"</string>
+<string name="main_card_slot">"मुख्य कार्ड:"</string>
+<string name="vice_card_slot">"उप कार्ड:"</string>
+<string name="fade_in_title">"फेड-ईन रिंगर"</string>
+<string name="fade_in_summary">"समर्थ केल्यास, इनकमिंग कॉल च्या रिंगर चा आवाज वाढविता येतो."</string>
+<string name="dialog_make_call_airplane_mode_message">"कॉल करण्यासाठी, आधी एअरप्लेन मोड बंद करा."</string>
+</resources>

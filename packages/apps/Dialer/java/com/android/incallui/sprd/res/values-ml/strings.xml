@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unknown_area">"അജ്ഞാതമായ മേഖല"</string>
+<string name="exceed_limit">"കോണ്‍ഫറന്‍സ് കോളുകളുടെ എണ്ണം പരിധി കവിഞ്ഞു"</string>
+<string name="hangupcall_note_title">"ശ്രദ്ധിക്കുക"</string>
+<string name="hangupcall_note_message">"ഇത് മൂന്നാമത്തെ ഇൻകമിംഗ് കോൾ ആണ്, എടുക്കുകയാണെകിൽ, നിലവിൽ സജീവമായ കോൾ മുറിഞ്ഞു പോകും  ."</string>
+</resources>

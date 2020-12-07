@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD Feature Porting: Add for call recorder feature. @{ -->
+    <string name="onscreenShowRecodText">Record</string>
+    <string name="onscreenShowStopRecodText">Stop Recording</string>
+    <string name="recorderr">Recording fail to save!</string>
+    <string name="audio_db_artist_name">Your recordings</string>
+    <string name="audio_db_album_name">Call recordings</string>
+    <string name="audio_db_playlist_name">My recordings</string>
+    <string name="app_name">Phone App</string>
+    <string name="error_mediadb_new_record">Unable to save recorded audio</string>
+    <string name="sdcard_access_error">"Can\'t access SD card"</string>
+    <string name="no_sd_card">NO SD card or UNMOUNTED</string>
+    <string name="insert_sd_card">Please insert an SD card</string>
+    <string name="storage_is_full">Storage is full</string>
+    <string name="recording">Recording&#160;</string>
+    <string name="used_by_other_applications">Recording equipment are used by other programs, please shut down the program </string>
+    <string name="prompt_record_finish">"The recording file has been saved to"</string>
+    <string name="ok">OK</string>
+    <string name="permission_no_record">You have no permission for call recording</string>
+    <string name="no_available_storage">No available storage, record save failed</string>
+    <string name="call_recording_setting_title">"Call recording"</string>
+    <string name="automatic_recording_title">"Automatic recording"</string>
+    <!-- @} -->
+    <!--add for bug932735 -->
+    <string name="record_failed_error">"Start recording failed"</string>
+    <!-- @} -->
+    <!-- SPRD Feature Porting: Vibrate when call connected or disconnected feature @{ -->
+    <string name="vibration_feedback_for_call_connection_setting_title">Prompts for call connection</string>
+    <string name="vibration_feedback_for_call_connection_title">Vibration feedback for outgoing call connection</string>
+    <string name="vibration_feedback_for_call_disconnection_title">Vibration feedback for call disconnection</string>
+    <!-- @} -->
+    <!-- SPRD Feature Porting: Flip to silence from incoming calls. -->
+    <string name="incomingcall_flipping_silence_title">Flip to silence call</string>
+    <!-- SPRD Feature Porting: Enable send sms in incallui feature. -->
+    <string name="onscreenSMSText">Send message</string>
+    <!-- SPRD Feature Porting: FL1000060352 display state of conference member -->
+    <string name="incall_active">Active</string>
+    <string name="incall_onhold">On hold</string>
+    <!-- SPRD Feature Porting: FL0108160005 Hangup all calls for orange case.-->
+    <string name="onScreenHangupAllText">Hangup all</string>
+
+    <!-- SPRD: Call recording settings & 894608 @{ -->
+    <!-- Text of button to be decllined for call record-->
+    <string name="record_menu_title">Call recording</string>
+    <string name="record_menu_title_recording">Recording</string>
+    <string name="request_video_message">Requesting video</string>
+    <string name="automatic_call_recording_title">Automatic call recording</string>
+    <string name="call_recording_notification">Call recording notification</string>
+    <string name="recording_can_be_found_soundrecorder_app">Recordings can be found in Sound Recorder app</string>
+    <string name="show_notification_after_call_has_been_recorded">Show notification after call has been recorded</string>
+    <string name="records_call_from">Record calls from</string>
+    <string name="all_numbers">All numbers</string>
+    <string name="listed_numbers">Listed numbers</string>
+    <string name="unknown_number">Unknown numbers</string>
+    <string name="add_number">Numbers</string>
+    <string name="none">None</string>
+    <string name="call_recording_saved">Call recording saved</string>
+    <string name="click_to_view_the_recorded_file">Click to view the recorded file</string>
+
+    <string name="number_has_been_added">"Number"</string>
+    <string name="numbers_has_been_added">"Numbers"</string>
+    <!-- @} -->
+    <!-- SPRD modify for bug 761451 @{ -->
+    <string name="phone_number_not_saved">Input number cannot be saved</string>
+    <!-- @} -->
+    <!-- SPRD modify for bug 761490 @{ -->
+    <string name="phone_number_exists">Phone number already exists</string>
+    <!-- @} -->
+    <!-- SPRD: Explicit Transfer Call @{ -->
+    <string name="onscreenTransferCallText">Transfer</string>
+    <!-- SPRD:add for Volte. -->
+    <string name="invite_call">"Invite"</string>
+    <!-- Text for the onscreen overflow button, to see additional actions which can be done. -->
+    <string name="incall_content_description_overflow">More options</string>
+    <!-- Button shown during a phone call to degrade to audio.-->
+    <string name="incall_label_audiocall">Audio call</string>
+    <!-- SPRD:Add for change video type feature. -->
+    <string name="call_type_title">Which type of call?</string>
+    <string name="call_type_voice">Voice Only</string>
+    <string name="onscreenVideoCallRxText">Received Video Only</string>
+    <string name="onscreenVideoCallTxText">Broadcast Video Only</string>
+    <string name="incall_content_description_change_video_type">Change Video Type</string>
+    <!-- @} -->
+    <!-- SPRD Feature Porting: FL0108020044 Support Telcel Operator requirement. @{-->
+    <string name="telcel_indicator">TELCEL</string>
+    <!-- SPRD: SPRD Feature Porting: Fade in ringer volume when incoming calls. -->
+    <string name="fade_in_title">Fade-in ringer</string>
+    <!-- SPRD Feature Porting: show main/vice card feature @{ -->
+    <string name="main_card_slot">Main Card: </string>
+    <string name="vice_card_slot">Vice Card: </string>
+    <!-- @} -->
+    <!-- SPRD:add for Vowifi. -->
+    <string name="poor_voice_quality">"Poor voice quality"</string>
+    <string name="fair_voice_quality">"Fair voice quality"</string>
+    <string name="good_voice_quality">"Good voice quality"</string>
+    <!-- SPRD Feature: Support wifiCall notification. @{ -->
+    <string name="wfc_may_drop_dialog_title">Your Call may drop</string>
+    <string name="wfc_may_drop_dialog_msg">You are moving too far from the range of Wi-Fi coverage!</string>
+    <string name="wfc_may_drop_dialog_left_btn">OK</string>
+
+    <string name="wfc_have_dropped_dialog_title">Wi-Fi Call Dropped</string>
+    <string name="wfc_have_dropped_dialog_msg">You must have moved outside of your Wi-Fi network during a call. Would you like to try to reconnect to your Wi-Fi network to finish your call?</string>
+    <string name="wfc_have_dropped_dialog_left_btn">View Networks</string>
+    <string name="wfc_have_dropped_dialog_right_btn">No Thanks</string>
+    <!-- @} -->
+ </resources>

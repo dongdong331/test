@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxImageHeight" value="1944"/>
+        <int name="maxMessageSize" value="614400"/>
+        <int name="maxImageWidth" value="2592"/>
+        <string-array name="non_roaming_operator_string_array" num="2">
+            <item value="20801" />
+            <item value="20810" />
+        </string-array>
+    </carrier_config>
+    <carrier_config spn="EI Telecom">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">EI Telecom</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="NRJ Mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="default_vm_number_string">777</string>
+    </carrier_config>
+    <carrier_config spn="Numericable">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Numericable</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config>
+        <boolean name="support_non_domestic_roaming" value="true" />
+    </carrier_config>
+</carrier_config_list>

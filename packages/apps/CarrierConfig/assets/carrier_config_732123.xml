@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">123@1</string>
+        <string name="ecclist_withcard">123@1</string>
+    </carrier_config>
+    <carrier_config>
+        <!-- UNISOC:modify for bug 1016447 @{ -->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

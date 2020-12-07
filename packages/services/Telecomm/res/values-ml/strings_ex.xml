@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"കോള്‍ സൈലന്‍സ് ആക്കാന്‍ ഫ്ലിപ്പ് ചെയ്യുക"</string>
+<string name="flipping_summary">"ഇന്‍കമിംഗ് കോള്‍ സൈലന്‍സ് ആക്കാന്‍ ഫോണ്‍ ഫ്ലിപ്പ് ചെയ്യുക"</string>
+<string name="main_card_slot">"പ്രധാന കാര്‍ഡ് :"</string>
+<string name="vice_card_slot">"വൈസ് കാര്‍ഡ് :"</string>
+<string name="fade_in_title">"ഫെയ്‌ഡ്-ഇന്‍ റിംഗര്‍"</string>
+<string name="fade_in_summary">"എനേബിള്‍ ചെയ്യുമ്പോള്‍, ഇന്‍കമിംഗ് കോള്‍ റിംഗര്‍ വോള്യം ഉയരും."</string>
+<string name="dialog_make_call_airplane_mode_message">"ഒരു കോള്‍ ചെയ്യുന്നതിന്, ആദ്യം എയര്‍പ്ലെയിന്‍ മോഡ് ടേണ്‍ ഓഫ് ചെയ്യുക."</string>
+</resources>

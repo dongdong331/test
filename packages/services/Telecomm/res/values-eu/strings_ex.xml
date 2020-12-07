@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"Biratu deia isilarazteko"</string>
+<string name="flipping_summary">"Biratu telefonoa sarrerako deia isilarazteko"</string>
+<string name="main_card_slot">Txartel nagusia:</string>
+<string name="vice_card_slot">2. mailako txartela:</string>
+<string name="fade_in_title">"Pixkanaka agertzen doan txirrina"</string>
+<string name="fade_in_summary">"Gaituta dagoenean, sarrerako deiaren tonuaren bolumena igoko da."</string>
+<string name="dialog_make_call_airplane_mode_message">Dei bat egiteko, lehenbizi itzali Hegazkin modua.</string>
+</resources>

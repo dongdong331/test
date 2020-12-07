@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- create by spreadst -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- SPRD: hotspot new feature  -->
+    <string-array name="wifi_ap_channel">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_channel_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="wifi_ap_max_connect">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="wifi_ap_max_connect_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="wifi_ap_max_connect_default">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="wifi_ap_max_connect_5">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="wifi_ap_max_connect_8">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="hotspot_mode">
+        <item>Normal Mode</item>
+        <item>White List Mode</item>
+    </string-array>
+    <string-array name="hotspot_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- add for keep Wi-Fi hotspot on entries-->
+    <string-array name="soft_ap_sleep_policy_entries">
+        <item>Always</item>
+        <item>Turn off when idle for 5 mins</item>
+        <item>Turn off when idle for 10 mins</item>
+    </string-array>
+    <!-- add for keep Wi-Fi hotspot on entry values-->
+    <string-array name="soft_ap_sleep_policy_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- SPRD: Bug#505201 Add for softap support wps connect mode and hidden ssid Feature BEG -->
+    <string-array name="hotspot_wps_mode">
+        <item>WPS Button</item>
+        <item>WPS PIN</item>
+    </string-array>
+    <string-array name="hotspot_wps_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="wifi_ap_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wpa</item>
+        <item>@string/wifi_security_wpa2</item>
+    </string-array>
+
+</resources>

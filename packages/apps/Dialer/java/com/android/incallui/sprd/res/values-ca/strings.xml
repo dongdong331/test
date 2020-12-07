@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="hangupcall_note_title">"Atenció"</string>
+<string name="hangupcall_note_message">"La trucada entrant és una trucada de tercers, si responeu, la trucada actual s\'interromprà."</string>
+<string name="unknown_area">"Àrea desconeguda"</string>
+<string name="exceed_limit">"El nombre de trucades en conferència ha superat el límit"</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="telecommAppLabel" product="default">"Gerenciamento de Chamadas"</string>
+<string name="userCallActivityLabel" product="default">"Telefone"</string>
+<string name="unknown">"Desconhecido"</string>
+<string name="notification_missedCallTitle">"Chamada perdida"</string>
+<string name="notification_missedWorkCallTitle">"Chamada de trabalho perdida"</string>
+<string name="notification_missedCallsTitle">"Chamadas perdidas"</string>
+<string name="notification_missedCallsMsg">"<xliff:g id="num_missed_calls">%s</xliff:g> chamadas perdidas"</string>
+<string name="notification_missedCallTicker">"Chamada perdida de <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+<string name="notification_missedCall_call_back">"Retornar chamada"</string>
+<string name="notification_missedCall_message">"Mensagem"</string>
+<string name="accessibility_call_muted">"Chamada muda."</string>
+<string name="accessibility_speakerphone_enabled">"Instalador de Dados de Síntese de Voz."</string>
+<string name="respond_via_sms_canned_response_1">"Não posso falar agora. O que houve?"</string>
+<string name="respond_via_sms_canned_response_2">"Vou te chamar de volta."</string>
+<string name="respond_via_sms_canned_response_3">"Vou te chamar mais tarde."</string>
+<string name="respond_via_sms_canned_response_4">"Não posso falar agora. Me ligue mais tarde?"</string>
+<string name="respond_via_sms_setting_title">"Respostas rápidas"</string>
+<string name="respond_via_sms_setting_title_2">"Editar respostas rápidas"</string>
+<string name="respond_via_sms_edittext_dialog_title">"Resposta rápida"</string>
+<string name="respond_via_sms_confirmation_format">"Mensagem enviada para <xliff:g id="phone_number">%s</xliff:g>."</string>
+<string name="enable_account_preference_title">"Contas de chamadas"</string>
+<string name="outgoing_call_not_allowed_user_restriction">"Somente chamadas de emergência são permitidas."</string>
+<string name="outgoing_call_not_allowed_no_permission">"Este aplicativo não pode efetuar chamadas sem a permissão do telefone."</string>
+<string name="outgoing_call_error_no_phone_number_supplied">"Para realizar uma chamada, digite um número válido."</string>
+<string name="duplicate_video_call_not_allowed">"Chamada não pode ser adicionada neste momento."</string>
+<string name="no_vm_number">"Número de correio de voz perdido"</string>
+<string name="no_vm_number_msg">"Nenhum número de correio de voz salvo no cartão SIM."</string>
+<string name="add_vm_number_str">"Adicionar número"</string>
+<string name="change_default_dialer_dialog_title">"Tornar <xliff:g id="new_app">%s</xliff:g> seu app de telefone padrão?"</string>
+<string name="change_default_dialer_dialog_affirmative">"Definir padrão"</string>
+<string name="change_default_dialer_dialog_negative">"Cancelar"</string>
+<string name="change_default_dialer_warning_message">"<xliff:g id="new_app">%s</xliff:g> será capaz de fazer e controlar todos os aspectos das chamadas. Apenas os aplicativos que você confia podem ser definidos como app de telefone padrão."</string>
+<string name="blocked_numbers">"Números bloqueados"</string>
+<string name="blocked_numbers_msg">"Você não receberá chamadas ou mensagens de números bloqueados."</string>
+<string name="block_number">"Adicionar um número"</string>
+<string name="unblock_dialog_body">"Desbloquear <xliff:g id="number_to_block">%1$s</xliff:g>?"</string>
+<string name="unblock_button">"DESBLOQUEAR"</string>
+<string name="add_blocked_dialog_body">"Bloquear todas as chamadas e mensagens de"</string>
+<string name="add_blocked_number_hint">"Número de telefone"</string>
+<string name="block_button">"BLOQUEAR"</string>
+<string name="non_primary_user">"Somente o proprietário do dispositivo pode ver e gerenciar os números bloqueados."</string>
+<string name="delete_icon_description">"DESBLOQUEAR"</string>
+<string name="blocked_numbers_butter_bar_title">"Bloqueio temporariamente desativado"</string>
+<string name="blocked_numbers_butter_bar_body">"Depois de discar ou enviar um texto para um número de emergência, o bloqueio é desativado para garantir que os serviços de emergência possam entrar em contato com você."</string>
+<string name="blocked_numbers_butter_bar_button">"Ativar agora"</string>
+<string name="blocked_numbers_number_blocked_message">"<xliff:g id="blocked_number">%1$s</xliff:g> bloqueado"</string>
+<string name="blocked_numbers_number_unblocked_message">"<xliff:g id="unblocked_number">%1$s</xliff:g> desbloqueado"</string>
+<string name="blocked_numbers_block_emergency_number_message">"Impossível bloquear número de emergência."</string>
+<string name="blocked_numbers_number_already_blocked_message">"<xliff:g id="blocked_number">%1$s</xliff:g> já está bloqueado."</string>
+<string name="toast_personal_call_msg">"Usando o discador pessoal para fazer a chamada"</string>
+<string name="notification_incoming_call">"<xliff:g id="call_via">%1$s</xliff:g> chamada de <xliff:g id="call_from">%2$s</xliff:g>"</string>
+<string name="notification_incoming_video_call">"<xliff:g id="call_via">%1$s</xliff:g> chamada de vídeo de <xliff:g id="call_from">%2$s</xliff:g>"</string>
+<string name="answering_ends_other_call">"Atender encerrará a sua <xliff:g id="call_via">%1$s</xliff:g> chamada"</string>
+<string name="answering_ends_other_calls">"Atender encerrará as suas <xliff:g id="call_via">%1$s</xliff:g> chamadas"</string>
+<string name="answering_ends_other_video_call">"Atender encerrará a sua <xliff:g id="call_via">%1$s</xliff:g> chamada de vídeo"</string>
+<string name="answering_ends_other_managed_call">"Atender encerará a sua chamada em curso"</string>
+<string name="answering_ends_other_managed_calls">"Atender encerrará as suas chamadas em curso"</string>
+<string name="answering_ends_other_managed_video_call">"Atender encerrará a sua chamada de vídeo em curso"</string>
+<string name="answer_incoming_call">"Atender"</string>
+<string name="decline_incoming_call">"Recusar"</string>
+<string name="cant_call_due_to_ongoing_call">"Não é possível realizar a chamada devido à sua <xliff:g id="other_call">%1$s</xliff:g> chamada."</string>
+<string name="cant_call_due_to_ongoing_calls">"Não é possível realizar a chamada devido às suas <xliff:g id="other_call">%1$s</xliff:g> chamadas."</string>
+<string name="cant_call_due_to_ongoing_unknown_call">"Não é possível realizar a chamada devido à uma chamada em outro app."</string>
+<string name="notification_channel_incoming_call">"Chamadas recebidas"</string>
+<string name="notification_channel_missed_call">"Chamadas perdidas"</string>
+<string name="notification_channel_call_blocking">"Bloqueio de chamadas"</string>
+<string name="alert_outgoing_call">"Atender a esta chamada encerrada a sua outra <xliff:g id="other_app">%1$s</xliff:g> chamada."</string>
+<string name="phone_settings_call_blocking_txt">"Bloqueio de chamadas"</string>
+<string name="phone_settings_number_not_in_contact_txt">"Números não estão em Contatos"</string>
+<string name="phone_settings_number_not_in_contact_summary_txt">"Bloquear números que não estão listados em Contatos"</string>
+<string name="phone_settings_private_num_txt">"Privado"</string>
+<string name="phone_settings_private_num_summary_txt">"Bloquear chamadores que não revelam seu número"</string>
+<string name="phone_settings_payphone_txt">"Telefone público"</string>
+<string name="phone_settings_payphone_summary_txt">"Bloquear chamadas de telefones públicos"</string>
+<string name="phone_settings_unknown_txt">"Desconhecido"</string>
+<string name="phone_settings_unknown_summary_txt">"Bloquear chamadas de chamadores não identificados"</string>
+<string name="phone_strings_call_blocking_turned_off_notification_title_txt">"Bloqueio de chamadas"</string>
+<string name="phone_strings_call_blocking_turned_off_notification_text_txt">"Bloqueio de chamada desativado"</string>
+<string name="phone_strings_emergency_call_made_dialog_title_txt">"Chamada de emergência efetuada"</string>
+<string name="phone_strings_emergency_call_made_dialog_call_blocking_text_txt">"Bloqueio de chamada desativado para permitir que respondedores de emergência contatem você."</string>
+</resources>

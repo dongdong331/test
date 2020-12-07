@@ -1,0 +1,37 @@
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+-->
+
+<resources>
+    <!--  Colors for blocked numbers list -->
+    <color name="blocked_contact_background">@android:color/holo_red_dark</color>
+    <color name="blocked_number_primary_text_color">@color/dialtacts_primary_text_color</color>
+    <color name="blocked_number_secondary_text_color">@color/dialtacts_secondary_text_color</color>
+    <color name="blocked_number_icon_tint">#616161</color>
+    <color name="blocked_number_background">#FFFFFF</color>
+    <color name="blocked_number_accent_color">#42A5F5</color>
+    <color name="blocked_number_block_color">#F44336</color>
+    <color name="blocked_number_header_color">@color/dialer_theme_color</color>
+    <color name="blocked_number_disabled_emergency_header_color">#616161</color>
+    <color name="blocked_number_disabled_emergency_background_color">#E0E0E0</color>
+    <color name="add_blocked_number_icon_color">#bdbdbd</color>
+    <!-- Grey 700 -->
+    <color name="call_detail_footer_text_color">#616161</color>
+    <color name="call_detail_footer_icon_tint">@color/call_detail_footer_text_color</color>
+    <color name="incall_background_color">@color/dialer_theme_color</color>
+    <!--add for bug895614 -->
+    <color name="call_record_pick_contacts_color">#D6D7D7</color>
+    <color name="call_type_icon_color">#a09f9d</color>
+</resources>

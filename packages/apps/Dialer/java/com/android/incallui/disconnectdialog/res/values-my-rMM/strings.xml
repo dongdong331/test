@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incall_enable_wifi_calling_button">ဖြင့္ရန္</string>
+<string name="video_call_not_available_title">"ဗီဒီယိုဖုန္းေခၚဆိုျခင္းကို လက္ရွိတြင္ မရႏိုင္ပါ"</string>
+<string name="video_call_not_available_message">"ေနာက္မွ ဖုန္းထပ္ေခၚၾကည့္မည္ သို႔မဟုတ္ အသံေပးပို႔ ဖုန္းေခၚဆိုမႈကို ဆက္လုပ္မည္"</string>
+<string name="voice_call">အသံေခၚဆိုမႈ </string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sprd.quickstepext.locktask.LockIconView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lock_icon_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/task_lock_background_height"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/task_thumbnail_top_margin"
+    android:background="#55000000"
+    android:visibility="gone">
+    <ImageView
+        android:id="@+id/lockicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|end"
+        android:layout_marginTop="@dimen/task_lock_icon_margin_top"
+        android:layout_marginBottom="@dimen/task_lock_icon_margin_bottom"
+        android:layout_marginStart="@dimen/task_lock_icon_margin_right"
+        android:layout_marginEnd="@dimen/task_lock_icon_margin_right"/>
+</com.sprd.quickstepext.locktask.LockIconView>

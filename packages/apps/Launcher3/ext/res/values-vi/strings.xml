@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"Dấu chưa đọc"</string>
+    <string name="unread_call">"Điện thoại"</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">"Gửi email"</string>
+    <string name="unread_calendar">"Lịch"</string>
+    <string name="unread_hint">"Thiếu quyền <xliff:g id="unread_type">%1$s</xliff:g> bắt buộc, trước tiên hãy xin phép đã."</string>
+    <string name="app_list_preference_none">"Hãy chọn ứng dụng."</string>
+    <string name="pref_missed_call_count_title">"Cuộc gọi nhỡ"</string>
+    <string name="pref_missed_call_count_summary">"Chọn ứng dụng Điện thoại, hiển thị số cuộc gọi bị nhỡ trên đó"</string>
+    <string name="pref_unread_sms_count_title">"Tin nhắn chưa đọc"</string>
+    <string name="pref_unread_sms_count_summary">"Chọn ứng dụng SMS, hiển thị số tin nhắn chưa đọc trên đó"</string>
+    <string name="pref_unread_email_count_title">"Email chưa đọc"</string>
+    <string name="pref_unread_email_count_summary">"Chọn ứng dụng Email, hiển thị số thư chưa đọc trên đó"</string>
+    <string name="pref_unread_calendar_count_title">"Lịch chưa đọc"</string>
+    <string name="pref_unread_calendar_count_summary">"Chọn ứng dụng Lịch, hiển thị sự kiện lịch chưa đọc trên đó"</string>
+    <string name="selected_text">"Đã chọn"</string>
+    <string name="dynamic_icon_title">"Biểu tượng động"</string>
+    <string name="allow_circular_sliding_title">"Vòng lặp màn hình chính"</string>
+    <string name="allow_circular_sliding_summary">"Cài đặt trang bên trái nội dung tùy chỉnh không cho phép vòng lặp màn hình chính"</string>
+</resources>

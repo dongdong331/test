@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_incoming_swipe_to_answer">"চুৱাইপ আপ টু এনছাৰ"</string>
+<string name="call_incoming_swipe_to_reject">"চুৱাইপ ডাউন টু ৰিজেক"</string>
+<string name="a11y_incoming_call_swipe_to_answer">উত্তৰ দিবলৈ দুটা আঙুলিৰে চুৱাইপ আপ কৰা বা ক’ল প্ৰত্যাখান কৰিবলৈ তললৈ চুৱাইপ কৰা|"</string>
+<string name="call_incoming_will_disconnect">"এই ক’লৰ উত্তৰ দিয়াই আপোনাৰ ভিডিঅ’ ক’লৰ অন্ত পেলাব|"</string>
+<string name="a11y_call_incoming_decline_description">"নাকচ"</string>
+<string name="call_incoming_decline">"নাকচ"</string>
+<string name="a11y_call_incoming_answer_description">"উত্তৰ দিয়ক"</string>
+<string name="call_incoming_answer">"উত্তৰ দিয়ক"</string>
+<string name="incoming_call_answer_warning">"এই কলটোৰ উত্তৰ প্ৰদানে <xliff:g id="PROVIDER_NAME">%s</xliff:g>ত হোৱা ডায়েলিং কলটো হেং-আপ কৰিব"</string>
+</resources>

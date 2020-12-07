@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"Переключіть в режим беззвучних викликів"</string>
+<string name="flipping_summary">"Переверніть телефон для беззвучного режиму при вхідному виклику"</string>
+<string name="main_card_slot">"Основна карта:"</string>
+<string name="vice_card_slot">"Додаткова карта:"</string>
+<string name="fade_in_title">"Наростаючий сигнал"</string>
+<string name="fade_in_summary">"При активації, гучність сигналу вхідного дзвінка буде увімкнена."</string>
+<string name="dialog_make_call_airplane_mode_message">"Для того, щоб здійснити виклик,  вимкніть режим "польоту".</string>
+</resources>

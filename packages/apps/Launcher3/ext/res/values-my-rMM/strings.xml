@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"မဖတ္ရေသးေသာ အမွတ္အသား"</string>
+    <string name="unread_call">ဖုန္း</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">အီးေမးလ္</string>
+    <string name="unread_calendar">"ျပကၡဒိန္"</string>
+    <string name="unread_hint">"လိုအပ္ေသာ ခြင့္ျပဳခ်က္ <xliff:g id="unread_type">%1$s</xliff:g> ခု မရွိပါ၊ ခြင့္ျပဳခ်က္ကို ဦးစြာ ေလွ်ာက္ထားေပးပါ။"</string>
+    <string name="app_list_preference_none">"အက္ပ္တစ္ခုကို ေရြးေပးပါ။"</string>
+    <string name="pref_missed_call_count_title">"မေျဖဆိုထားေသာဖုန္း"</string>
+    <string name="pref_missed_call_count_summary">"Phone (ဖုန္း) အက္ပ္တစ္ခုကို ေရြးခ်ယ္ပါ၊ လြဲသြားေသာဖုန္းမ်ားကို ၎ေပၚတြင္ ျပပါသည္"</string>
+    <string name="pref_unread_sms_count_title">"မဖတ္ရေသးေသာ မက္ေဆ့ဂ်္"</string>
+    <string name="pref_unread_sms_count_summary">"SMS အက္ပ္တစ္ခုကို ေရြးခ်ယ္ပါ၊ မဖတ္ရေသးေသာ စာမ်ားကို ၎ေပၚတြင္ ျပပါသည္"</string>
+    <string name="pref_unread_email_count_title">"မဖတ္ရေသးေသာ အီးေမးလ္"</string>
+    <string name="pref_unread_email_count_summary">"(အီးေမးလ္) အက္ပ္တစ္ခုကို ေရြးခ်ယ္ပါ၊ မဖတ္ရေသးေသာ အီးေမးလ္မ်ားကို ၎ေပၚတြင္ ျပပါသည္"</string>
+    <string name="pref_unread_calendar_count_title">"မဖတ္ရေသးေသာ ျပကၡဒိန္"</string>
+    <string name="pref_unread_calendar_count_summary">"Calendar  (ျပကၡဒိန္) အက္ပ္တစ္ခုကို ေရြးခ်ယ္ပါ၊ မဖတ္ရေသးေသာ အစီအစဥ္မ်ားကို ၎ေပၚတြင္ ျပပါသည္"</string>
+    <string name="selected_text">"ေ႐ြးခ်ယ္ျပီး"</string>
+    <string name="dynamic_icon_title">"ဒိုင္းနမစ္ အိုင္ကြန္"</string>
+    <string name="allow_circular_sliding_title">"ပင္မစခရင္ လုပ္ငန္းစဥ္"</string>
+    <string name="allow_circular_sliding_summary">"စိတ္ႀကိဳက္ အေၾကာင္းအရာခ်န္ စာမ်က္ႏွာ ဆက္တင္သည္ ပင္မစခရင္ လုပ္ငန္းစဥ္မ်ားကို ခြင့္မျပဳပါ"</string>
+</resources>

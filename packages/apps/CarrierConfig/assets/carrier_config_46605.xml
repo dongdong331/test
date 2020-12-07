@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <!-- SPRD: modify for bug912640 @{ -->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+        <!-- @} -->
+        <!-- SPRD: modify for bug932448 @{ -->
+        <boolean name="hide_video_call_forward" value="true"/>
+        <!-- @} -->
+        <string name="fake_ecclist_withcard">110,119</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="fake_ecclist_withcard">110,119</string>
+        <!-- @} -->
+    </carrier_config>
+</carrier_config_list>

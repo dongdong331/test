@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"Retourner à l\'appel de silence"</string>
+<string name="flipping_summary">"Retourner le portable pour désactiver l\'appel entrant"</string>
+<string name="main_card_slot">"Carte principale :"</string>
+<string name="vice_card_slot">"Carte secondaire :"</string>
+<string name="fade_in_title">"Sonnerie de fondu"</string>
+<string name="fade_in_summary">"Une fois activé, le volume de la sonnerie d\'appel entrant sera activé."</string>
+<string name="dialog_make_call_airplane_mode_message">Pour effectuer un appel, désactiver d\'abord le mode Avion.</string>
+</resources>

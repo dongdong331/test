@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unknown_area">Zonë e panjohur</string>
+<string name="exceed_limit">"Numri i telefonatave konferencë e ka kaluar limitin"</string>
+<string name="hangupcall_note_title">Kujdes</string>
+<string name="hangupcall_note_message">"Telefonata hyrëse është telefonata e tretë, nëse përgjigjeni, telefonata aktuale aktive do të shkëputet."</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_on_hold" msgid="5618253281695138626">"హోల్డ్‌లో ఉంది"</string>
+    <string name="incall_dialing">"డయలింగ్"</string>
+    <string name="incall_conf_call">"కాన్ఫరెన్స్ కాల్"</string>
+    <string name="incall_incoming_call">"ఇన్కమింగ్ కాల్"</string>
+    <string name="incall_hanging_up">"హాంగింగ్ అప్"</string>
+    <string name="incall_in_call">"ఇన్ కాల్"</string>
+</resources>

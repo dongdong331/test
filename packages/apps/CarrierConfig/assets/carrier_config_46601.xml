@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="hide_video_call_forward" value="true"/>
+        <string name="carrier_name_string">Far EasTone</string>
+        <boolean name="support_vowifi_emergency_call" value="true"/>
+        <string name="ecclist_withcard">110@1,112@2,119@4</string>
+    </carrier_config>
+    <carrier_config spn="7-Mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">7-Mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">112,911,000,08,110,118,119,999,110@1,112@2,119@4</string>
+        <string name="ecclist_withcard">110@1,112@2,119@4</string>
+    </carrier_config>
+</carrier_config_list>

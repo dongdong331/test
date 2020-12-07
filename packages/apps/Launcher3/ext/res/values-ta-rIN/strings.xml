@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"அன்ரீட் பேட்ஜ்"</string>
+<string name="unread_call">தொலைபேசி</string>
+<string name="unread_sms">"உரை சேதி"</string>
+<string name="unread_email">மின்னஞ்சல்</string>
+<string name="unread_calendar">நாட்காட்டி</string>
+<string name="unread_hint">"<xliff:g id="unread_type">%1$s</xliff:g> தேவையன அனுமதி காணப்படவில்லை, முதலில் அனுமதி கோரவும்."</string>
+<string name="app_list_preference_none">"தயவுகூர்ந்து ஒரு செயலியை தேர்ந்தெடுக்கவும்."</string>
+<string name="pref_missed_call_count_title">தவறிய அழைப்பு</string>
+<string name="pref_missed_call_count_summary">"ஒரு போன் செயலியை தேர்ந்தெடுக்கவும், தவறவிட்ட அழைப்பு எண்களை அதில் திரையிடவும்"</string>
+<string name="pref_unread_sms_count_title">"அன்ரீட் மெசேஜ்"</string>
+<string name="pref_unread_sms_count_summary">"ஒரு SMS செயலியை தேர்ந்தெடுக்கவும், படிக்காமல் விட்ட மெசேஜ் எண்களை அதில் திரையிடவும்"</string>
+<string name="pref_unread_email_count_title">"அன்ரீட் மின்னஞ்சல்"</string>
+<string name="pref_unread_email_count_summary">"ஒரு மின்னஞ்சல் செயலியை தேர்ந்தெடுக்கவும், படிக்காமல் விட்ட மெயி்ல் எண்களை அதில் திரையிடவும்"</string>
+<string name="pref_unread_calendar_count_title">"அன்ரீட் கேலண்டர்"</string>
+<string name="pref_unread_calendar_count_summary">"ஒரு நாட்காட்டி செயலியை தேர்ந்தெடுக்கவும், படிக்காமல் விட்ட நாட்காட்டி நிகழ்வுகளை அதில் திரையிடவும்"</string>
+<string name="selected_text">"தேர்வுசெய்யப்பட்டது"</string>
+<string name="dynamic_icon_title">"டைனமிக் ஐகான்"</string>
+<string name="allow_circular_sliding_title">"முகப்புத் திரை லூப்"</string>
+<string name="allow_circular_sliding_summary">"கஸ்டம் கன்டென்ட் இடதுபக்க பக்க செட்டிங் முகப்புத் திரை லூப்பை அனுமதிக்கவில்லை"</string>
+</resources>

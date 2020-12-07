@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fixed">"固話"</string>
+    <string name="unknown_area">"不明號碼區域"</string>
+    <string name="exceed_limit">"多方通話人數超過限制"</string>
+    <string name="hangupcall_note_title">"警告"</string>
+    <string name="hangupcall_note_message">"此來電爲第三方電話，如果接聽當前來電，則將會掛斷當前活動的通話。"</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <string-array name="non_roaming_operator_string_array" num="1">
+            <item value="73001"/>
+        </string-array>
+        <string name="fake_ecclist_withcard">131,132,134,137</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="fake_ecclist_withcard">131,132,134,137</string>
+    </carrier_config>
+</carrier_config_list>

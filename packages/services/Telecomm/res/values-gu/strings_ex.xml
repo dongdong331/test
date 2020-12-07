@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"મૌન કોલ પર ફ્લિપ કરો."</string>
+<string name="flipping_summary">"ઇનકમિંગ કોલ શાંત ફોન ફ્લિપ કરો"</string>
+<string name="main_card_slot">"મેઈન કાર્ડ:"</string>
+<string name="vice_card_slot">"વાઈસ કાર્ડ:"</string>
+<string name="fade_in_title">"રિંગર ધીમે કરો"</string>
+<string name="fade_in_summary">"જ્યારે સક્ષમ હોય ત્યારે, ઇનકમિંગ કોલ રિંગર વોલ્યુમ ચાલુ કરવામાં આવશે."</string>
+<string name="dialog_make_call_airplane_mode_message">"કૉલ કરવા માટે, પહેલાં એરપ્લેન મોડ બંધ કરો."</string>
+</resources>

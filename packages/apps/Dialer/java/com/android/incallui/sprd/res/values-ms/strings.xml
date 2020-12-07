@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unknown_area">"Kawasan tidak diketahui"</string>
+<string name="exceed_limit">"Jumlah panggilan Bersidang telah melebihi had"</string>
+<string name="hangupcall_note_title">"Perhatian"</string>
+<string name="hangupcall_note_message">"Panggilan masuk tersebut merupakan panggilan yang ketiga, jika dijawab, panggilan aktif akan diputuskan."</string>
+</resources>

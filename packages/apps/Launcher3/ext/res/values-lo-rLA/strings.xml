@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"ປ້າຍທີ່ຍັງບໍ່ທັນໄດ້ອ່ານ"</string>
+    <string name="unread_call">"ໂທລະສັບ"</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">"ອີເມວ"</string>
+    <string name="unread_calendar">"ປະຕິທິນ"</string>
+    <string name="unread_hint">"ບໍ່ມີການອະນຸຍາດ <xliff:g id="unread_type">%1$s</xliff:g>, ກະລຸນາອະນຸຍາດກ່ອນ."</string>
+    <string name="app_list_preference_none">"ກະລຸນາເລືອກແອັບ."</string>
+    <string name="pref_missed_call_count_title">"ສາຍທີ່ບໍ່ໄດ້ຮັບ"</string>
+    <string name="pref_missed_call_count_summary">"ເລືອກແອັບໂທລະສັບ, ສະແດງເບີທີ່ບໍ່ໄດ້ຮັບ"</string>
+    <string name="pref_unread_sms_count_title">"ຂໍ້ຄວາມທີ່ຍັງບໍ່ໄດ້ອ່ານ"</string>
+    <string name="pref_unread_sms_count_summary">"ເລືອກແອັບ SMS, ສະແດງເບີຂໍ້ຄວາມທີ່ຍັງບໍ່ໄດ້ອ່ານ"</string>
+    <string name="pref_unread_email_count_title">"ອີເມລ໌ທີ່ບໍ່ໄດ້ອ່ານ"</string>
+    <string name="pref_unread_email_count_summary">"ເລືອກແອັບອີເມລ໌, ສະແດງເບີອີເມລ໌ທີ່ບໍ່ໄດ້ອ່ານ"</string>
+    <string name="pref_unread_calendar_count_title">"ປະຕິທິນທີ່ຍັງບໍ່ໄດ້ເບິ່ງ"</string>
+    <string name="pref_unread_calendar_count_summary">"ເລືອກແອັບປະຕິທິນ, ສະແດງເຫດການໃນປະຕິທິນທີ່ຍັງບໍ່ໄດ້ເຂົ້າເບິ່ງ"</string>
+    <string name="selected_text">"ທີ່​ໄດ້​ເລືອກ"</string>
+    <string name="dynamic_icon_title">"ໄອຄອນໄດນາມິກ"</string>
+    <string name="allow_circular_sliding_title">"ລະບົບໜ້າຈໍຫຼັກ"</string>
+    <string name="allow_circular_sliding_summary">"ການຕັ້ງຄ່າໜ້າທີ່ຕ້ອງການແມ່ນບໍ່ເຂົ້າກັບລະບົບໜ້າຈໍຫຼັກ"</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <string-array name="roaming_operator_string_array" num="1">
+            <item value="520"/>
+        </string-array>
+        <string name="default_vm_number_string">9600</string>
+        <!-- UNISOC: add for Bug 1000675 -->
+        <boolean name="carrier_enable_cb_ba_all_and_pw_settings" value="true"/>
+        <string name="ecclist_withcard">112@1,911@1,191@1,199@4,1669@2</string>
+        <string name="carrier_name_string">TRUE</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <!-- SPRD: add for bug793906 @{ -->
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+        <!-- @} -->
+        <string name="ecclist_nocard">112@1,911@1,000,08,110,118,119,999,191@1,199@4,1669@2</string>
+        <string name="ecclist_withcard">112@1,911@1,191@1,199@4,1669@2</string>
+    </carrier_config>
+</carrier_config_list>

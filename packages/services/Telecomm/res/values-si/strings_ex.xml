@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"ඇමතුම නිහඬ කිරීමට ෆ්ලිප් කරන්න"</string>
+<string name="flipping_summary">"එන ඇමතුම් නිහඬ කිරීමට දුරකථනය ෆ්ලිප් කරන්න"</string>
+<string name="main_card_slot">"ප්‍රධාන කාඩ්පත:"</string>
+<string name="vice_card_slot">"උපසර්ග කාඩ්පත:"</string>
+<string name="fade_in_title">"මැකි යන නාදය"</string>
+<string name="fade_in_summary">"සබල කළ විට, එන ඇමතුම් නාදක හඩ ඉහළ යනු ඇත."</string>
+<string name="dialog_make_call_airplane_mode_message">"ඇමතුමක් කිරීමට, පළමුව ගුවන් යානා ප්‍රකාරය ක්‍රියාවිරහිත කරන්න."</string>
+</resources>

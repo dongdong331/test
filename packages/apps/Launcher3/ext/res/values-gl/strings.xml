@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"Distintivo sen ler"</string>
+<string name="unread_call">Teléfono</string>
+<string name="unread_sms">SMS</string>
+<string name="unread_email">E-mail</string>
+<string name="unread_calendar">Calendario</string>
+<string name="unread_hint">"Falta o permiso <xliff:g id="unread_type">%1$s</xliff:g> necesario; primeiro solicite permiso."</string>
+<string name="app_list_preference_none">"Seleccione unha aplicación."</string>
+<string name="pref_missed_call_count_title">Chamada perdida</string>
+<string name="pref_missed_call_count_summary">"Seleccione unha aplicación de teléfono; mostrarase o número de chamadas perdidas"</string>
+<string name="pref_unread_sms_count_title">"Mensaxe sen ler"</string>
+<string name="pref_unread_sms_count_summary">"Seleccione unha aplicación de SMS; mostrarase o número de mensaxes sen ler"</string>
+<string name="pref_unread_email_count_title">"Correo electrónico sen ler"</string>
+<string name="pref_unread_email_count_summary">"Seleccione unha aplicación de correo electrónico; mostrarase o número de correos sen ler"</string>
+<string name="pref_unread_calendar_count_title">"Calendario sen ler"</string>
+<string name="pref_unread_calendar_count_summary">"Seleccione unha aplicación de calendario; mostrarase os eventos de calendario sen ler"</string>
+<string name="selected_text">Seleccionado</string>
+<string name="dynamic_icon_title">"Icona dinámica"</string>
+<string name="allow_circular_sliding_title">"Repetir pantalla de inicio"</string>
+<string name="allow_circular_sliding_summary">"A configuración da páxina esquerda de contido personalizado non permite repetir a pantalla de inicio"</string>
+</resources>

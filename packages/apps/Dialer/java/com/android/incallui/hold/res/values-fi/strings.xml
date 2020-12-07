@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_on_hold" msgid="5618253281695138626">"Pidossa"</string>
+    <string name="incall_dialing">"Soitetaan"</string>
+    <string name="incall_conf_call">"Puhelinneuvottelu"</string>
+    <string name="incall_incoming_call">"Saapuva puhelu"</string>
+    <string name="incall_hanging_up">"Katkaistaan"</string>
+    <string name="incall_in_call">"Puhelu käynnissä"</string>
+</resources>

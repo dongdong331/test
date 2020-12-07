@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"Distintivo de no lectura"</string>
+    <string name="unread_call">"Teléfono"</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">"Correo electrónico"</string>
+    <string name="unread_calendar">"Calendario"</string>
+    <string name="unread_hint">"Falta el permiso <xliff:g id="unread_type">%1$s</xliff:g> necesario, solicítelo antes."</string>
+    <string name="app_list_preference_none">"Seleccione una aplicación."</string>
+    <string name="pref_missed_call_count_title">"Llamada perdida"</string>
+    <string name="pref_missed_call_count_summary">""Seleccione una aplicación del teléfono y muestre en ella el número de llamadas perdidas."</string>
+    <string name="pref_unread_sms_count_title">"Mensaje no leído"</string>
+    <string name="pref_unread_sms_count_summary">"Seleccione una aplicación de SMS, muestre el número de mensajes no leídos en ella"</string>
+    <string name="pref_unread_email_count_title">"Correo electrónico no leído"</string>
+    <string name="pref_unread_email_count_summary">"Seleccione una aplicación de correo electrónico, muestre el número de correos no leídos en ella"</string>
+    <string name="pref_unread_calendar_count_title">"Calendario no leído"</string>
+    <string name="pref_unread_calendar_count_summary">"Seleccione una aplicación de calendario, muestre los eventos de calendario no leídos en ella"</string>
+    <string name="selected_text">"Seleccionado"</string>
+    <string name="dynamic_icon_title">"Icono dinámico"</string>
+    <string name="allow_circular_sliding_title">"Bucle de la pantalla de inicio"</string>
+    <string name="allow_circular_sliding_summary">"La opción Página izquierda de contenido personalizado no permite el bucle de la página de inicio"</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incall_calling_via_template">"<xliff:g id="provider_name">%s</xliff:g> ଜରିଆରେ କଲ୍ କରୁଛି"</string>
+<string name="incall_connecting">"କଲିଂ"</string>
+<string name="incall_transferring">"ଟ୍ରାନ୍ସଫର..."</string>
+<string name="incall_video_call_upgrade_request">"କ୍ୟାରିୟର ଭିଡିଓକୁ ବଦଳା ଯାଉଛି..."</string>
+<string name="incall_video_call_request_failed">"ସଂଯୁକ୍ତ ହେବା ପାଇଁ ଅସମର୍ଥ"</string>
+<string name="incall_video_call_request_rejected">"କଲ୍‍ ଅସ୍ୱୀକୃତ"</string>
+<string name="incall_video_call_request_timed_out">"କଲ୍‍ ଟାଇମ୍‍ ସରିଗଲା"</string>
+<string name="incall_hanging_up">"ହ୍ୟାଙ୍ଗ୍ ହୋଇଛି"</string>
+<string name="incall_call_ended">"କଲ୍ ସରିଗଲା"</string>
+<string name="incall_remotely_held">"ସ୍ଥଗିତ ରହିଛି"</string>
+<string name="contact_grid_incoming_video_call">"ଠାରୁ କ୍ୟାରିୟର ଭିଡିଓ କଲ୍‍"</string>
+<string name="contact_grid_incoming_voice_call">"ଠାରୁ କଲ"</string>
+<string name="contact_grid_incoming_work_call">"ଠାରୁ କାର୍ଯ୍ୟ କଲ୍‍"</string>
+<string name="contact_grid_incoming_via_template">"<xliff:g id="provider_name">%s</xliff:g> ଜରିଆରେ କଲ୍ ଆସୁଛି"</string>
+<string name="contact_grid_incoming_suspected_spam">"ସଂଦିଗ୍ଧ ସ୍ପାମ କଲର"</string>
+<string name="contact_grid_callback_number">"ଏହି ଫୋନ୍‍ର ନମ୍ବର: <xliff:g id="light_number">%1$s</xliff:g>"</string>
+<string name="contact_grid_conference_call">"କନଫରେନ୍ସ କଲ୍"</string>
+</resources>

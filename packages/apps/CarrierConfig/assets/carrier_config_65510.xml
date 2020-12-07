@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- SPRD: add for Bug 768814 @{ -->
+    <carrier_config network_preferred="true">
+        <int name="networkRATPrefer" value="2" />
+    </carrier_config>
+    <carrier_config>
+        <string name="carrier_name_string">MTN-SA</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <!-- SPRD: add for bug793906 @{ -->
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+        <!-- @} -->
+    </carrier_config>
+    <!-- @} -->
+    <carrier_config>
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="carrier_video_calling_setting_enabled" value="false"/>
+    </carrier_config>
+</carrier_config_list>

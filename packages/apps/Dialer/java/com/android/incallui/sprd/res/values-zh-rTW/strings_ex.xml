@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD Feature Porting: Flip to silence from incoming calls. -->
+    <string name="incomingcall_flipping_silence_title">"翻轉靜音"</string>
+    <!-- SPRD Feature Porting: Enable send sms in incallui feature. -->
+    <string name="onscreenSMSText">"傳送訊息"</string>
+    <!-- SPRD Feature Porting: FL1000060352 display state of conference member -->
+    <string name="incall_active">"通話中"</string>
+    <string name="incall_onhold">"保留通話"</string>
+    <!-- SPRD Feature Porting: FL0108160005 Hangup all calls for orange case. -->
+    <string name="onScreenHangupAllText">"掛斷所有"</string>
+    <!-- SPRD: Explicit Transfer Call -->
+    <string name="onscreenTransferCallText">"轉移"</string>
+    <!-- SPRD:add for Volte. -->
+    <string name="invite_call">"邀請"</string>
+    <!-- SPRD: SPRD Feature Porting: Fade in ringer volume when incoming calls. -->
+    <string name="fade_in_title">"鈴聲漸進播放"</string>
+    <!-- Text of button to be decllined for call record-->
+    <string name="record_menu_title">通話錄音</string>
+    <string name="record_menu_title_recording">錄音中</string>
+    <!--add for bug901007  call recorder feature -->
+    <string name="onscreenShowRecodText">"記錄"</string>
+    <string name="onscreenShowStopRecodText">"停止錄音"</string>
+    <!-- UNISOC:modify for bug955850 @{ -->
+    <string name="recorderr">"錄音檔案儲存失敗"</string>
+    <string name="audio_db_artist_name">"您的錄音"</string>
+    <string name="audio_db_album_name">"電話錄音"</string>
+    <string name="audio_db_playlist_name">"我的錄音"</string>
+    <string name="app_name">"手機應用程式"</string>
+    <string name="error_mediadb_new_record">"無法儲存預先錄製的語音訊息"</string>
+    <string name="sdcard_access_error">"無法造訪SD卡"</string>
+    <string name="no_sd_card">"無SD卡或未掛載"</string>
+    <string name="insert_sd_card">"請插入SD卡"</string>
+    <string name="storage_is_full">"儲存空間已滿"</string>
+    <string name="used_by_other_applications">"錄音裝置正在被其他程式使用中，請先關閉此類程式"</string>
+    <string name="prompt_record_finish">"錄音檔案已經儲存到"</string>
+    <string name="ok">"確 定"</string>
+    <string name="permission_no_record">"您沒有通話錄音許可權"</string>
+    <string name="no_available_storage">"沒有可用存儲，錄音儲存失敗。"</string>
+    <string name="call_recording_setting_title">"通話錄音"</string>
+    <string name="automatic_recording_title">"自動錄音"</string>
+    <string name="call_recording_notification">錄音通知</string>
+    <string name="recording_can_be_found_soundrecorder_app">電話接通時自動錄音，錄音檔案可在錄音應用程式中查看</string>
+    <string name="show_notification_after_call_has_been_recorded">完成後在通知欄顯示</string>
+    <string name="records_call_from">自動錄音對象</string>
+    <string name="all_numbers">所有通話</string>
+    <string name="listed_numbers">指定號碼</string>
+    <string name="unknown_number">陌生號碼</string>
+    <string name="add_number">新增電話號碼</string>
+    <string name="none">未設定</string>
+    <!-- SPRD Feature Porting: show main/vice card feature @{ -->
+    <string name="main_card_slot">"主卡: "</string>
+    <string name="vice_card_slot">"副卡: "</string>
+    <!-- @} -->
+    <!-- SPRD:add for Vowifi. -->
+    <string name="poor_voice_quality">"通話質量較差"</string>
+    <string name="fair_voice_quality">"通話質量一般"</string>
+    <string name="good_voice_quality">"通話質量良好"</string>
+
+    <!--UNISOC:add for bug910797 -->
+    <!-- Button shown during a phone call to degrade to audio.-->
+    <string name="incall_label_audiocall">"語音通話"</string>
+    <!-- SPRD modify for bug894598 -->
+    <string name="call_recording_saved">通話錄音已儲存</string>
+    <!-- SPRD modify for bug900504 -->
+    <string name="click_to_view_the_recorded_file">點擊查看錄音檔案</string>
+    <!--add for bug900067  -->
+    <string name="number_has_been_added">個號碼</string>
+    <string name="numbers_has_been_added">個號碼</string>
+    <!--UNISOC:add for bug948564 -->
+    <string name="phone_number_exists">號碼已存在</string>
+    <!--  add for bug902548 @{ -->
+    <string name="vibration_feedback_for_call_connection_setting_title">"通話連接提示"</string>
+    <string name="vibration_feedback_for_call_connection_title">"去電連接後發出振動回饋"</string>
+    <string name="vibration_feedback_for_call_disconnection_title">"通話結束後發出振動回饋"</string>
+    <!-- @} -->
+    <!-- Add for bug904919 -->
+    <string name="call_type_title">請選擇通話類型</string>
+    <string name="call_type_voice">語音通話</string>
+    <string name="onscreenVideoCallRxText">視頻只接收</string>
+    <string name="onscreenVideoCallTxText">視頻只發送</string>
+    <string name="incall_content_description_change_video_type">選擇通話類型</string>
+    <!-- @} -->
+    <!--add for bug932735 -->
+    <string name="record_failed_error">"錄音失敗"</string>
+    <!-- @} -->
+
+</resources>

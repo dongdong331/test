@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"翻轉靜音"</string>
+<string name="flipping_summary">"來電時翻轉手機可以靜音"</string>
+<string name="main_card_slot">"Main Card:"</string>
+<string name="vice_card_slot">"Vice Card:"</string>
+<string name="fade_in_title">"鈴聲漸進播放"</string>
+<string name="fade_in_summary">"功能開啟時,來電鈴聲將會逐漸增大播放"</string>
+<string name="dialog_make_call_airplane_mode_message">"要進行呼叫，請先關閉飛行模式或啟用SIM卡。"</string>
+</resources>

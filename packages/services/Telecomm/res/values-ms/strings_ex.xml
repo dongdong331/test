@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"Terbalikkan untuk menyenyapkan panggilan"</string>
+<string name="flipping_summary">"Terbalikkan telefon untuk menyenyapkan panggilan masuk"</string>
+<string name="main_card_slot">"Kad Utama:"</string>
+<string name="vice_card_slot">"Kad Naib:"</string>
+<string name="fade_in_title">"Pendering pudar"</string>
+<string name="fade_in_summary">"Apabila didayakan, volum pendering panggilan masuk akan dinaikkan."</string>
+<string name="dialog_make_call_airplane_mode_message">"Untuk membuat panggilan, mula-mula matikan mod pesawat."</string>
+</resources>

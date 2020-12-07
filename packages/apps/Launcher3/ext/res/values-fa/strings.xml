@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"نشان خوانده نشده"</string>
+    <string name="unread_call">"تلفن"</string>
+    <string name="unread_sms">"پیامک"</string>
+    <string name="unread_email">"ایمیل"</string>
+    <string name="unread_calendar">"تقویم"</string>
+    <string name="unread_hint">"مجوز <xliff:g id="unread_type">‪‎%1$s‬</xliff:g> الزامی وجود ندارد، لطفاً ابتدا برای مجوز درخواست بدهید."</string>
+    <string name="app_list_preference_none">"لطفاً یک برنامه را انتخاب کنید."</string>
+    <string name="pref_missed_call_count_title">"تماس بی پاسخ"</string>
+    <string name="pref_missed_call_count_summary">"برنامه تلفن را انتخاب کنید، تعداد تماس‌های ناموفق در آن نمایش داده می‌شود"</string>
+    <string name="pref_unread_sms_count_title">"پیام خوانده نشده"</string>
+    <string name="pref_unread_sms_count_summary">"برنامه پیامک را انتخاب کنید، تعداد پیام‌های خوانده نشده در آن نمایش داده می‌شود"</string>
+    <string name="pref_unread_email_count_title">"ایمیل خوانده نشده"</string>
+    <string name="pref_unread_email_count_summary">"برنامه ایمیل را انتخاب کنید، تعداد ایمیل‌های خوانده نشده در آن نمایش داده می‌شود"</string>
+    <string name="pref_unread_calendar_count_title">"تقویم خوانده نشده"</string>
+    <string name="pref_unread_calendar_count_summary">"برنامه تقویم را انتخاب کنید، رویدادهای تقویم خوانده نشده در آن نمایش داده می‌شود"</string>
+    <string name="selected_text">"انتخاب شد"</string>
+    <string name="dynamic_icon_title">"آیکون پویا"</string>
+    <string name="allow_circular_sliding_title">"چرخش صفحه اصلی"</string>
+    <string name="allow_circular_sliding_summary">"تنظیم محتوای سفارشی صفحه چپ اجازه چرخش صفحه اصلی را نمی‌دهد"</string>
+</resources>

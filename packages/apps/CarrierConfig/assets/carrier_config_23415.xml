@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="smsEncodingChangeable"  value="true"/>
+        <boolean name="smsUsesSimpleCharactersOnly"  value="false"/>
+        <int name="smsToMmsTextThreshold" value="10" />
+        <string name="default_vm_number_string">121</string>
+        <!-- UNISOC: bug 861527 @{ -->
+        <string-array name="read_only_apn_types_string_array" num="0">
+        </string-array>
+        <string-array name="feature_access_codes_string_array" num="3">
+            <item value="153" />
+            <item value="132" />
+            <item value="45" />
+        </string-array>
+        <!-- SPRD: bug 861527 @{ -->
+        <string-array name="read_only_apn_types_string_array" num="0"/>
+        <!-- SPRD: add for bug 928709 -->
+        <string name="wifi_calling_title">Vodafone WiFi Call</string>
+    </carrier_config>
+    <carrier_config>
+        <string name="default_vm_number_roaming_string">+447836121121</string>
+        <!-- SPRD: add for bug843265 -->
+        <boolean name="support_show_wifi_calling_preference" value="false"/>
+        <!-- UNISOC: Add for Bug 843666 controll WFC showing via OMA request. @{ -->
+        <boolean name="default_show_wifi_call" value="false"/>
+        <string name="operator_string_show_wifi_call">"epdg.epc.mnc015.mcc234.pub.3gppnetwork.org"</string>
+        <!-- @} -->
+        <boolean name="support_vowifi_emergency_call" value="true"/>
+        <boolean name="retry_ecc_vowifi" value="true"/>
+        <boolean name="deregister_vowifi_before_dial_ecc" value="false"/>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">112,911,000,08,110,118,119,999</string>
+        <string name="ecclist_withcard">112,911,999</string>
+    </carrier_config>
+    <carrier_config spn="Sainsbury's">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Sainsbury's</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="default_vm_number_string">121</string>
+    </carrier_config>
+    <carrier_config spn="Lebara">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Lebara</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="default_vm_number_string">121</string>
+    </carrier_config>
+    <carrier_config spn="OVIVO">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">OVIVO</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="TalkTalk">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">TalkTalk</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Talkmobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Talkmobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="default_vm_number_string">121</string>
+    </carrier_config>
+    <carrier_config spn="ASDA Mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">ASDA Mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="BT">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">BT Mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config imsi="23415\d{1,3}89.*">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Vodafone Pre Pay</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <!-- SPRD: add for bug795740 @{ -->
+    <carrier_config network_preferred="true">
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    </carrier_config>
+    <!-- @} -->
+</carrier_config_list>

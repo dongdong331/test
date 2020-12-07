@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/button_horizontal_padding">
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="?attr/actionBarSize"
+        android:singleLine="true"
+        android:phoneNumber="true"
+        android:textSize="@dimen/primary_text_size" />
+
+    <ImageView
+        android:id="@+id/pick_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/bg_contact_picker"
+        android:padding="6dp"
+        android:src="@drawable/ic_see_contacts_holo_dark" />
+
+</LinearLayout>

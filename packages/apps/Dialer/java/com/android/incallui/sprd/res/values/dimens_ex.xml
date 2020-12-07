@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_support_mp3_for_call_recorder">false</bool>
+    <bool name="config_is_show_call_elapsed_time_feature">false</bool>
+    <bool name="config_is_recorder_enabled_feature">true</bool>
+    <bool name="config_is_send_sms_enabled_feature">false</bool>
+    <bool name="config_is_support_fdnname_feature">false</bool>
+    <bool name="config_is_support_display_caller_address">false</bool>
+    <bool name="config_is_show_calltimer_when_call_onhold">false</bool>
+    <!-- UNISOC:add for bug949988 -->
+    <bool name="config_is_show_conference_manager">false</bool>
+    <bool name="config_is_show_conference_state_feature">false</bool>
+    <!-- UNISOC:Update incallui to usual call when the conference call has only one way left. -->
+    <bool name="update_incallui_to_usual_call">true</bool>
+    <bool name="config_is_support_hangup_all_feature">false</bool>
+    <bool name="config_is_support_voiceclearcode_feature">false</bool>
+    <!-- UNISOC:Telcel volte csfb clear code -->
+    <bool name="config_is_support_csfb_volteclearcode_feature">false</bool>
+    <!-- UNISOC:add for bug987797 -->
+    <bool name="config_is_support_voiceclearcode_feature_claro">false</bool>
+    <bool name="config_is_support_hd_audio_feature">false</bool>
+    <bool name="config_is_support_ect_feature">false</bool>
+    <!-- UNISOC:add for bug937150 -->
+    <bool name="config_is_speaker_to_headset_feature">true</bool>
+    <!-- SPRD Feature Porting: Show emergency number when dial emergency call feature -->
+    <bool name="config_is_show_emergency_number_feature">false</bool>
+    <!-- SPRD Feature Porting: Toast information when the number of conference call is over limit for cmcc case -->
+    <bool name="config_is_support_conference_number_limit_feature">false</bool>
+    <!-- SPRD Feature Porting: InComing Third Call Feature -->
+    <bool name="config_is_support_incoming_third_call_feature">false</bool>
+    <!-- SPRD Feature Porting: Shaking phone to start recording -->
+    <bool name="config_is_support_shaking_phone_startrecord_feature">true</bool>
+    <!-- SPRD Feature Porting: Add for change video type Feature -->
+    <bool name="video_call_use_ext">true</bool>
+    <!-- SPRD Feature Porting: FL0108020044 Support Telcel Operator requirement. @{-->
+    <bool name="config_if_support_display_telcel_feature">false</bool>
+    <!-- UNISOC:add for bug1014616 -->
+    <bool name="config_is_show_conference_participant_label">true</bool>
+    <bool name="config_hideConferencePreviewView">false</bool>
+    <!-- UNISOC:add for bug1088195 -->
+    <bool name="config_is_support_vowifi_icon_feature">false</bool>
+    <dimen name="primary_text_size">16sp</dimen>
+    <dimen name="dialog_min_width">600dp</dimen>
+    <dimen name="icon_padding">8dp</dimen>
+    <dimen name="button_horizontal_padding">8dp</dimen>
+    <dimen name="listed_number_text_size">18sp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="carrier_name_string">GR COSMOTE</string>
+        <string name="default_vm_number_string">123</string>
+        <string name="default_vm_number_roaming_string">306971000</string>
+        <!-- SPRD: add for bug968647 @{ -->
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
+        <string name="wifi_calling_title">COSMOTE WiFi Calling</string>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incall_calling_via_template">"မွတဆင့္ေခၚယူသည္။<xliff:g id= "provider_name" >%s</xliff:g>"</string>
+<string name="incall_connecting">"ဖုန္းေခၚေနသည္…"</string>
+<string name="incall_transferring">"လႊဲေျပာင္းေနသည္…"</string>
+<string name="incall_video_call_upgrade_request">"မိုဘိုင္းေအာ္ပေရတာ ဗီဒီယိုသို႔ ကူးေျပာင္းေနသည္..."</string>
+<string name="incall_video_call_request_failed">"ခ်ိတ္ဆက္ရန္ မရွိ"</string>
+<string name="incall_video_call_request_rejected">"ေခၚဆိုမႈကို ျငင္းလိုက္သည္"</string>
+<string name="incall_video_call_request_timed_out">"ေခၚခ်ိန္ ကုန္သြားသည္"</string>
+<string name="incall_hanging_up">"ဖုန္းခ်ေနသည္"</string>
+<string name="incall_call_ended">"ေခၚဆိုျခင္းျပီးဆံုး"</string>
+<string name="incall_remotely_held">"ကိုင္ထားလွ်င္"</string>
+<string name="contact_grid_incoming_video_call">"မိုဘိုင္းေအာ္ပေရတာ ဗီဒီယိုေခၚဆိုသူ"</string>
+<string name="contact_grid_incoming_voice_call">"ေခၚဆိုသူ"</string>
+<string name="contact_grid_incoming_work_call">"အလုပ္ဖုန္းေခၚဆိုသူ"</string>
+<string name="contact_grid_incoming_via_template">"<xliff:g id="provider_name">%s</xliff:g> မွတဆင့္ အဝင္"</string>
+<string name="contact_grid_incoming_suspected_spam">"သံသယရွိေသာ စပမ္းဖုန္းေခၚသူ"</string>
+<string name="contact_grid_callback_number">"ဤဖုန္း၏ နံပါတ္- <xliff:g id="light_number">%1$s</xliff:g>"</string>
+<string name="contact_grid_conference_call">"ကြန္ဖရင့္ ဖုန္း"</string>
+</resources>

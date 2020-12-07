@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="config_ims_callforward_serviceclass" value="0" />
+        <boolean name="support_send_ss_over_vowifi_with_airplane" value="true" />
+    </carrier_config>
+</carrier_config_list>

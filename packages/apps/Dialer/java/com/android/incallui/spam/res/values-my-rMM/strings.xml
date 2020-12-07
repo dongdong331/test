@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="non_spam_notification_title">"<xliff:g id="number">%1$s</xliff:g> ကို သိပါသလား။"</string>
+<string name="spam_notification_title">"<xliff:g id="number">%1$s</xliff:g> သည္ စပမ္း ဖုန္းေခၚသူ ျဖစ္ပါသလား။"</string>
+<string name="spam_notification_block_report_toast_text">"<xliff:g id="number">%1$s</xliff:g> ကို ပိတ္ဆို႔ၿပီး ေခၚဆိုမႈကို စပမ္းအျဖစ္ သတင္းပို႔လိုက္သည္။"</string>
+<string name="spam_notification_not_spam_toast_text">"<xliff:g id="number">%1$s</xliff:g> မွ ေခၚဆိုမႈသည္ စပမ္းမဟုတ္ဟု သတင္းပို႔သည္။"</string>
+<string name="spam_notification_non_spam_call_collapsed_text">"အဆက္အသြယ္မ်ား ထည့္ရန္ သို႔မဟုတ္ စပမ္းနံပါတ္ကို ပိတ္ဆို႔ရန္ တို႔လိုက္ပါ။"</string>
+<string name="spam_notification_non_spam_call_expanded_text">"ယခုအႀကိမ္သည္ ဤနံပါတ္မွ သင့္အား ပထမဆံုးအႀကိမ္ ဖုန္းေခၚျခင္းျဖစ္သည္။ ဤေခၚဆိုမႈသည္ စပမ္းျဖစ္ပါက ဤနံပါတ္ကို သင္ ပိတ္ဆို႔၍ သတင္းပို႔ႏိုင္ပါသည္။"</string>
+<string name="spam_notification_spam_call_collapsed_text">"စပမ္းမဟုတ္ဟု သတင္းပို႔ရန္ သို႔မဟုတ္ ၎အား ပိတ္ဆို႔ရန္ တို႔ပါ"</string>
+<string name="spam_notification_report_spam_action_text">"ပိတ္ဆို႔ &amp; သတင္းပို႔ရန္"</string>
+<string name="spam_notification_add_contact_action_text">"ဖုန္းအဆက္အသြယ္ ေပါင္းထည့္မည္"</string>
+<string name="spam_notification_dialog_add_contact_action_text">"ဆယ္သြယ္သူ ေပါင္းထည့္မည္"</string>
+<string name="spam_notification_dialog_block_report_spam_action_text">"စပမ္းဟု ပိတ္ဆို႔ &amp; သတင္းပို႔ရန္"</string>
+<string name="spam_notification_block_spam_action_text">"ဟုတ္ကဲ့၊ နံပါတ္ကို ပိတ္ဆို႔ပါ"</string>
+<string name="spam_notification_action_dismiss">"ထုတ္ပယ္သည္"</string>
+</resources>

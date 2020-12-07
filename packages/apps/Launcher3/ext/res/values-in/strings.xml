@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"Badge tidak dapat dibaca"</string>
+    <string name="unread_call">"Telepon"</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">"Email"</string>
+    <string name="unread_calendar">"Kalender"</string>
+    <string name="unread_hint">"Tidak ada <xliff:g id="unread_type">%1$s</xliff:g> izin yang diperlukan, dapatkan izin terlebih dahulu."</string>
+    <string name="app_list_preference_none">"Pilih aplikasi."</string>
+    <string name="pref_missed_call_count_title">"Panggilan tak terjawab"</string>
+    <string name="pref_missed_call_count_summary">"Pilih aplikasi Telepon, tampilkan nomor panggilan terlewat"</string>
+    <string name="pref_unread_sms_count_title">"Pesan tidak terbaca"</string>
+    <string name="pref_unread_sms_count_summary">"Pilih aplikasi SMS, tampilkan jumlah pesan tidak terbaca"</string>
+    <string name="pref_unread_email_count_title">"Email tidak terbaca"</string>
+    <string name="pref_unread_email_count_summary">"Pilih aplikasi Email, tampilkan jumlah email tidak terbaca"</string>
+    <string name="pref_unread_calendar_count_title">"Kalender tidak terbaca"</string>
+    <string name="pref_unread_calendar_count_summary">"Pilih aplikasi Kalender, tampilkan peristiwa kalender tidak terbaca"</string>
+    <string name="selected_text">"Terpilih"</string>
+    <string name="dynamic_icon_title">"Ikon dinamis"</string>
+    <string name="allow_circular_sliding_title">"Serangkaian layar awal"</string>
+    <string name="allow_circular_sliding_summary">"Susunan Isi Khusus di Halaman Kiri tidak mengizinkan rangkaian Layar awal"</string>
+</resources>

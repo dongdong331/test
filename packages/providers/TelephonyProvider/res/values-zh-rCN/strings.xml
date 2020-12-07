@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" product="tablet" msgid="9194799012395299737">"移动网络配置"</string>
+    <string name="app_label" product="default" msgid="8338087656149558019">"电话和短信存储"</string>
+    <string name="category_mms">彩信</string>
+    <string name="category_sms">短信</string>
+    <string name="sim_x">"SIM卡%s"</string>
+    <string name="sim_capacity_full">SIM卡容量已满</string>
+    <string name="copy_success">信息存入SIM卡成功</string>
+    <string name="copy_fail">信息存入SIM卡失败</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_fail">删除失败</string>
+    <string name="succ_fail">成功：<xliff:g id="succ">%1$d</xliff:g>, 失败：<xliff:g id="fail">%2$d</xliff:g></string>
+    <string name="sim_all">所有SIM卡</string>
+</resources>

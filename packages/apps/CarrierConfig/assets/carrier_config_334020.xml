@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxMessageSize" value="1048576" />
+        <int name="maxImageWidth" value="2592" />
+        <boolean name="support_vowifi_emergency_call" value="false"/>
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+        <!-- SPRD: add for bug796530 @{ -->
+        <boolean name="support_show_wifi_calling_preference" value="false"/>
+        <!-- SPRD: add for bug960989 @{ -->
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <!-- SPRD: add for bug977043 @{ -->
+        <boolean name="separate_setting_for_wfc_volte" value="false" />
+    </carrier_config>
+    <!-- SPRD Feature Porting：Telcel emergency number & voice mail number. @{ -->
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">060,112,911,000,08,110,118,119,999</string>
+        <string name="ecclist_withcard">112,911</string>
+        <string name="fake_ecclist_withcard">060</string>
+        <string name="default_vm_number_string">*86</string>
+        <!-- SPRD: add for bug809098 -->
+        <boolean name="support_show_toast" value="false"/>
+    </carrier_config>
+    <carrier_config>
+        <string name="default_vm_number_string">*86</string>
+        <int name="mtu_config" value="1410" />
+        <int name="support_fixed_vt_call_resolution" value="2"/>
+    </carrier_config>
+    <!-- @} -->
+</carrier_config_list>

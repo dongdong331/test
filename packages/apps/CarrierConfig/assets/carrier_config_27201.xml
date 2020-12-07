@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+        <boolean name="hide_video_call_forward" value="true"/>
+    </carrier_config>
+</carrier_config_list>

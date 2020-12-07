@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="skip_cf_fail_to_disable_dialog_bool" value="true" />
+        <boolean name="hspap_show_4g" value="true" />
+        <boolean name="separate_setting_for_wfc_volte" value="false" />
+    </carrier_config>
+    <carrier_config>
+        <string name="default_vm_number_string">186</string>
+    </carrier_config>
+</carrier_config_list>

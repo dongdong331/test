@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_incoming_swipe_to_decline_with_message">"আইকনৰ পৰা চুৱাইপ কৰি মেছেজেৰে সৈতে প্ৰত্যাখান কৰক"</string>
+<string name="call_incoming_swipe_to_answer_video_as_audio">"অডিঅ’ ক’ল হিচাপে উত্তৰ দিবলৈ আইকনৰ পৰা চুৱাইপ কৰক"</string>
+<string name="call_incoming_default_label_answer_and_release_second">"উত্তৰ দিবলৈ চুৱাইপ আপ কৰক আৰু অনগয়িং ক’ল ধৰি ৰাখক"</string>
+<string name="call_incoming_default_label_answer_and_release_third">"উত্তৰ দিবলৈ চুৱাইপ আপ কৰক আৰু অনগয়িং ক’ল শেষ কৰক"</string>
+<string name="call_incoming_default_label_answer_and_end_third">"উত্তৰ দিবলৈ আৰু সক্ৰিয় কল সমাপ্ত কৰিবলৈ ছোয়াইপ কৰক।"</string>
+<string name="call_incoming_swipe_to_answer_and_release">উত্তৰ দিবলৈ আইকনৰ পৰা চুৱাইপ আপ কৰক আৰু অনগয়িং ক’ল শেষ কৰক"|"</string>
+<string name="call_incoming_message_custom">"ৰাইট ইয়ৰ অ’ন....."</string>
+<string name="call_incoming_respond_via_sms_custom_message">"ৰাইট ইয়ৰ অ’ন....."</string>
+<string name="call_incoming_custom_message_cancel">"নাকচ"</string>
+<string name="call_incoming_custom_message_send">"পঠিওৱা হ\'ল"</string>
+<string name="a11y_incoming_call_reject_with_sms">"ৰিজেক দিছ ক’ল উইথ এ মেছেজ"</string>
+<string name="a11y_incoming_call_answer_video_as_audio">"অডিঅ\' কল হিচাপে উত্তৰ দিয়ক"</string>
+<string name="a11y_incoming_call_answer_and_release">"এনছাৰ এণ্ড এণ্ড অনগয়িং ক’ল"</string>
+<string name="a11y_description_incoming_call_reject_with_sms">"ৰিজেক উইথ মেছেজ"</string>
+<string name="a11y_description_incoming_call_answer_video_as_audio">"অডিঅ\' কল হিচাপে উত্তৰ দিয়ক"</string>
+<string name="a11y_description_incoming_call_answer_and_release">"এনছাৰ এণ্ড এণ্ড অনগয়িং ক’ল"</string>
+<string name="call_incoming_video_is_off">"ভিডিঅ’ অফ"</string>
+<string name="call_incoming_important">"ইম’পৰ্টেন্ট"</string>
+</resources>

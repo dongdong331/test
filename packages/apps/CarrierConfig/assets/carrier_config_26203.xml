@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="default_vm_number_string">+491793000333</string>
+        <string name="carrier_name_string">o2 - de</string>
+        <string name="fake_ecclist_withcard">110</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="fake_ecclist_withcard">110</string>
+    </carrier_config>
+    <carrier_config spn="blauworld">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Blaumobil</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="default_vm_number_string">9911</string>
+        <string name="default_vm_number_roaming_string">491779911</string>
+    </carrier_config>
+    <carrier_config spn="blau.de">
+        <string name="carrier_name_string">blau.de</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <boolean name="mvno" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Aldi Talk">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Aldi Talk</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Simyo">
+        <string name="carrier_name_string">Simyo</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <boolean name="mvno" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Simvoice">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Simvoice</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Ay Yildiz">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Ay Yildiz</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Alice">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Alice</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config pnn="Ortel D">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Ortel D</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="default_vm_number_string">9911</string>
+    </carrier_config>
+    <carrier_config spn="ptt-mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">ptt-mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

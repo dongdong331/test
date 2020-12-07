@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_on_hold" msgid="5618253281695138626">"កំពុង​រង់ចាំ"</string>
+    <string name="incall_dialing">កំពុងហៅ</string>
+    <string name="incall_conf_call">សន្និសីទតាមហៅ</string>
+    <string name="incall_incoming_call">"ការហៅចូល"</string>
+    <string name="incall_hanging_up"> ផ្តាច់ទូរស័ព្ទ</string>
+    <string name="incall_in_call">កំពុងនិយាយ</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"Olvasatlan jelvény"</string>
+<string name="unread_call">"Telefon"</string>
+<string name="unread_sms">"SMS"</string>
+<string name="unread_email">"E-mail"</string>
+<string name="unread_calendar">"Naptár"</string>
+<string name="unread_hint">"A szükséges <xliff:g id="unread_type">%1$s</xliff:g> engedélyek hiányoznak, kérjük, először jelentkezzen az engedélyért."</string>
+<string name="app_list_preference_none">"Kérjük, válasszon ki egy alkalmazást."</string>
+<string name="pref_missed_call_count_title">"Nem fogadott hívás"</string>
+<string name="pref_missed_call_count_summary">"Válasszon ki egy telefonos alkalmazást, jelenítse meg rajta a nem fogadott hívások számát"</string>
+<string name="pref_unread_sms_count_title">"Olvasatlan üzenet"</string>
+<string name="pref_unread_sms_count_summary">"Válasszon ki egy SMS alkalmazást, jelenítse meg rajta az olvasatlan üzenetek számát"</string>
+<string name="pref_unread_email_count_title">"Olvasatlan e-mail"</string>
+<string name="pref_unread_email_count_summary">"Válasszon ki egy E-mail alkalmazást, jelenítse meg rajta az olvasatlan mail-ek számát"</string>
+<string name="pref_unread_calendar_count_title">"Olvasatlan naptár"</string>
+<string name="pref_unread_calendar_count_summary">"Válasszon ki egy naptár alkalmazást, jelenítse meg rajta az olvasatlan naptári eseményeket"</string>
+<string name="selected_text">"Kiválasztott"</string>
+<string name="dynamic_icon_title">"Dinamikus ikon"</string>
+<string name="allow_circular_sliding_title">"Kezdőképernyő loop"</string>
+<string name="allow_circular_sliding_summary">"Az egyéni tartalom bal oldalának beállítása nem teszi lehetővé a kezdőképernyő loop-ot"</string>
+</resources>

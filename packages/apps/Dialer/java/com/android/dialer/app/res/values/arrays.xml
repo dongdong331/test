@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UNISOC: FAST DIAL FEATURE -->
+    <string-array name="items_fastdial_dialog" translatable="true">
+        <item>@string/update_fastdial</item>
+        <item>@string/delete_fastdial</item>
+    </string-array>
+</resources>

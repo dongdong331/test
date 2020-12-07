@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"Símbol no llegit"</string>
+<string name="unread_call">"Telèfon"</string>
+<string name="unread_sms">"SMS"</string>
+<string name="unread_email">"adreça electrònica"</string>
+<string name="unread_calendar">"Calendari"</string>
+<string name="unread_hint">"Falta un permís <xliff:g id="unread_type">%1$s</xliff:g> necessari, abans de res demaneu el permís."</string>
+<string name="app_list_preference_none">"Seleccioneu una aplicació."</string>
+<string name="pref_missed_call_count_title">"Trucada perduda"</string>
+<string name="pref_missed_call_count_summary">"Seleccioneu un aplicació de telèfon, s\'hi mostrarà el número de les trucades perdudes"</string>
+<string name="pref_unread_sms_count_title">"missatge sense llegir"</string>
+<string name="pref_unread_sms_count_summary">"Seleccioneu un aplicació de SMS, s\'hi mostrarà el número dels missatges no llegits"</string>
+<string name="pref_unread_email_count_title">"Correu electrònic no llegit"</string>
+<string name="pref_unread_email_count_summary">"Seleccioneu un aplicació de correu electrònic, s\'hi mostrarà el número dels correus electrònics no llegits"</string>
+<string name="pref_unread_calendar_count_title">"Calendari no llegit"</string>
+<string name="pref_unread_calendar_count_summary">"Seleccioneu un aplicació de calendari, s\'hi mostraran els esdeveniments de calendari no llegits"</string>
+<string name="selected_text">"Seleccionat"</string>
+<string name="dynamic_icon_title">"Icona dinàmica"</string>
+<string name="allow_circular_sliding_title">"Bucle de la pantalla d\'inici"</string>
+<string name="allow_circular_sliding_summary">"La configuració de pàgina esquerra de contingut personalitzat no permet el bucle de la pantalla d\'inici"</string>
+</resources>

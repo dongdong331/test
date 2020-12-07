@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_on_hold" msgid="5618253281695138626">"ஹோல்டில் உள்ளது"</string>
+    <string name="incall_dialing">"டயல் செய்கிறது"</string>
+    <string name="incall_conf_call">"கான்பரன்ஸ் அழைப்பு"</string>
+    <string name="incall_incoming_call">"உள்வரும் அழைப்பு"</string>
+    <string name="incall_hanging_up">"செயலிழக்கப்படுகிறது"</string>
+    <string name="incall_in_call">"அழைப்பில்"</string>
+</resources>

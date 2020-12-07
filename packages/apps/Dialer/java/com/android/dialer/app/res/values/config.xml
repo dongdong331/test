@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_telcel_version">false</bool>
+    <!-- UNISOC: Support For CallLog Icon Display in bug645018. -->
+    <bool name="config_show_calllog_ex_icon">false</bool>
+</resources>

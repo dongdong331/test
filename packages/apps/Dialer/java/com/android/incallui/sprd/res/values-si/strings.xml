@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unknown_area">"නොදන්නා ප්‍රදේශය"</string>
+<string name="exceed_limit">"සම්මන්ත්‍රණ ඇමතුම් ගණන සීමාව ඉක්මවයි"</string>
+<string name="hangupcall_note_title">"අවධානය"</string>
+<string name="hangupcall_note_message">"එන ඇමතුම තුන්වන ඇමතුමයි, පිළිතුරු දුනහොත්, වත්මන් සක්‍රිය ඇමතුම විසන්ධි කරනු ඇත."</string>
+</resources>

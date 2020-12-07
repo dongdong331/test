@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"شارة غير مقروءة"</string>
+    <string name="unread_call">"الهاتف"</string>
+    <string name="unread_sms">"الرسائل القصيرة SMS"</string>
+    <string name="unread_email">"إرسال رسالة إلكترونية"</string>
+    <string name="unread_calendar">"تقويم"</string>
+    <string name="unread_hint">"إذن <xliff:g id="unread_type">‪‎%1$s‬</xliff:g> المطلوب غير موجود، يُرجى طلب الإذن أولاً."</string>
+    <string name="app_list_preference_none">"يُرجى تحديد تطبيق."</string>
+    <string name="pref_missed_call_count_title">"مكالمة فائتة"</string>
+    <string name="pref_missed_call_count_summary">"حدد تطبيق الهاتف، واستعرض عدد المكالمات الفائتة عليه"</string>
+    <string name="pref_unread_sms_count_title">"رسالة غير مقروءة"</string>
+    <string name="pref_unread_sms_count_summary">"حدد تطبيق SMS، واستعرض عدد الرسائل غير المقروءة عليه"</string>
+    <string name="pref_unread_email_count_title">"بريد إلكتروني غير مقروء"</string>
+    <string name="pref_unread_email_count_summary">"حدد تطبيق البريد الإلكتروني، واستعرض عدد رسائل البريد غير المقروءة عليه"</string>
+    <string name="pref_unread_calendar_count_title">"تقويم غير مقروء"</string>
+    <string name="pref_unread_calendar_count_summary">"حدد تطبيق التقويم، واستعرض أحداث التقويم غير المقروءة عليه"</string>
+    <string name="selected_text">"تم الاختيار"</string>
+    <string name="dynamic_icon_title">"أيقونة ديناميكي"</string>
+    <string name="allow_circular_sliding_title">"مجمع الشاشات الرئيسية"</string>
+    <string name="allow_circular_sliding_summary">"لا يسمح إعداد الصفحة اليسرى المخصصة للمحتوى بمجمع الشاشات الرئيسية"</string>
+</resources>

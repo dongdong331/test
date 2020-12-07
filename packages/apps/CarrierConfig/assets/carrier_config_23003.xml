@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <!-- SPRD: add for bug 928709 -->
+        <string name="wifi_calling_title">Vodafone WiFi volání</string>
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    </carrier_config>
+</carrier_config_list>

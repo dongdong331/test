@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"Badge na hindi pa nababasa"</string>
+    <string name="unread_call">"Telepono"</string>
+    <string name="unread_sms">SMS</string>
+    <string name="unread_email">"Email"</string>
+    <string name="unread_calendar">"Kalendaryo"</string>
+    <string name="unread_hint">"Wala ang kinakailangang pahintulot sa <xliff:g id="unread_type">%1$s</xliff:g>, mag-apply muna para sa pahintulot."</string>
+    <string name="app_list_preference_none">"Pumili ng app."</string>
+    <string name="pref_missed_call_count_title">"Hindi nasagot na tawag"</string>
+    <string name="pref_missed_call_count_summary">"Pumili ng app ng Telepono, dito ipakita ang bilang ng mga hindi nasagot na tawag"</string>
+    <string name="pref_unread_sms_count_title">"Hindi nabasang mensahe"</string>
+    <string name="pref_unread_sms_count_summary">"Pumili ng SMS app, ipakita ang bilang ng mga hindi nabasang mensahe rito"</string>
+    <string name="pref_unread_email_count_title">"Hindi nabasang email"</string>
+    <string name="pref_unread_email_count_summary">"Pumili ng Email app, ipakita ang bilang ng mga hindi nabasang mail dito"</string>
+    <string name="pref_unread_calendar_count_title">"Hindi nabasang kalendaryo"</string>
+    <string name="pref_unread_calendar_count_summary">"Pumili ng app na Kalendaryo, ipakita ang mga hindi nabasang kaganapan sa kalendaryo rito"</string>
+    <string name="selected_text">"Napili"</string>
+    <string name="dynamic_icon_title">"Dynamic na icon"</string>
+    <string name="allow_circular_sliding_title">"Loop sa home screen"</string>
+    <string name="allow_circular_sliding_summary">"Hindi pinapahintulutan ng setting ng Custom na Content sa Kaliwang Page ang loop sa Home screen"</string>
+</resources>

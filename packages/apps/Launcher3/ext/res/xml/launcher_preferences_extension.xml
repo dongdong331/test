@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="pref_circular_slide_switch"
+        android:title="@string/allow_circular_sliding_title"
+        android:defaultValue="@bool/default_circle_slide"
+        android:summary="@string/allow_circular_sliding_summary" />
+
+    <ListPreference
+        android:key="pref_pulldown_action"
+        android:title="@string/pull_down_action_pref_title"
+        android:summary="%s"
+        android:entries="@array/pull_down_action_entries"
+        android:entryValues="@array/pull_down_action_values"
+        android:defaultValue="@string/default_pull_down_value" />
+
+    <Preference
+        android:key="pref_dynamicIcon"
+        android:title="@string/dynamic_icon_title"
+        android:persistent="false" />
+
+    <Preference
+        android:key="pref_unread"
+        android:title="@string/unread_notifier_title"
+        android:persistent="false" />
+
+    <ListPreference
+        android:key="pref_home_screen_style"
+        android:title="@string/home_screen_style_title"
+        android:summary="%s"
+        android:entries="@array/home_screen_style_entries"
+        android:entryValues="@array/home_screen_style_values"
+        android:defaultValue="@string/default_home_screen_style" />
+
+    <ListPreference
+        android:key="pref_folder_icon_model"
+        android:title="@string/folder_icon_model_pref_title"
+        android:summary="%s"/>
+
+    <Preference
+        android:key="pref_desktop_grid"
+        android:title="@string/desktop_grid"
+        android:persistent="false" />
+</PreferenceScreen>

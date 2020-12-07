@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="hangupcall_note_title">"ध्यान देओ"</string>
+<string name="hangupcall_note_message">"इनकमिंग काल थर्ड काल ऐ, जेकर परता दित्ता गेआ, मौजूदा सक्रिय काल रद्द करी दित्ती जाग। "</string>
+</resources>

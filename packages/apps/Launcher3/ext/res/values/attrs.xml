@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Add customized declare-styleable -->
+
+    <!-- XML attributes used by customize_app_positions.xml -->
+    <declare-styleable name="SprdAppInfo">
+        <attr name="clsName" format="string" />
+        <attr name="pkgName" format="string" />
+        <attr name="position" format="integer" />
+    </declare-styleable>
+</resources>

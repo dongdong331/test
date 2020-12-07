@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"Emblema não lido"</string>
+<string name="unread_call">"Telefone"</string>
+<string name="unread_sms">"Chamadas de voz"</string>
+<string name="unread_email">"email"</string>
+<string name="unread_calendar">"Calendário"</string>
+<string name="unread_hint">"Permissão obrigatória <xliff:g id="unread_type">%1$s</xliff:g> em falta. Peça a permissão primeiro."</string>
+<string name="app_list_preference_none">"Selecione uma aplicação."</string>
+<string name="pref_missed_call_count_title">"Chamada não atendida"</string>
+<string name="pref_missed_call_count_summary">"Selecione uma aplicação de telemóvel; apresente o número de chamadas não atendidas no mesmo"</string>
+<string name="pref_unread_sms_count_title">"Mensagem não lida"</string>
+<string name="pref_unread_sms_count_summary">"Selecione uma aplicação de SMS; apresente o número de mensagens não lidas no mesmo"</string>
+<string name="pref_unread_email_count_title">"E-mail não lido"</string>
+<string name="pref_unread_email_count_summary">"Selecione uma aplicação de e-mail; apresente o número de e-mails não lidos no mesmo"</string>
+<string name="pref_unread_calendar_count_title">"Calendário não lido"</string>
+<string name="pref_unread_calendar_count_summary">"Selecione uma aplicação de calendário; apresente os eventos de calendário não lidos no mesmo"</string>
+<string name="selected_text">"Selecionado"</string>
+<string name="dynamic_icon_title">"Ícone dinâmico"</string>
+<string name="allow_circular_sliding_title">"Loop do ecrã inicial"</string>
+<string name="allow_circular_sliding_summary">"A definição Personalizar conteúdo da página esquerda não permite o Loop do ecrã inicial"</string>
+</resources>

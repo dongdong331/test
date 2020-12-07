@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="hide_video_call_forward" value="true"/>
+        <string name="carrier_name_string">China Mobile</string>
+    </carrier_config>
+</carrier_config_list>

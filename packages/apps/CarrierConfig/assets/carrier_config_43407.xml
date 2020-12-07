@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="ecclist_withcard">112,911</string>
+        <string name="fake_ecclist_withcard">101,102,103</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">112,911,101,102,103</string>
+        <string name="ecclist_withcard">112,911</string>
+        <string name="fake_ecclist_withcard">101,102,103</string>
+    </carrier_config>
+</carrier_config_list>

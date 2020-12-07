@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="hangupcall_note_title">"Chú ý"</string>
+<string name="hangupcall_note_message">"Cuộc gọi đến là cuộc gọi thứ ba, nếu được trả lời, cuộc gọi hiện hoạt sẽ bị ngắt kết nối."</string>
+<string name="unknown_area">"Khu vực không xác định" </string>
+<string name="exceed_limit">"Số lượng các cuộc gọi hội nghị vượt quá giới hạn"</string>
+</resources>

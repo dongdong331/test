@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_on_hold" msgid="5618253281695138626">"На удержании"</string>
+    <string name="incall_dialing">"Набор номера"</string>
+    <string name="incall_conf_call">Конференц-связь</string>
+    <string name="incall_incoming_call">"Входящий вызов"</string>
+    <string name="incall_hanging_up">"Завершение разговора"</string>
+    <string name="incall_in_call">"Поступающий вызов"</string>
+</resources>

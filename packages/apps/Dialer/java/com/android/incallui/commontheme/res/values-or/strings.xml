@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incall_content_description_end_call">"କଲ୍ ସାରନ୍ତୁ"</string>
+<string name="incall_content_description_muted">"ମ୍ୟୁଟ ହୋଇଛି"</string>
+<string name="incall_content_description_unmuted">"ମ୍ୟୁଟ ହଟା ହୋଇଛି"</string>
+<string name="incall_content_description_swap_calls">"କଲ୍ ଗୁଡ଼ିକ ଅଦଳବଦଳ କରନ୍ତୁ"</string>
+<string name="incall_content_description_swap_sim">"SIM ବଦଳାନ୍ତୁ"</string>
+<string name="incall_content_description_merge_calls">"ସେଲ୍ ଗୁଡ଼ିକ ଏକାଠି ମିଶାନ୍ତୁ"</string>
+<string name="incall_content_description_earpiece">"ହ୍ୟାଣ୍ଡସେଟ୍ ଇଅରପିସ୍"</string>
+<string name="incall_content_description_speaker">"ସ୍ପିକର୍"</string>
+<string name="incall_content_description_bluetooth">"ବ୍ଲୁଟୁଥ"</string>
+<string name="incall_content_description_headset">"ତାର ଲାଗିଥିବା ହେଡସେଟ୍"</string>
+<string name="incall_content_description_hold">"କଲ୍ ହୋଲ୍ଡ କରନ୍ତୁ"</string>
+<string name="incall_content_description_unhold">"କଲ୍ ପୁଣି ଥରେ ଆରମ୍ଭ କରନ୍ତୁ"</string>
+<string name="incall_content_description_video_on">"ଭିଡିଓ ଅନ"</string>
+<string name="incall_content_description_video_off">"ଭିଡିଓ ବନ୍ଦ ଅଛି"</string>
+<string name="incall_content_description_swap_video">"ଭିଡିଓ ସ୍ୱାପ କର"</string>
+<string name="incall_label_speaker">"ସ୍ପିକର୍"</string>
+<string name="incall_label_audio">"ଶବ୍ଦ"</string>
+</resources>

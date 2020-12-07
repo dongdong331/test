@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_incoming_swipe_to_answer">"ଉତ୍ତର ଦେବାକୁ ସ୍ୱାଇପ କରନ୍ତୁ"</string>
+<string name="call_incoming_swipe_to_reject">"ଅସ୍ୱୀକାର କରିବାକୁ ତଳକୁ ସ୍ୱାଇପ କରନ୍ତୁ"</string>
+<string name="a11y_incoming_call_swipe_to_answer">"ଦୁଇଟି ଆଂଗୁଳିରେ ସ୍ୱାଇପ କରନ୍ତୁ ଉତ୍ତର ଦେବାକୁ କିମ୍ବା ଅସ୍ୱୀକାର କରିବାକୁ ତଳକୁ ସ୍ୱାଇପ କରନ୍ତୁ|"</string>
+<string name="call_incoming_will_disconnect">"ଏହି କଲ୍‍ ର ଉତ୍ତର ଦେଲେ ଭିଡିଓ କଲ୍‍ ଶେଷ ହୋଇଯିବ"</string>
+<string name="a11y_call_incoming_decline_description">"ମନା କରନ୍ତୁ"</string>
+<string name="call_incoming_decline">"ମନା କରନ୍ତୁ"</string>
+<string name="a11y_call_incoming_answer_description">"ଉତ୍ତର"</string>
+<string name="call_incoming_answer">"ଉତ୍ତର"</string>
+<string name="incoming_call_answer_warning">"ଏହି କଲ୍ ର ଉତ୍ତର ଦେଲେ <xliff:g id="PROVIDER_NAME">%s</xliff:g>ରେ କଲ୍ ଡାଏଲ୍ କରିବା ହ୍ୟାଙ୍ଗ୍ ହେବ"</string>
+</resources>

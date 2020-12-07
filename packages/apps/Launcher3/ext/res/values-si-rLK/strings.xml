@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"භාවිතා බැජය"</string>
+<string name="unread_call">"දුරකථනය"</string>
+<string name="unread_sms">"SMS"</string>
+<string name="unread_email">"ඊ මේල්"</string>
+<string name="unread_calendar">"දින දර්ශනය"</string>
+<string name="unread_hint">"මගහරින්න අවශ්‍ය <xliff:g id="unread_type">%1$s</xliff:g> අවසරයන්, කරුණාකර පළමුව අවසර ඉල්ලන්න."</string>
+<string name="app_list_preference_none">"කරුණාකර යෙදුමක් තෝරන්න"</string>
+<string name="pref_missed_call_count_title">"මගහැරුණු ඇමතුමක්"</string>
+<string name="pref_missed_call_count_summary">"දුරකථන යෙදුම තෝරා, මගහැරුණු ඇමතුම් අංක එහි දර්ශනය කරන්න"</string>
+<string name="pref_unread_sms_count_title">"නොකියවූ පණිවුඩයක්"</string>
+<string name="pref_unread_sms_count_summary">"SMS යෙදුමක් තෝරන්න, නොකියවූ පණිවුඩ සංඛ්‍යාව එහි දර්ශනය කරන්න"</string>
+<string name="pref_unread_email_count_title">"නොකියවූ ඊමේල්"</string>
+<string name="pref_unread_email_count_summary">"ඊමේල් යෙදුමක් තෝරා, එහි නොකියවූ ඊමේල් සංඛ්‍යාව දර්ශනය කරන්න"</string>
+<string name="pref_unread_calendar_count_title">"නොකියවූ දින දර්ශනය"</string>
+<string name="pref_unread_calendar_count_summary">"දින දර්ශන යෙදුමක් තෝරා, නොකියවූ දින දර්ශන සිදුවීම් එහි දර්ශනය කරන්න"</string>
+<string name="selected_text">"තෝරන ලදී"</string>
+<string name="dynamic_icon_title">"ගතික අයිකනය"</string>
+<string name="allow_circular_sliding_title">"මුල් තිර ලූපය"</string>
+<string name="allow_circular_sliding_summary">"රිසි අන්තර්ගත වම පිටුවේ පසුතල මුල් තිර ලූපයට අවසර නොදේ"</string>
+</resources>

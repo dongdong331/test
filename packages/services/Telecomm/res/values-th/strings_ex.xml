@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"พลิกไปเป็นการโทรแบบเงียบ"</string>
+<string name="flipping_summary">"พลิกโทรศัพท์เพื่อปิดสายเรียกเข้า"</string>
+<string name="main_card_slot">"การ์ดหลัก:"</string>
+<string name="vice_card_slot">"การ์ดเสริม:"</string>
+<string name="fade_in_title">"เลือนในสั่น"</string>
+<string name="fade_in_summary">"เมื่อเปิดใช้งานระดับเสียงกริ่งโทรเข้ามาจะถูกเปิดขึ้น."</string>
+<string name="dialog_make_call_airplane_mode_message">"หากต้องการโทรออก ให้ปิดโหมดใช้งานบนเครื่องบินก่อน"</string>
+</resources>

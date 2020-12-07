@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unknown_area">"ಗೊತ್ತಿಲ್ಲದ ಪ್ರದೇಶ"</string>
+<string name="exceed_limit">"ಸಮಾಲೋಚನೆ ಸಭೆಗಳ ಸಂಖ್ಯೆಯು ಮಿತಿಯನ್ನು ಮೀರಿದೆ"</string>
+<string name="hangupcall_note_title">"ಗಮನ"</string>
+<string name="hangupcall_note_message">"ಒಳಬರುವ ಕರೆಯು ಮೂರನೇ ಕರೆಯಾಗಿದೆ, ಉತ್ತರಿಸಿದರೆ, ಪ್ರಸ್ತುತ ಸಕ್ರಿಯ ಕರೆಯು ಅಸಂಪರ್ಕಿತಗೊಳ್ಳುತ್ತದೆ."</string>
+</resources>

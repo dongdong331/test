@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <int name="volte_replacement_rat_int" value="3"/>
+        <boolean name="hide_ims_apn_bool" value="true"/>
+        <string-array name="roaming_operator_string_array" num="2">
+            <item value="404"/>
+            <item value="405"/>
+        </string-array>
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">JIO</string>
+        <string name="ecclist_withcard">112,911</string>
+        <string name="fake_ecclist_withcard">100,101,102</string>
+        <!-- SPRD: add for bug685669 -->
+        <boolean name="carrier_use_ims_first_for_emergency_bool" value="true"/>
+        <boolean name="ecc_via_ims" value="true"/>
+        <boolean name="support_vowifi_emergency_call" value="true"/>
+        <boolean name="support_multi_call" value="false"/>
+        <!-- SPRD: add for bug 852715 -->
+        <boolean name="support_video_conference_call_bool" value="true"/>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <!-- SPRD: add for bug 911501 -->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+        <!-- UNISOC: add for bug 1136933 -->
+        <int name="call_waiting_service_class_int" value="7" />
+        <boolean name="data_roaming_enabled_settings_bool" value="true"/>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">112,911,000,08,110,118,119,999</string>
+        <string name="ecclist_withcard">112,911</string>
+        <string name="fake_ecclist_withcard">100,101,102</string>
+    </carrier_config>
+</carrier_config_list>

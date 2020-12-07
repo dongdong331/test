@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"Ungelesenes Abzeichen"</string>
+<string name="unread_call">"Telefon"</string>
+<string name="unread_sms">"SMS"</string>
+<string name="unread_email">"E-Mail-Adresse"</string>
+<string name="unread_calendar">"Kalender"</string>
+<string name="unread_hint">"Fehlende erforderliche <xliff:g id="unread_type">%1$s</xliff:g> Berechtigung. Bitte beantragen Sie zuerst eine Berechtigung."</string>
+<string name="app_list_preference_none">"Bitte wählen Sie eine App aus."</string>
+<string name="pref_missed_call_count_title">"Entgangener Anruf"</string>
+<string name="pref_missed_call_count_summary">"Wählen Sie eine Telefonanwendung aus, zeigen Sie damit die Anzahl verpasster Anrufe an"</string>
+<string name="pref_unread_sms_count_title">"Ungelesene Nachricht"</string>
+<string name="pref_unread_sms_count_summary">"Wählen Sie eine SMS-App aus, zeigen Sie damit die Anzahl ungelesener Nachrichten an"</string>
+<string name="pref_unread_email_count_title">"Ungelesene E-Mail"</string>
+<string name="pref_unread_email_count_summary">"Wählen Sie eine E-Mail-App aus, zeigen Sie damit die Anzahl ungelesener Nachrichten an"</string>
+<string name="pref_unread_calendar_count_title">"Ungelesener Kalendereintrag"</string>
+<string name="pref_unread_calendar_count_summary">"Wählen Sie eine Kalender-App aus, zeigen Sie damit die Anzahl ungelesener Kalenderereignisse an"</string>
+<string name="selected_text">"Ausgewählt"</string>
+<string name="dynamic_icon_title">"Dynamisches Symbol"</string>
+<string name="allow_circular_sliding_title">"Startseitenschleife"</string>
+<string name="allow_circular_sliding_summary">"Einstellung für benutzerdefinierten Inhalt der linken Seite erlaubt keine Startseitenschleife"</string>
+</resources>

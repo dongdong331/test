@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_on_hold" msgid="5618253281695138626">"En espera"</string>
+    <string name="incall_dialing">"S\'està marcant"</string>
+    <string name="incall_conf_call">"Conferència"</string>
+    <string name="incall_incoming_call">"Trucada entrant"</string>
+    <string name="incall_hanging_up">"S\'està penjant"</string>
+    <string name="incall_in_call">"En una trucada"</string>
+</resources>

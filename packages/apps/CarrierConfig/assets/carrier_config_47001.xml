@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="carrier_name_string">GrameenPhone</string>
+        <!-- UNISOC: add for bug 1035769 -->
+        <boolean name="support_video_conference_call_bool" value="true"/>
+        <string name="fake_ecclist_withcard">999</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="fake_ecclist_withcard">999</string>
+    </carrier_config>
+</carrier_config_list>

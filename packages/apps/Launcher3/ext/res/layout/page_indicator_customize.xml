@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sprd.ext.pageindicators.WorkspacePageIndicatorDots xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page_indicator_customize"
+    android:layout_width="match_parent"
+    android:layout_height="4dp"
+    android:layout_gravity="bottom|center_horizontal"
+    android:theme="@style/HomeScreenElementTheme" />

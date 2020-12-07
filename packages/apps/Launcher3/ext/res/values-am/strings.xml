@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"«ያልተነበበ ባጅ»"</string>
+    <string name="unread_call">"ስልክ"</string>
+    <string name="unread_sms">"SMS"</string>
+    <string name="unread_email">ኢ ሜይል</string>
+    <string name="unread_calendar">"የቀን አቆጣጠር"</string>
+    <string name="unread_hint">"«የሚያስፈልግ <xliff:g id="unread_type">%1$s</xliff:g> ፈቃድ ይጎድላል፣ እባክዎ መጀመሪያ ለፈቃድ ያመልክቱ።»"</string>
+    <string name="app_list_preference_none">"«እባክዎ አንድ መተግበሪያ ይምረጡ።»"</string>
+    <string name="pref_missed_call_count_title">"ያመለጠጥሪ"</string>
+    <string name="pref_missed_call_count_summary">"«የስልክ መተግበሪያ ይምረጡ፣ በእሱ ላይ ያመለጡ ጥሪዎችን ያሳዩ»"</string>
+    <string name="pref_unread_sms_count_title">"«ያልተነበበ መልዕክት»"</string>
+    <string name="pref_unread_sms_count_summary">"«አንድ የኤስኤምኤስ መተግበሪያ ይምረጡ፣ በእሱ ላይ ያልተነበቡ መልዕክቶችን ያሳዩ»"</string>
+    <string name="pref_unread_email_count_title">"«ያልተነበበ ኢሜይል»"</string>
+    <string name="pref_unread_email_count_summary">"«አንድ የኢሜይል መተግበሪያ ይምረጡ፣ በእሱ ላይ ያልተነበቡ የመልዕክት ብዛትን ያሳዩ»"</string>
+    <string name="pref_unread_calendar_count_title">"«ያልተነበበ ቀን መቁጠሪያ»"</string>
+    <string name="pref_unread_calendar_count_summary">"«አንድ የቀን መቁጠሪያ መተግበሪያ ይምረጡ፣ በእሱ ላይ ያልተነበቡ የቀን መቁጠሪያ ክስተቶችን ያሳዩ»"</string>
+    <string name="selected_text">"ተመርጧL"</string>
+    <string name="dynamic_icon_title">"«ተለዋዋጭ አዶ»"</string>
+    <string name="allow_circular_sliding_title">"«የመነሻ ማያ ምልልስ»"</string>
+    <string name="allow_circular_sliding_summary">"«የብጁ ይዘት ግራ ገጽ ቅንብር የመነሻ ማያ ምልልስ አይፈቅድም»"</string>
+</resources>

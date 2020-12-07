@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="call_incoming_swipe_to_answer">"ဖုန္းေျဖရန္ အေပၚသို႔ ပြတ္ဆြဲပါ"</string>
+<string name="call_incoming_swipe_to_reject">"ျငင္းဆန္ရန္ ေအာက္သို႔ ပြတ္ဆြဲပါ"</string>
+<string name="a11y_incoming_call_swipe_to_answer">"ဖုန္းေခၚဆိုမႈကို ေျဖရန္ သို႔မဟုတ္ ျငင္းရန္ လက္ေခ်ာင္း ႏွစ္ေခ်ာင္းျဖင့္ ပြတ္ဆြဲပါ"</string>
+<string name="call_incoming_will_disconnect">"ဤဖုန္းေခၚဆိုမႈကို ေျဖလွ်င္ သင့္ဗီဒီယိုဖုန္းေခၚဆိုေနမႈ ရပ္သြားပါမည္"</string>
+<string name="a11y_call_incoming_decline_description">"ျငင္းပယ္ပါ"</string>
+<string name="call_incoming_decline">"ျငင္းပယ္ပါ"</string>
+<string name="a11y_call_incoming_answer_description">"ေျဖၾကား"</string>
+<string name="call_incoming_answer">"ေျဖၾကား"</string>
+<string name="incoming_call_answer_warning">"ဤဖုန္းကို ေျဖဆိုျခင္းျဖင့္ <xliff:g id="PROVIDER_NAME">%s</xliff:g> ေပၚတြင္ လက္ရွိေျပာေနေသာဖုန္း က်သြားပါလိမ့္မည္"</string>
+</resources>

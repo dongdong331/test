@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config network_preferred="true">
+        <int name="networkRATPrefer" value="2" />
+    </carrier_config>
+    <carrier_config>
+        <boolean name="carrier_vt_available_bool" value="false" />
+    </carrier_config>
+</carrier_config_list>

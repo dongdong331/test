@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="incomingcall_flipping_silence_title">"அமைதியான அழைப்புக்கு மாற்றவும்"</string>
+<string name="flipping_summary">"ஃபோனை அமைதியான வருகை அழைப்புக்கு குலுக்கி மாற்றவும்"</string>
+<string name="main_card_slot"></string>
+<string name="vice_card_slot"></string>
+<string name="fade_in_title">"மங்கிய ஒலிப்பான்"</string>
+<string name="fade_in_summary">"செயல்படுத்தும் போது, உள்வரும் அழைப்பு ஒலிப்பான் சத்தம் உயர்த்தப்படும்."</string>
+<string name="dialog_make_call_airplane_mode_message">ஒரு அழைப்பை செய்வதற்காக, முதலில் ஏர்பிளேன் மோடை ஆஃப் செய்யவும்.</string>
+</resources>

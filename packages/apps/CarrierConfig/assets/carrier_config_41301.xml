@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="support_video_conference_call_bool" value="true"/>
+        <string name="ecclist_withcard">118@1,119@1,110@6</string>
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <string name="ecclist_nocard">118@1,119@1,110@6</string>
+        <string name="ecclist_withcard">118@1,119@1,110@6</string>
+    </carrier_config>
+</carrier_config_list>

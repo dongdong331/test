@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="unread_notifier_title">"অপঠিত ব্যাজ"</string>
+<string name="unread_call">ফোন</string>
+<string name="unread_sms">"SMS"</string>
+<string name="unread_email">ইমেইল</string>
+<string name="unread_calendar">ক্যালেন্ডার</string>
+<string name="unread_hint">"মিস হয়েছে, প্রয়োজন <xliff:g id="unread_type">%1$s</xliff:g> অনুমোদনের, প্রথমে অনুমতির জন্য আবেদন করুন।"</string>
+<string name="app_list_preference_none">"একটি অ্যাপ বাছুন।"</string>
+<string name="pref_missed_call_count_title">মিসড কল</string>
+<string name="pref_missed_call_count_summary">"একটি ফোন অ্যাপ বাছুন, এতে মিসড কল প্রদর্শন করা হোক"</string>
+<string name="pref_unread_sms_count_title">"অপঠিত ম্যাসেজ"</string>
+<string name="pref_unread_sms_count_summary">"একটি SMS অ্যাপ বাছুন, অপঠিত ম্যাসেজ সংখ্যা এতে প্রদর্শন করা হবে"</string>
+<string name="pref_unread_email_count_title">"অপঠিত ইমেইল"</string>
+<string name="pref_unread_email_count_summary">"একটি ইমেইল অ্যাপ বাছুন, অপঠিত মেইল সংখ্যা এতে প্রদর্শন করা হবে।"</string>
+<string name="pref_unread_calendar_count_title">"অপঠিত দিনপঞ্জিকা"</string>
+<string name="pref_unread_calendar_count_summary">"একটি দিনপঞ্জিকা অ্যাপ বাছুন, অপঠিত দিন অনুযায়ী ঘটনা এতে প্রদর্শন করা হবে।"</string>
+<string name="selected_text">"নির্বাচিত"</string>
+<string name="dynamic_icon_title">"ডাইনামিক আইকোন"</string>
+<string name="allow_circular_sliding_title">"হোম স্ক্রীন লুপ""</string>
+<string name="allow_circular_sliding_summary">"প্রথাগত বিষয়বস্তু বাম পৃষ্ঠা সেটিং, হোম স্ক্রীন লুপকে অনুমতি দেয় না"</string>
+</resources>

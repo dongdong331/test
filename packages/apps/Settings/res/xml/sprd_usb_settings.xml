@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Spreadst -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/storage_title_usb" >
+
+    <PreferenceCategory android:title="@string/usb_connection_category" />
+    <com.sprd.settings.RadioButtonPreference
+        android:key="usb_charge_only"
+        android:title="@string/usb_charge_only"
+        android:summary="@string/usb_summary_charging_only" />
+    <com.sprd.settings.RadioButtonPreference
+        android:key="usb_mtp"
+        android:persistent="false"
+        android:title="@string/usb_mtp_title"
+        android:summary="@string/usb_summary_file_transfers" />
+    <com.sprd.settings.RadioButtonPreference
+        android:key="usb_ptp"
+        android:persistent="false"
+        android:title="@string/usb_ptp_title"
+        android:summary="@string/usb_summary_photo_transfers" />
+    <com.sprd.settings.RadioButtonPreference
+        android:key="usb_midi"
+        android:title="@string/usb_midi_title"
+        android:summary="@string/usb_summary_MIDI" />
+    <com.sprd.settings.RadioButtonPreference
+        android:key="usb_virtual_drive"
+        android:title="@string/usb_virtual_drive"
+        android:summary="@string/usb_virtual_drive_summary" />
+    <com.sprd.settings.RadioButtonPreference
+        android:key="usb_storage"
+        android:title="@string/usb_storage"
+        android:summary="@string/usb_storage_summary" />
+
+</PreferenceScreen>

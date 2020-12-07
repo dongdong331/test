@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+                android:id="@+id/add_call_menu"
+                android:title="@string/incall_label_add_call"/>
+        <item
+                android:id="@+id/merge_menu"
+                android:title="@string/incall_content_description_merge_calls"/>
+        <item
+                android:id="@+id/hold_call_menu"
+                android:title="@string/incall_content_description_hold"/>
+        <item
+                android:id="@+id/swap_call_menu"
+                android:title="@string/incall_content_description_swap_calls"/>
+        <item
+                android:id="@+id/changeto_audio_menu"
+                android:title="@string/incall_label_audiocall"/>
+        <item
+            android:id="@+id/call_record_menu"
+            android:title="@string/record_menu_title"/>
+        <item
+            android:id="@+id/dialpad_menu"
+            android:title="@string/incall_label_dialpad"/>
+        <item
+            android:id="@+id/manager_conference_menu"
+            android:title="@string/incall_label_manage"/>
+    </group>
+
+</menu>

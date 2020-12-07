@@ -1,0 +1,65 @@
+ <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxImageHeight" value="1944"/>
+        <int name="maxMessageSize" value="614400"/>
+        <int name="maxImageWidth" value="2592"/>
+        <string-array name="carrier_vvm_package_name_string_array" num="1">
+        <item value="com.orange.vvm"/>
+        </string-array>
+        <boolean name="allow_ussd_requests_via_telephony_manager_bool" value="false" />
+        <string name="default_vm_number_string">888</string>
+        <boolean name="set_voice_domain_bool" value="true"/>
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="ims" />
+        </string-array>
+        <boolean name="request_xcap_pdn_for_clir" value="false" />
+        <boolean name="request_xcap_pdn_for_cw" value="false" />
+    </carrier_config>
+    <carrier_config spn="C le mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">C le mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="default_vm_number_string">888</string>
+    </carrier_config>
+    <carrier_config spn="Virgin">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Virgin</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="M6 Mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">M6 Mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="NRJ Mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">NRJ Mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="default_vm_number_string">888</string>
+    </carrier_config>
+    <carrier_config spn="Breizh Mobile">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Breizh Mobile</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config imsi="20801\d{1,3}67.*">
+        <boolean name="mvno" value="true"/>
+        <string name="spn">Virgin</string>
+        <string name="carrier_name_string">Virgin</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config spn="Syma">
+        <boolean name="mvno" value="true"/>
+        <string name="carrier_name_string">Syma</string>
+        <boolean name="carrier_name_override_bool" value="true"/>
+    </carrier_config>
+    <carrier_config>
+        <boolean name="support_non_domestic_roaming" value="true" />
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <boolean name="support_send_ss_over_vowifi_with_airplane" value="true" />
+    </carrier_config>
+    <carrier_config network_preferred="true">
+        <boolean name="support_send_ussd_over_vowifi" value="false"/>
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="unread_notifier_title">"अपठित बैज"</string>
+    <string name="unread_call">"फ़ोन"</string>
+    <string name="unread_sms">"एसएमएस"</string>
+    <string name="unread_email">"ईमेल भेजें"</string>
+    <string name="unread_calendar">"कैलेंडर"</string>
+    <string name="unread_hint">"आवश्यक <xliff:g id="unread_type">%1$s</xliff:g> अनुमति छोड़ें, कृपया पहले अनुमति के लिए आवेदन करें."</string>
+    <string name="app_list_preference_none">"कृपया ऐप चुनें."</string>
+    <string name="pref_missed_call_count_title">"छूटी कॉल"</string>
+    <string name="pref_missed_call_count_summary">"कोई फोन ऐप चुनें, उस पर छूटी कॉल नंबर प्रदर्शित करें"</string>
+    <string name="pref_unread_sms_count_title">"अपठित संदेश"</string>
+    <string name="pref_unread_sms_count_summary">"कोई SMS ऐप चुनें, उस पर अपठित संदेश नंबर प्रदर्शित करें"</string>
+    <string name="pref_unread_email_count_title">"अपठित ईमेल"</string>
+    <string name="pref_unread_email_count_summary">"कोई ईमेल ऐप चुनें, उस पर अपठित मेल नंबर प्रदर्शित करें"</string>
+    <string name="pref_unread_calendar_count_title">"अपठित कैलेंडर"</string>
+    <string name="pref_unread_calendar_count_summary">"कोई कैलेंडर ऐप चुनें, उस पर अपठित कैलेंडर कार्यक्रम प्रदर्शित करें"</string>
+    <string name="selected_text">"चुना गया"</string>
+    <string name="dynamic_icon_title">"डायनामिक आइकन"</string>
+    <string name="allow_circular_sliding_title">"गृह स्क्रीन पाश"</string>
+    <string name="allow_circular_sliding_summary">"अनुकूलित सामग्री बायाँ पृष्ठ सेटिंग में गृह स्क्रीन पाश की अनुमति नहीं है"</string>
+</resources>

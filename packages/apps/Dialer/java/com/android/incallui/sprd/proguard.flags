@@ -1,0 +1,5 @@
+# Any class or method annotated with NeededForTesting or NeededForReflection.
+-keep @com.android.incallui.sprd.NeededForReflection class *
+-keepclassmembers class * {
+    @com.android.incallui.sprd.NeededForReflection *;
+}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- SPRD: add for bug709181 @{ -->
+    <carrier_config>
+        <boolean name="hide_callbarring_deactivate_all" value="true" />
+    </carrier_config>
+    <!-- @} -->
+
+    <carrier_config network_preferred="true">
+        <string-array name="read_only_apn_types_string_array" num="1">
+            <item value="ims" />
+        </string-array>
+        <string name="ecclist_nocard">112,911,000,08,110,118,119,999,13504</string>
+        <string name="ecclist_withcard">112,911,999,13504</string>
+        <int name="networkRATPrefer" value="1" />
+    </carrier_config>
+</carrier_config_list>

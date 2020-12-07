@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2017 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/wifi_hotspot_checkbox_text"
+    settings:initialExpandedChildrenCount="2">
+    <com.android.settings.widget.ValidatedEditTextPreference
+        android:key="wifi_tether_network_name"
+        android:title="@string/wifi_hotspot_name_title"
+        android:summary="@string/summary_placeholder" />
+
+    <ListPreference
+        android:key="wifi_tether_security"
+        android:title="@string/wifi_security"
+        android:summary="@string/summary_placeholder"
+        android:entries="@array/wifi_tether_security"
+        android:entryValues="@array/wifi_tether_security_values" />
+
+    <com.android.settings.widget.ValidatedEditTextPreference
+        android:key="wifi_tether_network_password"
+        android:persistent="false"
+        android:title="@string/wifi_hotspot_password_title" />
+
+    <SwitchPreference
+        android:key="wifi_tether_auto_turn_off"
+        android:title="@string/wifi_hotspot_auto_off_title"
+        android:summary="@string/wifi_hotspot_auto_off_summary" />
+
+    <com.android.settings.widget.HotspotApBandSelectionPreference
+        android:key="wifi_tether_network_ap_band"
+        android:title="@string/wifi_hotspot_ap_band_title"
+        android:dialogLayout="@layout/hotspot_ap_band_selection_dialog"
+        android:dialogTitle="@string/wifi_hotspot_ap_band_title"
+        android:negativeButtonText="@string/cancel"
+        android:positiveButtonText="@string/apply" />
+    <ListPreference
+        android:key="ap_channel"
+        android:title="@string/wifi_channel"
+        android:entries="@array/wifi_ap_channel"
+        android:entryValues="@array/wifi_ap_channel_values" />
+    <ListPreference
+        android:key="ap_5g_channel"
+        android:title="@string/wifi_5g_channel" />
+    <ListPreference
+        android:key="limit_user"
+        android:title="@string/wifi_max_connect"
+        android:entries="@array/wifi_ap_max_connect"
+        android:entryValues="@array/wifi_ap_max_connect" />
+<!--
+     <ListPreference
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         style="@style/wifi_item"
+         android:orientation="vertical">
+            <TextView android:id="@+id/wifi_channel_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/wifi_item_label"
+                    android:layout_marginTop="8dip"
+                    android:text="@string/wifi_channel" />
+            <Spinner android:id="@+id/channel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/wifi_item_content"
+                    android:prompt="@string/wifi_channel"
+                    android:entries="@array/wifi_ap_channel" />
+            <TextView android:id="@+id/limit_user_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/wifi_item_label"
+                    android:layout_marginTop="8dip"
+                    android:text="@string/wifi_max_connect" />
+            <Spinner android:id="@+id/limit_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/wifi_item_content"
+                    android:prompt="@string/wifi_max_connect"
+                    android:entries="@array/wifi_ap_max_connect" />
+-->
+    <!-- SPRD: Bug#505201 Add for softap support wps connect mode and hidden ssid Feature BEG-->
+    <Preference
+        android:key="hotspot_wps_connect"
+        android:title="@string/hotspot_wps_connect"
+        android:summary="@string/hotspot_select_wps"
+        android:persistent="false"/>
+
+    <SwitchPreference
+            android:key="hotspot_hidden_ssid"
+            android:title="@string/hotspot_hidden_ssid_title"
+            android:summary="@string/hotspot_hidden_ssid_summary"
+            android:persistent="false" />
+    <!-- Add for softap support wps connect mode and hidden ssid Feature END -->
+    <ListPreference
+            android:key="hotspot_mode"
+            android:title="@string/hotspot_mode"
+            android:persistent="false"
+            android:entries="@array/hotspot_mode"
+            android:entryValues="@array/hotspot_mode_values" />
+
+    <PreferenceCategory
+            android:key="hotspot_connected_stations"
+            android:title="@string/hotspot_connected_stations" >
+        <Preference
+                android:key="hotspot_no_connected_station"
+                android:title="@string/hotspot_no_connected_station" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="hotspot_blocked_stations"
+            android:title="@string/hotspot_blocked_stations" >
+        <Preference
+                android:key="hotspot_no_blocked_station"
+                android:title="@string/hotspot_no_blocked_station" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="hotspot_whitelist_stations"
+            android:title="@string/hotspot_whitelist_stations" />
+    <Preference
+            android:key="hotspot_no_whitelist_station"
+            android:title="@string/hotspot_no_whitelist_station" />
+</PreferenceScreen>

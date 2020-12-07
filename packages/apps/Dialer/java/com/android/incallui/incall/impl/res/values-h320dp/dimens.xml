@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <bool name="incall_dialpad_allowed">false</bool>
+  <!--UNISOC: modify for bug900902 -->
+  <!--UNISOC: modify for bug930506,931601 -->
+  <integer name="incall_num_rows">1</integer>
+  <dimen name="incall_button_vertical_padding">8dp</dimen>
+  <dimen name="incall_labeled_button_size">25dp</dimen>
+  <dimen name="tools_button_height">38dp</dimen>
+</resources>

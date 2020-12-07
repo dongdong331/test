@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_on_hold" msgid="5618253281695138626">"保持"</string>
+    <string name="incall_dialing" msgid="5046026076417718916">"正在拨号"</string>
+    <string name="incall_conf_call" msgid="1747835072739982104">"电话会议"</string>
+    <string name="incall_incoming_call" msgid="4138485434087223132">"来电"</string>
+    <string name="incall_hanging_up" msgid="3402022578391538671">"正在挂断"</string>
+    <string name="incall_in_call" msgid="5029165346952099302">"正在通话"</string>
+</resources>
